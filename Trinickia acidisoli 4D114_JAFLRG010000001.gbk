@@ -1,0 +1,268 @@
+LOCUS       Trinickia_acidis        5004 bp DNA     linear   UNA 05-JUL-2024
+DEFINITION  JAFLRG010000001.1 Trinickia acidisoli strain 4D114 assembly_1, whole
+            genome shotgun sequence.
+ACCESSION   JAFLRG010000001
+VERSION     .
+KEYWORDS    .
+SOURCE      natural DNA sequence
+  ORGANISM  unspecified
+REFERENCE   1  (bases 1 to 5004)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Jul 5, 2024 from SnapGene 7.2.1
+            https://www.snapgene.com
+COMMENT     ##antiSMASH-Data-START##
+            Version      :: 7.0.1
+            Run date     :: 2023-11-05 16:16:52
+            NOTE: This is a single region extracted from a larger record!
+            Orig. start  :: 961298
+            Orig. end    :: 983696
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..5004
+                     /mol_type="genomic DNA"
+                     /note="color: #ffffff"
+                     /organism="unspecified"
+     CDS             223..342
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="ctg1_867"
+                     /label=ctg1_867
+                     /note="color: #993366"
+                     /translation="MIATSITPTKIIAYGSFLSVILSKKSRPGDGMFGRGLKG"
+     CDS             432..725
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="ctg1_866"
+                     /label=ctg1_866
+                     /note="color: #993366"
+                     /translation="MPTTYDTPPETRFSIATTDHLTLDNELIVFSAKHQQYFGIEGAGR
+                     SVWDVLDWKCPPMSESEIVELIVGEQRASDDAAALIREAIHLLLDLGVLREA"
+     CDS             715..1206
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="ctg1_865"
+                     /label=ctg1_865
+                     /note="/gene_functions=biosynthetic (rule-based-clusters) 
+                     lassopeptide: PF13471"
+                     /note="/gene_kind=biosynthetic"
+                     /note="/sec_met_domain=PF13471 (E-value: 7.2e-13, bitscore:
+                     46.4,
+                     seeds: 84, tool: rule-based-clusters)"
+                     /note="color: #993366"
+                     /translation="VKHDVPMILALHGLVRAILTNHSIEDGYLIICKSLFPSFIFRTTT
+                     YVQGTDSVDLQSICDAIYRLDESELSYASCYSACMVAQIVAMTYGIPAEIIVGIKKQDK
+                     KLLGHAWLEYAANGRTQIVNPRGADPRDFTEIKRLTPETTIQTWMKERAILDNAPTVYA
+                     "
+     PFAM_domain     874..1065
+                     /direction=RIGHT
+                     /codon_start=1
+                     /locus_tag="ctg1_865"
+                     /label=ctg1_865
+                     /note="/aSDomain=Transglut_core3"
+                     /note="/aSTool=clusterhmmer"
+                     /note="/database=34.0"
+                     /note="/description=Transglutaminase-like superfamily"
+                     /note="/detection=hmmscan"
+                     /note="/domain_id=clusterhmmer_ctg1_865_0034"
+                     /note="/evalue=1.20E-09"
+                     /note="/protein_end=117"
+                     /note="/protein_start=53"
+                     /note="/score=38.2"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+                     /db_xref="PF13471.8"
+                     /translation="DLQSICDAIYRLDESELSYASCYSACMVAQIVAMTYGIPAEIIVG
+                     IKKQDKKLLGHAWLEYAAN"
+     CDS             1184..3112
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="ctg1_864"
+                     /label=ctg1_864
+                     /note="/gene_functions=biosynthetic (rule-based-clusters) 
+                     lassopeptide: Asn_synthase"
+                     /note="/gene_functions=biosynthetic-additional (smcogs) 
+                     SMCOG1177:asparagine synthase (glutamine-hydrolyzing) 
+                     (Score: 110.2; E-value: 1.7e-33)"
+                     /note="/gene_kind=biosynthetic"
+                     /note="/sec_met_domain=Asn_synthase (E-value: 7.2e-14,
+                     bitscore:
+                     49.9, seeds: 78, tool: rule-based-clusters)"
+                     /note="color: #993366"
+                     /translation="MLLRYTREDTQRYVEALLSQFEAVEVDALRRMDSPGGTLLQIDTL
+                     LKPAHYPRCARYVHHTQRPRAMPLVGNVAYTGWARDTSDGRLYSALRDDVIATAPSAQL
+                     LIGEFSFASLSADTATAATDHYATHPVYYYRGAGNRLIVASDLRLILIAPQVDVAVSEP
+                     ACRYFLSHTLMVGENESPEGMTFFNGIKKLSPSGMLTVDRRTGDVAVSARADALVPENV
+                     DKIGRRDYVDAFKQTLDQCVGDRLASGASALLLSGGIDSSTVLGACLASNHPPPMSITM
+                     SFNDADLVMSQDDKLLEALFAQRDLPHRMLYADHLLRLPSEADRPVWVDGPDTCANPLI
+                     KEAYAYLVQQNTPPGLVMTGEGGDAILGESMHECIVDSIRAEHGIRAAHRYLTENCGHR
+                     PRSRAYYRHLLNSVCPALAYLDWRRGARAPDRLAAPPYLAPALSSIAREHAATPPRSPR
+                     FRFVGHHATHAMLFPRASYFDSLNTLCVHSHPFLDPRMIAFALSTPPHVHHDYQRLDRA
+                     NPYAVSKRLARAAYRDQLPDFIHGKTHKTSYALMARRMFHNSAAALYRLTEKPMLLHRS
+                     GLVDQPSFRRHLLAYIVATEDPNADLGTHYHFIRGVADLEAWLRRFSRPRTQLAADLSI
+                     RPLCALL"
+     CDS             3109..4863
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="ctg1_863"
+                     /label=ctg1_863
+                     /note="/gene_functions=transport (smcogs) SMCOG1000:ABC 
+                     transporter ATP-binding protein (Score: 187.1; E-value: 
+                     6.5e-57)"
+                     /note="/gene_kind=transport"
+                     /note="color: #993366"
+                     /translation="MTNRFTSLSRNLFDSLSLMRRAAPRAFYSTIALNAMAGLVPAALI
+                     YFSAQLISRLSAGHPVATVGSLIIAYVLLSAMGDSLSTISSFVLDTLRDAVRMILKADV
+                     NRVVSTFPDLSVHEDKTLRETAVLCAGAGDAIGDLVGHLYAVSLGVVLIIPVTLMTGAT
+                     AWWIPCLMLAGMAPFMLLRARAEHASWDVQESYASTFNELRILERVLTQPEFAKDLRVY
+                     DMQAPLLARWRNRYGAYLVTARQVRTRNAIKLTFASLIAGICLGIPLYAIAAGFHDGRF
+                     GVADLAIFLGALVQLRDGLAAIVYNVGDLLGVCYSMRPYRALLAEHASRKQNERPSTTE
+                     AERASHGAPALRLSAVAFRYRDAHEHALRHIDLHVRHGETVALVGDNGAGKSSLMKLLA
+                     GFYEPTQGTLEWGRSDGRRPGIVAVFQDFARFPLSARDNLAQGERNDSALREALRAVGL
+                     HDLAAQPDTPLTMEVEDGVDLSGGQWQRLAIARALVHARDADVLLFDEPTSALDPESEA
+                     DVMRLVLAAATGKTMLIVSHRLALTRFVDRIVVLERGQIVESGTHDALIEADGKYARMF
+                     QSQAQFYR"
+     PFAM_domain     4210..4635
+                     /direction=RIGHT
+                     /codon_start=1
+                     /locus_tag="ctg1_863"
+                     /label=ctg1_863
+                     /note="/aSDomain=ABC_tran"
+                     /note="/aSTool=clusterhmmer"
+                     /note="/database=34.0"
+                     /note="/description=ABC transporter"
+                     /note="/detection=hmmscan"
+                     /note="/domain_id=clusterhmmer_ctg1_863_0032"
+                     /note="/evalue=3.50E-25"
+                     /note="/gene_ontologies=GO:0005524: ATP binding"
+                     /note="/protein_end=509"
+                     /note="/protein_start=367"
+                     /note="/score=89.2"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+                     /db_xref="PF00005.29"
+                     /db_xref="GO:0005524"
+                     /translation="LRHIDLHVRHGETVALVGDNGAGKSSLMKLLAGFYEPTQGTLEWG
+                     RSDGRRPGIVAVFQDFARFPLSARDNLAQGERNDSALREALRAVGLHDLAAQPDTPLTM
+                     EVEDGVDLSGGQWQRLAIARALVHARDADVLLFDEPTS"
+     CDS             complement(4802..5004)
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="ctg1_862"
+                     /label=ctg1_862
+                     /note="/gene_functions=biosynthetic-additional 
+                     (rule-based-clusters) Glycos_transf_1"
+                     /note="/gene_functions=biosynthetic-additional (smcogs) 
+                     SMCOG1045:glycosyl transferase group 1 (Score: 132.4; 
+                     E-value: 4.1e-40)"
+                     /note="/gene_kind=biosynthetic-additional"
+                     /note="/sec_met_domain=Glycos_transf_1 (E-value: 1.9e-17, 
+                     bitscore: 61.2, seeds: 63, tool: rule-based-clusters)"
+                     /note="color: #993366"
+                     /translation="RLHARSRRWPTMRRCVRAWANPRGAMRCRRSRPMR*WSGWSSGCM
+                     GRSSIELGLRLKHPRVLSVRLD"
+     PFAM_domain     complement(4970..5004)
+                     /direction=LEFT
+                     /codon_start=1
+                     /locus_tag="ctg1_862"
+                     /label=ctg1_862
+                     /note="/aSDomain=Glyco_trans_1_4"
+                     /note="/aSTool=clusterhmmer"
+                     /note="/database=34.0"
+                     /note="/description=Glycosyl transferases group 1"
+                     /note="/detection=hmmscan"
+                     /note="/domain_id=clusterhmmer_ctg1_862_0031"
+                     /note="/evalue=1.00E-15"
+                     /note="/protein_end=369"
+                     /note="/protein_start=227"
+                     /note="/score=58.4"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+                     /db_xref="PF13692.8"
+                     /translation="RLHARSRRWPT"
+ORIGIN
+        1 ataggactgc ttccgagtac ctcaatattt ttatgattta ccccgcattt ccatcgggca
+       61 cgcacgcgcg ggcatacgga aatttcggtt ccatttctca atagaagaat aactccacca
+      121 tccgttatag cctttcgttt ttattacacg gacaatcgaa ccgtctcacg aactgcatcg
+      181 cattcgtgag acgctcattc acttacttat tgcggagtca ttatgattgc cacctcgatt
+      241 acgccaacga aaatcatcgc ctatggctcg ttcctctcgg tcatcctatc caagaaatct
+      301 cgtcccggcg acggcatgtt cggacgtggc ctgaaaggat agttatcttc aaccacattg
+      361 ctggctaact gctctcctcc tgggcgaatg atttctctct gttcgcccga gccgcgtact
+      421 gttcaacgaa catgccgaca acttacgaca cgccgcccga gacgcggttt tcgatcgcga
+      481 cgaccgacca cttgaccctc gacaacgagc tcatcgtatt cagcgccaaa catcagcaat
+      541 attttggtat cgaaggtgcg gggcgctcgg tttgggacgt gctcgactgg aaatgtccgc
+      601 ccatgtccga gtctgagatc gttgaactca tcgtcggaga gcagcgtgct tccgacgatg
+      661 ccgcagcgct cattcgagaa gcgattcatc tgctgctcga tttgggagta ctccgtgaag
+      721 catgacgtgc caatgatatt ggctctgcac gggctcgtgc gagcgatctt gacgaatcat
+      781 tcgatagaag acggttatct aatcatctgc aagtctcttt ttccctcatt tatcttcaga
+      841 accacgacat atgtacaagg aactgattcc gtcgatctgc agagcatatg cgatgcaatc
+      901 tatcgtctcg acgaaagcga actcagctat gcatcttgct actccgcgtg catggttgcg
+      961 cagatcgtcg caatgacata cggcatcccc gccgaaatca ttgttggcat caaaaaacag
+     1021 gacaagaagc tcctcggtca cgcatggctc gagtacgcgg ccaatgggcg cacgcagatc
+     1081 gtcaaccccc gaggcgccga tccccgcgac tttaccgaga tcaagcgact tacccccgaa
+     1141 accaccattc aaacctggat gaaggaacgt gcgattctgg acaatgctcc tacggtatac
+     1201 gcgtgaagac acgcaacgct atgtcgaagc gctgctctcg cagttcgagg cagtcgaggt
+     1261 cgacgcgcta cgccgcatgg acagccccgg cgggaccctg ctgcaaatcg acacattgct
+     1321 gaagcccgcc cattaccccc gttgcgcccg ctacgtccat cacacccaac gcccgcgcgc
+     1381 gatgccgctc gtcggcaacg tcgcctatac gggctgggcg cgcgatacct cagacggccg
+     1441 cctctattcc gcgctcaggg acgatgtcat cgccaccgca ccctccgcgc agttgctcat
+     1501 cggcgagttc agtttcgcga gcctgagcgc ggacaccgcc accgccgcca ccgatcacta
+     1561 tgcaacgcat cccgtctact actatcgcgg cgcgggcaat cgtctcatcg ttgcaagcga
+     1621 tttacggctg atcctcatcg cgccgcaagt ggacgtcgcc gtcagcgaac cggcctgccg
+     1681 ctatttcctg agccacacac tgatggtcgg cgaaaacgaa tcgcccgagg gcatgacgtt
+     1741 tttcaacggc atcaagaagc tttcccccag cggcatgctg acggtcgacc gccgcacagg
+     1801 cgatgtcgcc gtcagcgcac gcgccgatgc gctcgtgcct gaaaacgtcg acaaaatcgg
+     1861 ccggcgcgat tacgtcgatg cattcaaaca aacgctcgat caatgcgtgg gggaccgcct
+     1921 cgcctcaggc gcgagtgcgt tgctgctgag cggtggcatc gattcaagca cggtgctcgg
+     1981 cgcatgcctt gcctcgaacc atccgccgcc gatgtccatc acgatgagct tcaacgatgc
+     2041 agacctcgtc atgagccaag acgacaagct gctcgaagcc ctgtttgcgc agcgcgattt
+     2101 gccgcatcgg atgctctatg cggatcatct gctccggctg ccgtccgagg ccgatcggcc
+     2161 cgtgtgggtc gacggtcccg acacttgcgc caatcccttg atcaaggagg catacgccta
+     2221 tttggtccag caaaacacac cgccgggact cgtcatgacg ggcgaagggg gcgacgcgat
+     2281 actcggcgaa tcgatgcacg aatgtatcgt cgactcgatc cgggccgaac acggtatccg
+     2341 cgcggcacat cgctacctga ccgagaattg cggccatcgc ccgcgctcgc gtgcctacta
+     2401 tcggcacctg ctgaactcag tctgcccagc gctggcgtat ctggattggc gacgcggcgc
+     2461 tcgcgcgccg gaccggctcg ccgcaccgcc ctacctcgcg ccggcgttgt cgtccatagc
+     2521 acgcgaacac gccgcgacac cgcctcgctc gccgcgtttc aggttcgtgg ggcaccatgc
+     2581 gacgcacgca atgctgttcc cgcgcgcgtc gtacttcgat tcgctcaata cgctctgcgt
+     2641 gcattcccat ccgttcctcg atcctcgaat gatcgcattc gcgctgtcca ccccaccgca
+     2701 cgtccatcac gactatcagc ggctggaccg cgccaacccg tacgccgtat cgaaacggct
+     2761 cgcgcgcgcc gcctatcgag accagctccc ggatttcatc cacggcaaga cgcacaagac
+     2821 gagctatgcg ctgatggcgc gacgcatgtt tcacaacagc gccgcggcgc tgtatcgctt
+     2881 gacggaaaag ccaatgttgc tccatcgaag cgggctcgtc gatcaaccgt cgttccggcg
+     2941 gcatctgctc gcctacatcg tcgcgacgga agatccgaac gccgatctcg gcactcacta
+     3001 tcacttcatc cgtggagtcg ccgacctcga agcatggctg cgccgattct cgcgtccacg
+     3061 cacgcaactc gctgcggatc tatcgatccg tccactgtgc gcgctcctat gacgaatcgc
+     3121 tttacctcgt tgagtcgcaa cctgttcgat tcgttgtcgc tgatgaggcg cgcggcgccg
+     3181 cgcgcgttct actcgaccat tgcactgaac gcgatggccg gcctcgttcc tgccgcgctc
+     3241 atatactttt cggcgcaact catttcgagg ttgtcggccg gccatcccgt cgccaccgtt
+     3301 ggctcactga tcatcgctta cgttttgctg agcgccatgg gtgacagcct gtccaccatc
+     3361 tcgagcttcg tgctcgacac gctgcgcgat gccgtgcgca tgatattgaa ggccgacgtc
+     3421 aaccgcgtgg tatcgacctt tccggatctg agcgtgcacg aagacaaaac gctgcgcgaa
+     3481 acagctgtcc tttgcgccgg cgccggcgac gcgattggcg accttgtcgg ccacctctat
+     3541 gccgtcagcc tcggcgtcgt gctgatcatt cccgtcacgc tgatgacagg tgcgactgct
+     3601 tggtggatac catgtctgat gctcgccggc atggcgccgt tcatgctgct tcgcgcaagg
+     3661 gccgagcacg cgagttggga cgtgcaggaa agctacgcat ccacgttcaa cgaattgcgc
+     3721 attctcgaac gcgtcctgac acaaccggag ttcgccaagg acttgcgcgt gtatgacatg
+     3781 caggcgccgc tgctcgcgcg atggcgcaat cggtacggcg cgtatttggt cacggcgcgg
+     3841 caggtccgca cgcgcaatgc aatcaagctg acgttcgcat cgctgattgc gggcatttgc
+     3901 ctgggcatac cgttgtacgc gattgccgcc ggcttccatg acggacgctt cggcgttgcc
+     3961 gatctcgcca tttttctcgg ggcgctcgtt cagctacgtg acggactcgc agcgatcgtc
+     4021 tacaacgttg gcgatctgct cggcgtttgc tacagtatgc ggccctatcg agcgctgctg
+     4081 gccgagcatg cttcgcgcaa acagaacgag cgaccgagca cgaccgaggc agaacgcgca
+     4141 tcgcacggcg caccagccct gaggctgtca gccgtcgctt ttcgttaccg cgatgcacac
+     4201 gagcacgcgt tgcgtcacat cgacttgcac gttcgccacg gcgaaacggt ggcgctcgtc
+     4261 ggagacaacg gcgccgggaa atcgagcctc atgaaattgc tcgccggctt ttacgagccg
+     4321 acacagggca cgctcgaatg gggacgatcg gacggccgtc ggccgggcat cgtcgccgtc
+     4381 ttccaagact tcgcccgctt tccgctgagc gcgcgcgaca acctagcgca aggcgaacgc
+     4441 aacgacagcg ccctacgcga agcgttgcga gccgtcggac tgcatgatct ggccgcgcag
+     4501 cccgacacgc cgttgacgat ggaagtggaa gacggcgtcg atctctccgg cgggcaatgg
+     4561 caacggctcg cgattgcccg cgcactcgta cacgctcgcg acgcagacgt cctgctcttc
+     4621 gacgaaccga cgtccgcgct cgaccccgaa tcggaagccg acgtcatgcg tctcgtcttg
+     4681 gcggccgcaa ccggcaagac gatgctcatc gtcagccatc gcctcgcgct gacgcgcttc
+     4741 gtcgaccgca ttgtcgtgct cgagcgcgga cagatcgtcg aaagcggaac gcacgacgcg
+     4801 ctcatcgagg cggacggaaa gtacgcgcgg atgtttcagt ctcaggccca gttctatcga
+     4861 tgagcgcccc atacaaccgc tgctccagcc gctccatcac cgcatcgggc gagaacgcct
+     4921 gcatcgcata gcgcctcgcg gattcgccca ggcgcgcacg catctgcgca tcgtcggcca
+     4981 ccgcctcgat cgcgcgtgca agcg
+//

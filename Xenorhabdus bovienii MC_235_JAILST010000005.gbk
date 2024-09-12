@@ -1,0 +1,425 @@
+LOCUS       Xenorhabdus_bovi        6614 bp DNA     linear   UNA 04-JUL-2024
+DEFINITION  Xenorhabdus bovienii strain MC_235_E_2016 MC-235_S55.NODE.5, whole 
+            genome shotgun sequence.
+ACCESSION   JAILST010000005
+VERSION     .
+KEYWORDS    .
+SOURCE      Xenorhabdus bovienii
+  ORGANISM  Xenorhabdus bovienii
+REFERENCE   1  (bases 1 to 6614)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Jul 4, 2024 from SnapGene 7.2.1
+            https://www.snapgene.com
+COMMENT     The annotation was added by the NCBI Prokaryotic Genome Annotation 
+            Pipeline (PGAP). Information about PGAP can be found here: 
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/ 
+            ##antiSMASH-Data-START##
+            Version      :: 7.0.1
+            Run date     :: 2023-11-03 20:24:24
+            NOTE: This is a single region extracted from a larger record!
+            Orig. start  :: 4292
+            Orig. end    :: 81047
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..6614
+                     /mol_type="genomic DNA"
+                     /organism="Xenorhabdus bovienii"
+     CDS             40..153
+                     /codon_start=1
+                     /transl_table=11
+                     /label=Precursor peptide A
+                     /note="color: #993366"
+                     /translation="MKIQKPLIKTYGSFIAITLRKKSSPGDGTHARGVRRG"
+     gene            255..530
+                     /locus_tag="KKJ29_06490"
+                     /label=KKJ29_06490
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             255..530
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="KKJ29_06490"
+                     /product="hypothetical protein"
+                     /label=KKJ29_06490
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:GeneMarkS-2+"
+                     /protein_id="MDE1482075.1"
+                     /translation="MNDTEEKIFIKKSNVISTILDEEEIILLDKDNDIYIGLIGAAKDI
+                     WSCNMELISISKIIKELQIDNDVDLDNLKEAIYLLEKEGLIFEYVI"
+     proto_core      514..2896
+                     /product="lassopeptide"
+                     /note="/aStool=rule-based-clusters"
+                     /note="/cutoff=10000"
+                     /note="/detection_rule=(PF13471 and Asn_synthase or micJ25 
+                     or
+                     mcjC)"
+                     /note="/neighbourhood=10000"
+                     /note="/protocluster_number=1"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+     gene            514..993
+                     /locus_tag="KKJ29_06495"
+                     /label=KKJ29_06495
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             514..993
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="KKJ29_06495"
+                     /product="lasso peptide biosynthesis protein"
+                     /label=KKJ29_06495
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /note="/gene_functions=biosynthetic (rule-based-clusters)
+                     lassopeptide: PF13471"
+                     /note="/gene_kind=biosynthetic"
+                     /note="/sec_met_domain=PF13471 (E-value: 4.4e-09, bitscore:
+                     30.0,
+                     seeds: 84, tool: rule-based-clusters)"
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:HMM"
+                     /protein_id="MDE1482076.1"
+                     /translation="MNMLFNEINMLLNMHKFIKAMSILENSSLVYTRLCIQFYNDYLDK
+                     RKRNNIFDFYKKIFNIKKFLQIMHDKNGMYKEDSTCYTLSLCIQLYLYSNGYDSKLIYG
+                     LTKVDQRIFGHAWIEFKDSRFKKEELFNPGRVNLNEMQIIDSKIMIEDLLKYVFK"
+     PFAM_domain     703..882
+                     /direction=RIGHT
+                     /codon_start=1
+                     /locus_tag="KKJ29_06495"
+                     /label=KKJ29_06495
+                     /note="/aSDomain=Transglut_core3"
+                     /note="/aSTool=clusterhmmer"
+                     /note="/database=34.0"
+                     /note="/description=Transglutaminase-like superfamily"
+                     /note="/detection=hmmscan"
+                     /note="/domain_id=clusterhmmer_KKJ29_06495_0010"
+                     /note="/evalue=6.10E-07"
+                     /note="/protein_end=123"
+                     /note="/protein_start=63"
+                     /note="/score=29.5"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+                     /db_xref="PF13471.8"
+                     /translation="FLQIMHDKNGMYKEDSTCYTLSLCIQLYLYSNGYDSKLIYGLTKV
+                     DQRIFGHAWIEFKDS"
+     gene            980..2896
+                     /locus_tag="KKJ29_06500"
+                     /label=KKJ29_06500
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             980..2896
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="KKJ29_06500"
+                     /product="hypothetical protein"
+                     /label=KKJ29_06500
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /note="/gene_functions=biosynthetic (rule-based-clusters)
+                     lassopeptide: Asn_synthase"
+                     /note="/gene_functions=biosynthetic-additional (smcogs)
+                     SMCOG1177:asparagine synthase (glutamine-hydrolyzing) 
+                     (Score: 71.9; E-value: 7.1e-22)"
+                     /note="/gene_kind=biosynthetic"
+                     /note="/sec_met_domain=Asn_synthase (E-value: 1.5e-11, 
+                     bitscore:
+                     38.1, seeds: 78, tool: rule-based-clusters)"
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:HMM"
+                     /protein_id="MDE1482077.1"
+                     /translation="MSLNKNKSFWIVTNLEHSNADFYIRNLKNFYENLNDSHDFIKFEE
+                     QNYYCIVISSKIRPPINHIKNKKIILDGWIKEKCLDSIIINEKSNEIYGEFSLAYFNEE
+                     GFNFITDFYSSIPIYYFYNKNNYIITNDIRAIIVYSGFTVDINFESVLYHLGNDIAIGE
+                     NELPDNNTFFMNIKKAPKGRKLTIKNNKLSTKEIIDYNFEIDASTFIKKDFINQFKEKF
+                     RESTIDRMKNGLTAIHFSGGLDSGSILATAIENNLDYLCVNISFKNNDLMYSQDSEIVN
+                     KVSKYLDKPSYILWADNTLRFQNNLVDNDPLLYIDGPEPRSNSLACLQMDQLINDLGAV
+                     QAITGESGDVILGEQFDEVILDSLITFGSTKNAFELFKIINEKRKISPYNIKYYMNFYN
+                     LFLSKFNKKLAQKTYIKTQWQDEIIKVPEYICQSKSFSTNKLYSDEYKNILDGHRFMLD
+                     FLWPKARYFDSLSLNSSMTHPFLDLRLVNFVLKIPPHEHLYIDSIKYGSYFSSKRLARE
+                     SFKQIIPEIFKFKKEKTSYEGMAKKILLNSKSGLNKLFLSFDNCLVYKMELVDRKKFIE
+                     ALTIYLLKAEDVNSTFDANYQFIHSVITLEIWLRNITMEKNRLIERIKPRNIKMKIDVE
+                     KIN"
+     PFAM_domain     1631..2638
+                     /direction=RIGHT
+                     /codon_start=1
+                     /locus_tag="KKJ29_06500"
+                     /label=KKJ29_06500
+                     /note="/aSDomain=Asn_synthase"
+                     /note="/aSTool=clusterhmmer"
+                     /note="/database=34.0"
+                     /note="/description=Asparagine synthase"
+                     /note="/detection=hmmscan"
+                     /note="/domain_id=clusterhmmer_KKJ29_06500_0011"
+                     /note="/evalue=1.50E-09"
+                     /note="/gene_ontologies=GO:0004066: asparagine synthase
+                     (glutamine-hydrolyzing) activity"
+                     /note="/gene_ontologies=GO:0006529: asparagine biosynthetic
+                     process"
+                     /note="/protein_end=553"
+                     /note="/protein_start=217"
+                     /note="/score=38.1"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+                     /db_xref="PF00733.23"
+                     /db_xref="GO:0004066"
+                     /db_xref="GO:0006529"
+                     /translation="FKEKFRESTIDRMKNGLTAIHFSGGLDSGSILATAIENNLDYLCV
+                     NISFKNNDLMYSQDSEIVNKVSKYLDKPSYILWADNTLRFQNNLVDNDPLLYIDGPEPR
+                     SNSLACLQMDQLINDLGAVQAITGESGDVILGEQFDEVILDSLITFGSTKNAFELFKII
+                     NEKRKISPYNIKYYMNFYNLFLSKFNKKLAQKTYIKTQWQDEIIKVPEYICQSKSFSTN
+                     KLYSDEYKNILDGHRFMLDFLWPKARYFDSLSLNSSMTHPFLDLRLVNFVLKIPPHEHL
+                     YIDSIKYGSYFSSKRLARESFKQIIPEIFKFKKEKTSYEGMAKKILLNSKSGLNK"
+     gene            2899..4515
+                     /locus_tag="KKJ29_06505"
+                     /label=KKJ29_06505
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             2899..4515
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="KKJ29_06505"
+                     /product="ABC transporter ATP-binding protein/permease"
+                     /label=KKJ29_06505
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /note="/gene_functions=transport (smcogs) SMCOG1000:ABC
+                     transporter ATP-binding protein (Score: 79.1; E-value: 
+                     7.2e-24)"
+                     /note="/gene_kind=transport"
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:HMM"
+                     /protein_id="MDE1482078.1"
+                     /translation="MKKHLISKNIFNILLNGKKKYLILIIFFQIALGTLPAVILYLMGS
+                     AINSLNNENLYLLIIFFLCVLVVFTEIIEIIEAVASSIISDFAKKNVRELLIRKSSSPN
+                     SINHLNEKEFQNNFYLTESKIDHISDFIGDVSQFITGFISVISISTLLFSLDWWIPFTV
+                     IIGMFPIIYARFKAESKIWEIETQFSSEFSHISKYYECLTRIESSYSIRIDNFRKTLFS
+                     KWNYTYNLILNRVFKERFKGIIFLVFCSIPGLFLLVFTLYQIRGSINLTPGNLMIIFGS
+                     IMQIRTSLTILIANFSQLIYGFLSTLSLDKIENSNYHYNDIVFINDNENIIFMKNVNFS
+                     YSESKDNVLNSINLKFKKNNTYILDGENGSGKSTLTNIISGLYSNFSGEISSSILPDKI
+                     LYISQNFRPLPITLREFIDPFNKFNNDDIFRVMHIFELDFISEINLNYYLAEGFEDYFK
+                     LSGGQWQRLLMSKSYLNYLNYDLILFDEVNSALDSNGDNLFHMLINHLNSKTTLIIISH
+                     KKIENHLNGNFVNIKIINKRR"
+     PFAM_domain     3943..4356
+                     /direction=RIGHT
+                     /codon_start=1
+                     /locus_tag="KKJ29_06505"
+                     /label=KKJ29_06505
+                     /note="/aSDomain=ABC_tran"
+                     /note="/aSTool=clusterhmmer"
+                     /note="/database=34.0"
+                     /note="/description=ABC transporter"
+                     /note="/detection=hmmscan"
+                     /note="/domain_id=clusterhmmer_KKJ29_06505_0012"
+                     /note="/evalue=3.50E-14"
+                     /note="/gene_ontologies=GO:0005524: ATP binding"
+                     /note="/protein_end=486"
+                     /note="/protein_start=348"
+                     /note="/score=53.6"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+                     /db_xref="PF00005.29"
+                     /db_xref="GO:0005524"
+                     /translation="LNSINLKFKKNNTYILDGENGSGKSTLTNIISGLYSNFSGEISSS
+                     ILPDKILYISQNFRPLPITLREFIDPFNKFNNDDIFRVMHIFELDFISEINLNYYLAEG
+                     FEDYFKLSGGQWQRLLMSKSYLNYLNYDLILFDE"
+     gene            4520..4960
+                     /locus_tag="KKJ29_06510"
+                     /label=KKJ29_06510
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             4520..4960
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="KKJ29_06510"
+                     /product="GNAT family N-acetyltransferase"
+                     /label=KKJ29_06510
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:HMM"
+                     /protein_id="MDE1482079.1"
+                     /translation="MAIKVSKFTENEYSEYSKWFNDESISKFLGDIDNEWLDYILTSPE
+                     VSQLVFYDNNLFVGVVGICLPNTEHNYYTIIDLAVNPIFHKHGYGTKILNYLMNCEEYR
+                     NFNIWKAIVSLENKNARSFFIKNGWKYDGIEDREYVKIFFEK"
+     PFAM_domain     4625..4903
+                     /direction=RIGHT
+                     /codon_start=1
+                     /locus_tag="KKJ29_06510"
+                     /label=KKJ29_06510
+                     /note="/aSDomain=Acetyltransf_1"
+                     /note="/aSTool=clusterhmmer"
+                     /note="/database=34.0"
+                     /note="/description=Acetyltransferase (GNAT) family"
+                     /note="/detection=hmmscan"
+                     /note="/domain_id=clusterhmmer_KKJ29_06510_0013"
+                     /note="/evalue=2.40E-08"
+                     /note="/gene_ontologies=GO:0016747: acyltransferase 
+                     activity,
+                     transferring groups other than amino-acyl groups"
+                     /note="/protein_end=128"
+                     /note="/protein_start=35"
+                     /note="/score=34.3"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+                     /db_xref="PF00583.27"
+                     /db_xref="GO:0016747"
+                     /translation="WLDYILTSPEVSQLVFYDNNLFVGVVGICLPNTEHNYYTIIDLAV
+                     NPIFHKHGYGTKILNYLMNCEEYRNFNIWKAIVSLENKNARSFFIKNG"
+     gene            4935..6191
+                     /locus_tag="KKJ29_06515"
+                     /label=KKJ29_06515
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             4935..6191
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="KKJ29_06515"
+                     /product="hypothetical protein"
+                     /label=KKJ29_06515
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:HMM"
+                     /protein_id="MDE1482080.1"
+                     /translation="MLKFSLKNNFFYMSIFLLALSVTFSMKNSHASSKINDINTLFIYI
+                     TGGDMESDFKMATDDIQEILSAKKPDNLNVIIQTGGALKWHLPQIKNNYIQRWKVVNNK
+                     LSLIDQLPNANMDESNTLSSFITWGLESFPSNSYHIFFWGHGLGAAGGYGGDENYGNKK
+                     MSINDMALAFKNSSIKQTKFEIIGFDNCKMANIETAYALQSYGKYLVGSVDYTHKNGWN
+                     YKDIIESFDLYSSSEAIASKILSSYVEQSITQNDASDDVQGSVINLNRIKDVAESVDRI
+                     FYKLSSHIKDPNYINKIDRARKVTEDYEDKANMIDLYDFIKNLKVEFTKTLSDKDLISL
+                     ENSISKSILLNIKTPEHLKGKGISVYFPFHDICDYPEYSKNYFDNTNYFSKKYRESVYK
+                     YILMNNKIKCNKIIFNPNN"
+     PFAM_domain     5064..5927
+                     /direction=RIGHT
+                     /codon_start=1
+                     /locus_tag="KKJ29_06515"
+                     /label=KKJ29_06515
+                     /note="/aSDomain=Peptidase_C11"
+                     /note="/aSTool=clusterhmmer"
+                     /note="/database=34.0"
+                     /note="/description=Clostripain family"
+                     /note="/detection=hmmscan"
+                     /note="/domain_id=clusterhmmer_KKJ29_06515_0014"
+                     /note="/evalue=1.10E-32"
+                     /note="/protein_end=331"
+                     /note="/protein_start=43"
+                     /note="/score=114.0"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+                     /db_xref="PF03415.16"
+                     /translation="YITGGDMESDFKMATDDIQEILSAKKPDNLNVIIQTGGALKWHLP
+                     QIKNNYIQRWKVVNNKLSLIDQLPNANMDESNTLSSFITWGLESFPSNSYHIFFWGHGL
+                     GAAGGYGGDENYGNKKMSINDMALAFKNSSIKQTKFEIIGFDNCKMANIETAYALQSYG
+                     KYLVGSVDYTHKNGWNYKDIIESFDLYSSSEAIASKILSSYVEQSITQNDASDDVQGSV
+                     INLNRIKDVAESVDRIFYKLSSHIKDPNYINKIDRARKVTEDYEDKANMIDLYDFIKNL
+                     KVEFTKT"
+ORIGIN
+        1 ttaaagttct tccattaaaa tcaattgagg acataaatta tgaaaattca aaaaccttta
+       61 ataaaaacct atggatcatt tattgctatc actttacgta aaaaatcttc acctggcgat
+      121 ggcacacatg cgcgcggtgt tcgccgcgga taaattttaa aaaacagaga tgagtaagga
+      181 gcgcgtaaat tataaacctt gcttatctct tatgatttat ttaattatgc tatatattgg
+      241 aattcaaatt agatatgaat gacacagaag aaaaaatatt tataaaaaaa agtaatgtta
+      301 tatctacaat attagatgaa gaagaaataa tattactaga taaagataat gatatataca
+      361 tcgggctaat tggtgcggca aaagatattt ggtcttgtaa tatggaactg atttcaatat
+      421 ctaaaatcat taaagagttg caaatagata atgatgtcga cttagataat ttaaaagaag
+      481 ctatttattt attggaaaaa gaaggactaa tatttgaata tgttatttaa tgaaataaat
+      541 atgcttttaa acatgcataa gtttataaaa gcaatgagta ttttagaaaa tagcagccta
+      601 gtttatacaa gattatgcat acaattttat aatgattatt tagacaaaag aaaaagaaat
+      661 aatatctttg atttttataa gaaaattttt aacataaaaa aattcttaca aattatgcat
+      721 gataaaaatg gtatgtacaa agaagatagt acttgctata cattatcact ttgcatacag
+      781 ttatatttgt attcaaatgg ctatgattca aagttaattt atggtttgac aaaagttgat
+      841 caaagaatat ttggacatgc atggattgaa tttaaagatt cgagatttaa aaaggaagaa
+      901 ttatttaatc caggccgggt aaatttaaat gaaatgcaaa taatcgattc aaaaataatg
+      961 attgaggatt tattaaagta tgtctttaaa taaaaacaaa tcgttttgga ttgtcacaaa
+     1021 tttagaacat tccaatgctg acttttacat tcgaaactta aaaaatttct atgaaaattt
+     1081 aaacgatagt catgatttta taaaatttga agaacaaaat tattattgca tagttatatc
+     1141 ctcgaagatt agaccaccaa ttaatcatat aaaaaataaa aaaattattt tagacggatg
+     1201 gataaaagaa aaatgtttag attcaatcat aataaacgaa aaaagcaatg agatatatgg
+     1261 agagttttct ctagcatatt tcaatgaaga aggctttaat tttatcacag atttttattc
+     1321 atcaatacca atttattatt tttacaataa aaataattat ataataacaa atgatataag
+     1381 agctatcatt gtatatagcg gctttacagt agatataaat tttgaatcag tcttatatca
+     1441 tctgggtaat gatattgcta taggtgaaaa tgaattacca gacaataata ctttttttat
+     1501 gaatataaaa aaagcaccaa aaggcagaaa attaaccatt aaaaacaata agttatcaac
+     1561 aaaagaaatc attgattata attttgaaat tgatgcatca acatttataa aaaaggattt
+     1621 tataaatcag tttaaggaga aatttagaga atcaacaata gataggatga agaatggatt
+     1681 aactgcaatt cattttagtg gaggcttaga ttcaggaagt atattagcaa cagcaataga
+     1741 aaacaactta gattatttat gtgttaatat aagttttaaa aataatgatt taatgtatag
+     1801 tcaagattcg gaaatagtaa ataaagtatc aaaatatctg gataaacctt cttatatttt
+     1861 atgggctgac aacaccttaa gatttcaaaa caacttagta gataatgatc cattactgta
+     1921 tatcgatgga ccagaaccac gctcaaatag tttagcatgc ctacaaatgg atcaattaat
+     1981 aaatgattta ggcgccgttc aagcaataac tggtgaatcc ggtgatgtaa ttttaggcga
+     2041 acaatttgat gaagttatat tagactcttt aatcactttt ggctctacta aaaatgcatt
+     2101 tgaattattt aagataataa atgaaaaaag aaaaatatcg ccttataata taaaatatta
+     2161 tatgaatttt tataaccttt ttttatctaa atttaataaa aaattagcac aaaaaacata
+     2221 tataaagaca caatggcaag atgagataat taaagttcca gaatatattt gtcaatcaaa
+     2281 aagtttttca actaacaaac tatacagtga tgaatataaa aatattttag atggacatag
+     2341 gtttatgtta gactttttgt ggccaaaagc aagatacttt gattctttga gcttaaacag
+     2401 ctccatgact catccttttt tagatttaag gctagtgaat ttcgttttaa aaataccacc
+     2461 acatgagcat ttatacatcg attcaataaa gtatggttca tacttctcaa gtaaacgatt
+     2521 ggccagagaa tcatttaagc aaataatacc tgaaatattt aagtttaaaa aagaaaaaac
+     2581 atcctatgaa ggaatggcaa agaaaatact attaaattct aaatctggtt taaataaatt
+     2641 atttctttct tttgataatt gtttggttta taagatggaa ttagtagaca gaaagaaatt
+     2701 tatagaagct cttactatat atttattaaa agcagaagat gtaaactcaa cctttgatgc
+     2761 aaattatcaa tttatacata gtgttataac tctcgaaata tggctaagaa atattactat
+     2821 ggaaaaaaat aggcttattg aacgaataaa accaagaaat attaaaatga aaattgatgt
+     2881 cgagaagatt aattgattat gaaaaaacat ttaatatcta aaaatatttt taacatattg
+     2941 ttgaatggca aaaaaaaata tttaatactt attatatttt ttcaaattgc attaggtact
+     3001 ttacctgctg ttattttata tttaatggga tctgcaatta atagtttaaa caatgaaaat
+     3061 ttatacttac tgataatatt ttttttatgt gtattggttg tttttactga aataattgaa
+     3121 attattgaag cagtggcatc aagtataata agtgattttg ctaaaaaaaa tgtaagggaa
+     3181 cttttaataa ggaaatcctc atcacctaat agcataaatc atcttaatga aaaagagttt
+     3241 caaaataatt tttatttaac tgaatcaaaa atagatcata tctctgattt tattggcgat
+     3301 gtttcacagt ttatcactgg atttataagt gtaatttcaa tttctacctt attgtttagt
+     3361 ttagattggt ggataccttt tacagttata attggaatgt ttccaatcat ttatgcaaga
+     3421 ttcaaagctg aatctaaaat ttgggaaatt gaaactcaat tttcttctga atttagtcac
+     3481 atatctaaat actatgaatg tttgacaaga attgaatctt catattctat aagaatagat
+     3541 aattttagaa aaactttatt ttcaaaatgg aattacactt ataatctaat attaaataga
+     3601 gtcttcaaag agagattcaa aggaattata tttttagtat tttgttctat accaggtttg
+     3661 tttttattgg tttttacact atatcagata agagggagta ttaatcttac acctggaaat
+     3721 ttaatgatta tattcggttc tattatgcag attcgaacta gtctaacaat attgatagcc
+     3781 aatttctcac aacttattta tggtttttta tcaacattat ctcttgataa gatcgaaaac
+     3841 tcaaactatc attataatga tatagtattt ataaatgaca atgaaaacat tatcttcatg
+     3901 aaaaatgtta atttttcata tagtgagagc aaagataacg tgttgaatag cattaattta
+     3961 aaatttaaaa aaaataacac atatatactt gatggtgaaa atggaagtgg aaaaagcaca
+     4021 cttacaaaca taattagtgg gttgtattca aatttttctg gtgaaatttc atcaagcatt
+     4081 cttcctgata aaatattata tatttctcag aacttcagac ctttacctat tacgttgaga
+     4141 gaatttattg atccttttaa taaatttaac aatgatgata tttttagggt catgcatatt
+     4201 tttgaattag atttcatatc tgaaattaat cttaactatt atttagctga aggctttgaa
+     4261 gattatttca aattatcagg ggggcaatgg caaaggcttt taatgtctaa atcatattta
+     4321 aactatttaa attatgattt aattttattc gatgaagtaa attcagcatt agattcaaat
+     4381 ggtgataatt tatttcatat gcttataaat catttaaatt caaaaacaac tttaatcata
+     4441 attagtcata aaaaaataga aaatcattta aatgggaact ttgttaacat taagattatt
+     4501 aataaaagaa ggtaatatta tggcaataaa ggtaagtaaa tttactgaaa atgaatattc
+     4561 tgagtattcg aaatggttca atgatgaaag tatctcaaaa tttttaggtg acatagacaa
+     4621 cgagtggtta gattatattt taacctctcc tgaagtatca caactggtgt tttatgataa
+     4681 taatttattt gtcggtgttg ttgggatttg cttaccaaat actgaacata attattatac
+     4741 aataattgat cttgcagtta accctatttt tcataaacat ggttatggaa ctaaaatcct
+     4801 taattactta atgaattgtg aggaatatag aaattttaat atttggaaag caatagtttc
+     4861 tttagaaaat aaaaacgccc gatctttttt tataaaaaac ggatggaaat atgacggtat
+     4921 tgaggataga gaatatgtta aaattttctt tgaaaaataa ttttttttac atgagtattt
+     4981 ttttattggc cctttcagtt accttttcaa tgaagaatag ccatgcatca tctaagataa
+     5041 atgatattaa cactcttttt atctatatta caggtggaga tatggagtcc gatttcaaaa
+     5101 tggcaactga tgatattcag gagatacttt ctgctaaaaa acctgacaat ttaaacgtaa
+     5161 taattcaaac gggaggtgct ttaaaatggc atttaccaca aattaaaaat aactatattc
+     5221 agagatggaa agttgttaat aataaattat cattaataga ccagctccct aatgcaaata
+     5281 tggatgaatc aaatacttta tcatctttta tcacatgggg attggaatct tttccttcta
+     5341 attcatatca tattttcttt tggggacatg gtttgggagc agcagggggt tatggaggcg
+     5401 atgagaatta tggaaataaa aaaatgagca tcaatgatat ggctcttgca tttaaaaaca
+     5461 gttctattaa acagactaaa tttgaaatca ttgggtttga taactgtaaa atggctaata
+     5521 tcgaaacagc atatgcgctt caatcttacg ggaaatacct tgttggttca gtagattata
+     5581 cacataaaaa tggatggaac tacaaagata ttattgaatc atttgattta tattcttctt
+     5641 cagaagctat tgcttcaaaa attttatcat cttatgtaga gcaatctatc acccaaaatg
+     5701 atgcttctga tgatgttcaa ggttctgtga taaacttaaa tcgaataaag gatgttgctg
+     5761 aatccgttga tagaatattt tataaattat cttctcatat aaaagaccca aactatatta
+     5821 ataaaataga tagggcaaga aaggttaccg aagattatga agataaagca aatatgattg
+     5881 acttatatga tttcataaaa aaccttaaag tcgagtttac taaaacccta tccgataaag
+     5941 acttaatatc actagaaaac tctataagca aatctatttt gctgaatatt aaaacacctg
+     6001 agcatctaaa aggtaaagga atatcagtat attttccttt tcatgatatt tgtgattacc
+     6061 ctgaatattc aaaaaattat tttgataaca ctaattattt ttctaaaaaa tatagagaaa
+     6121 gtgtttacaa atatattcta atgaataata aaataaaatg taacaaaatt atttttaatc
+     6181 ccaacaactg aatataaaac acacaacaat ttaagaaggg aattaatctg catcccttaa
+     6241 tgtaagctaa taatattatc atctggtgag tttcaataca ggacaaaatg atggtacgcc
+     6301 atgatattcc cggcgatgaa tgaatattga gctcctcgcg cttggagggc tatcgtcaca
+     6361 ctggatgcac agagctccgc agcgtgatac aaatcagcgc agaactgcct gaaacgcttc
+     6421 gtggccaatg gccatcaata aagagcctaa tcgaagtggt tgcaagaaca atcaggcggt
+     6481 actgggctat cgagaacgaa aagcttccgc cgcttacagg gcagtatgac cctgtttaac
+     6541 aaccagattg accgcttctt ttttaaagtt atcggtaaat ttttgaggca attttcgttt
+     6601 taagagtaaa aatc
+//

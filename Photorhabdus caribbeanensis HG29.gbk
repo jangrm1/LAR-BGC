@@ -1,0 +1,348 @@
+LOCUS       Photorhabdus_car        6809 bp DNA     linear   CON 30-JUN-2024
+DEFINITION  Photorhabdus caribbeanensis strain HG29 scaffold_0005, whole genome 
+            shotgun sequence.
+ACCESSION   NZ_RCWB01000005
+VERSION     .
+KEYWORDS    .
+SOURCE      Photorhabdus caribbeanensis
+  ORGANISM  Photorhabdus caribbeanensis
+REFERENCE   1  (bases 1 to 6809)
+  AUTHORS   Machado RAR., Bruno P, Arce CCM., Liechti N, Kohler A, Bernal J, 
+            Bruggmann R, Turlings TCJ.
+  TITLE     Photorhabdus khanii subsp. guanajuatensis subsp. nov., isolated from
+            Heterorhabditis atacamensis, and Photorhabdus luminescens subsp. 
+            mexicana subsp. nov., isolated from Heterorhabditis mexicana 
+            entomopathogenic nematodes
+  JOURNAL   Int J Syst Evol Microbiol 69 (3), 652-661 (2019)
+  PUBMED    30688647
+REFERENCE   2  (bases 1 to 6809)
+  AUTHORS   Machado R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-OCT-2018) Institute of Plant Sciences, University of 
+            Bern, Altenbergrain 21, Bern 3013, Switzerland
+REFERENCE   3  (bases 1 to 6809)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Jul 3, 2024 from SnapGene 7.2.1
+            https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; journalName: "Int J Syst 
+            Evol Microbiol"; date: "2019"; volume: "69"; issue: "3"; pages: 
+            "652-661"
+COMMENT     SGRef: number: 2; type: "Journal Article"; journalName: "Submitted 
+            (16-OCT-2018) Institute of Plant Sciences, University of Bern, 
+            Altenbergrain 21, Bern 3013, Switzerland"
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to 
+            RCWB01000005.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation 
+            Pipeline (PGAP). Information about PGAP can be found here: 
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/##Genome-Assembl
+            y-Data-START##
+            Assembly Method        :: SPAdes v. 3.10.1
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 700x
+            Sequencing Technology  :: Illumina HiSeq 
+            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 05/07/2023 04:56:05
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP) 
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 6.5
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA 
+            Genes (total)                     :: 4,751
+            CDSs (total)                      :: 4,628
+            Genes (coding)                    :: 4,282
+            CDSs (with protein)               :: 4,282
+            Genes (RNA)                       :: 123
+            rRNAs                             :: 8, 5, 7 (5S, 16S, 23S) complete
+            rRNAs                    :: 7 (5S)
+            partial rRNAs                     :: 1, 5, 7 (5S, 16S, 23S)
+            tRNAs                             :: 84
+            ncRNAs                            :: 19
+            Pseudo Genes (total)              :: 346
+            CDSs (without protein)            :: 346
+            Pseudo Genes (ambiguous residues) :: 0 of 346
+            Pseudo Genes (frameshifted)       :: 59 of 346
+            Pseudo Genes (incomplete)         :: 310 of 346
+            Pseudo Genes (internal stop)      :: 31 of 346
+            Pseudo Genes (multiple problems)  :: 44 of 346
+            CRISPR Arrays                     :: 5 
+            ##Genome-Annotation-Data-END##
+COMMENT     Sequence Label: WGS; RefSeq.
+FEATURES             Location/Qualifiers
+     source          1..6809
+                     /host="Heterorhabditis"
+                     /strain="HG29"
+                     /mol_type="genomic DNA"
+                     /note="/submitter_seqid=scaffold_0005"
+                     /note="color: #ffffff"
+                     /db_xref="taxon:1004165"
+                     /type_material="type strain of Photorhabdus
+                     caribbeanensis"
+                     /organism="Photorhabdus caribbeanensis"
+     CDS             513..626
+                     /codon_start=1
+                     /label=ORF #57
+                     /note="color: #000000"
+                     /translation="MKTKQPLIKTYGSFVSITLRKKSSPGDGTHARGIRRG"
+     gene            726..998
+                     /locus_tag="EAE90_RS05860"
+                     /old_locus_tag="EAE90_05960"
+                     /label=EAE90_RS05860
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             726..998
+                     /codon_start=1
+                     /locus_tag="EAE90_RS05860"
+                     /old_locus_tag="EAE90_05960"
+                     /product="hypothetical protein"
+                     /label=EAE90_RS05860
+                     /note="Derived by automated computational analysis 
+                     usinggene prediction method: GeneMarkS-2+."
+                     /note="color: #99cc00"
+                     /inference="COORDINATES:same species:GeneMarkS-2+"
+                     /protein_id="WP_214052699.1"
+                     /translation="MNKEHKAFIKKNNVISTILDEDEIVVLDKDSDVYIGLVGAAKDVW
+                     SCKSEIISFPDVIKELKIDDDIDIENIKEAFHLLEKEGLILEYVI"
+     gene            988..1461
+                     /locus_tag="EAE90_RS05855"
+                     /old_locus_tag="EAE90_05955"
+                     /label=EAE90_RS05855
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             988..1461
+                     /codon_start=1
+                     /locus_tag="EAE90_RS05855"
+                     /old_locus_tag="EAE90_05955"
+                     /product="lasso peptide biosynthesis protein"
+                     /label=EAE90_RS05855
+                     /note="Derived by automated computational analysis 
+                     usinggene prediction method: Protein Homology."
+                     /note="color: #ff9900"
+                     /inference="COORDINATES:same species:HMM"
+                     /protein_id="WP_214052698.1"
+                     /translation="MLSNEIKMLLNMHKFIKAMSFLENSSLVYTKLSIQFYKDYLGKNK
+                     KCNAFDFNKKVFFIKFFLKMMHDKNGMYKEDSTCYTLSLCIQLYLYSNGYDSDLIYGLT
+                     KVDQRIFGHAWVKLKSLNSNKEILFNPGRVDLKEMQVIDSKNMAEDLLKYVFK"
+     gene            1448..3364
+                     /locus_tag="EAE90_RS05850"
+                     /old_locus_tag="EAE90_05950"
+                     /label=EAE90_RS05850
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             1448..3364
+                     /codon_start=1
+                     /locus_tag="EAE90_RS05850"
+                     /old_locus_tag="EAE90_05950"
+                     /product="asparagine synthetase B family protein"
+                     /label=EAE90_RS05850
+                     /note="Derived by automated computational analysis 
+                     usinggene prediction method: Protein Homology."
+                     /note="/GO_function=GO:0004066 - asparagine 
+                     synthase(glutamine-hydrolyzing) activity [Evidence IEA]"
+                     /note="/GO_process=GO:0006529 - asparagine biosynthetic 
+                     process[Evidence IEA]"
+                     /note="color: #99cc00"
+                     /inference="COORDINATES:same species:HMM"
+                     /protein_id="WP_214052697.1"
+                     /translation="MSLNKNKSFWIVTNLEHSNAKNYIHNLKGFYDNLYDSHDFISFSE
+                     KNNNCIIISSKVNPPLIFFKGQKIILDGWIKEEGLSSVIAGRKNNEIYGEFSLVYFNDE
+                     GLNFVTDFYSSIPIYYFFYKNSYIITNDIRAIIVHTDFSIDVNFESVLYHLGNDIAVGE
+                     NELPDNSTFFMNVKKIPKGSKLTIKNSKFSIQEIIDYHFEIDPSKMIKKDFASQFKEKF
+                     RESTRDRMNNGLTAIHFSGGLDSGSVLATAMENNLDYFCVNISFKNNDLMYSQDSEIVN
+                     KVSKYLKKPSYILWADNTLRFQNDLIDNDPLIYIDGPEPRSNSLACLQLDQLINELGAV
+                     QAITGESGDVILGEQFDEVILDSLIKSGYARNAFELFSTINKKKKISPYNISYYTDFYN
+                     LFLSKFNSRLAKSTYLKTQWKDEIIKIPKYIYQSKNFSNNKLYSDKYKKMLDGHRFALD
+                     FLWPKARYFDSLSLNSFMTHPFLDLRLVDFILKIPPHEHLYLESIKYGSYYSSKKLARE
+                     SFRKILPEIFKFKKEKTSYEGMAKKILLNSKLGLKELFFSSADCLVYAMGLVDRKKFIE
+                     ALTIYLLKAEDVNSTFDVNYQFIHSVITLEIWLRNITMEKNKLISRIKPTKIKIKIDVE
+                     KIN"
+     gene            3367..4977
+                     /locus_tag="EAE90_RS05845"
+                     /old_locus_tag="EAE90_05945"
+                     /label=EAE90_RS05845
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             3367..4977
+                     /codon_start=1
+                     /locus_tag="EAE90_RS05845"
+                     /old_locus_tag="EAE90_05945"
+                     /product="ABC transporter ATP-binding protein"
+                     /label=EAE90_RS05845
+                     /note="Derived by automated computational analysis 
+                     usinggene prediction method: Protein Homology."
+                     /note="/GO_function=GO:0005524 - ATP binding [Evidence 
+                     IEA];GO:0042626 - ATPase-coupled transmembrane transporter 
+                     activity [Evidence IEA]"
+                     /note="color: #ff0000"
+                     /inference="COORDINATES:same species:HMM"
+                     /protein_id="WP_214052696.1"
+                     /translation="MKKSLILKNVFSILLNGKKRYLILIILFQITLGVLPAIVLYLMGY
+                     AVNSLNNASLYLLIIFFLCILIVFTEIIEIIEAVMSSILSDFAKKNVKSILIEKSSSPD
+                     SINHLNETDFQNNFYLTESKIDHIADFIGDLSQFMTGLISIISISTLLFSLDWWIPFTI
+                     IIGMFPIIYARFKAESKIWEIETQFSPEFSSISKYYEYLTRVEPSYSIRVDNFRKLLFS
+                     KWDYIYNSILNRVFKERLKGILFLIFCSIPGLFLLIFTLYQTRESINPTPGNLMIIFGS
+                     IIQIRTSLTMLIANFSQLIYGFLSTSSLSNMVNLNYKYNNIESVGEEKYIIIMKDVGFS
+                     YHESRGRVLNEINFIFKKNTTYILDGKNGSGKSTFANIVSGLYANFSGNIFSSISHHKI
+                     LYISQNLKPLPINLREFIDPFNKFSDGDILKSLQKFELGFISESYFNYHLIEGFEHFLK
+                     LSGGQWQRLLMAKLHLNYLNYELIILDEINSSLDSNGDNLLYMLINYLNSKTTLIIISH
+                     KKISAHLTGHFINIDLLAK"
+     gene            4987..5427
+                     /locus_tag="EAE90_RS05840"
+                     /old_locus_tag="EAE90_05940"
+                     /label=EAE90_RS05840
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             4987..5427
+                     /codon_start=1
+                     /locus_tag="EAE90_RS05840"
+                     /old_locus_tag="EAE90_05940"
+                     /product="GNAT family N-acetyltransferase"
+                     /label=EAE90_RS05840
+                     /note="Derived by automated computational analysis 
+                     usinggene prediction method: Protein Homology."
+                     /note="/GO_function=GO:0008080 - N-acetyltransferase 
+                     activity[Evidence IEA]"
+                     /note="color: #ffcc99"
+                     /inference="COORDINATES:same species:HMM"
+                     /protein_id="WP_214052695.1"
+                     /translation="MVLKVKKFTEDEYNNYAEWFNDESISRFLGEIDTEWLDYVLNAVE
+                     ISQLSFYDDNRFIGVVGIYLPNPEHNYYTILDFAINPIAQKQGYGTAIIHYLMNSDDYK
+                     ETNIWKAIVSLDNKNARSFFKTNGWKYEGFEDDDYIKILFKK"
+     gene            5393..6655
+                     /locus_tag="EAE90_RS05835"
+                     /old_locus_tag="EAE90_05935"
+                     /label=EAE90_RS05835
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             5393..6655
+                     /codon_start=1
+                     /locus_tag="EAE90_RS05835"
+                     /old_locus_tag="EAE90_05935"
+                     /product="clostripain-related cysteine peptidase"
+                     /label=EAE90_RS05835
+                     /note="Derived by automated computational analysis 
+                     usinggene prediction method: Protein Homology."
+                     /note="color: #ff6600"
+                     /inference="COORDINATES:same species:HMM"
+                     /protein_id="WP_214052694.1"
+                     /translation="MMITLKFYLKNNFFNIVTFLLIILFGSFVNNSYASSKENHINTLL
+                     IYIIGGDMESDFQMATDDIQEILSAKKPDNLNVIIQTGGALKWHLSQIKKNNIQRWKVT
+                     NNQLVLIEQLPNANMDKPDALSSFIKWGIGYSPSDSYYMLFWGHGLGAAGGYGGDENYG
+                     NKKMSINDIFLAFKNADLKQNNFEIIGFDNCKMASLEIAYILKSYGKYLVSSVDYTHKN
+                     GWNYKDIIESFGLYSSSEAIAAKILSSYVEQSITQNEATDDIQGSVINLSQINDVAESV
+                     GNIFHKLSSHIKDIDYFDKIYNARKATEDYEDEANMVDLYDFIKNIKMEYPHSISDADL
+                     ILLENTISKSILLNIKTPEHLKGKGISIYFPFHNVCDYPEYIEKYFKNSRFFSMDYRES
+                     IYEYISRSDKLKCNKAIFNVN"
+ORIGIN
+        1 aattttagat aaggaattca gataactgca tagtggcact aaaacggaaa gtacgacact
+       61 ggtgaaacgg gtataactga gagagttggg aagttatgat tgtgatattt ccaggctact
+      121 catagaaaat tttaacatta cggtaatata taccttttca taatactaag agtatcaata
+      181 gtgattttac cttatcccgc gcgatgaacg ggataaggaa tacatctatt atttaaaaaa
+      241 acatttaata tttttaggcg atataagtga gtttattgac tatgtaataa ctaatattta
+      301 gtcattaata atagtcatac tttttattat tcctctaata aatacgatat aagcattatg
+      361 tttataacgt aaagatttta aattaatatt caactagtga gggggtaata aaataaattt
+      421 tttattttta ctttaattaa tatatattca gtttgcactt ttatttaaag tgctttaatt
+      481 aaataccact aatatcattg aggatgtaaa ttatgaaaac caaacaacct ttaattaaaa
+      541 cttacggatc atttgtttcc attactctgc gtaaaaaatc ttcacccggt gatggcactc
+      601 acgctcgtgg gatccgtcgc ggataagtat tgaaagcgga gataaatagg tagcgcgtaa
+      661 attataatcc tatttatctc ctattgttaa ttaaatttaa tcttatattt tggtttatat
+      721 ttaatatgaa taaagaacat aaggctttta tcaagaaaaa taatgtcata tccaccattt
+      781 tagatgagga tgaaatagtg gtattagata aagatagtga tgtgtatatt ggattagttg
+      841 gtgcggcgaa agatgtttgg agttgtaagt ctgaaattat ttcatttcct gatgttatca
+      901 aagaattgaa aatagatgat gatatcgata tagaaaatat aaaagaagcc tttcatttat
+      961 tggaaaaaga gggattgata ctagaatatg ttatctaatg aaataaagat gctattaaat
+     1021 atgcacaaat ttataaaggc aatgagcttt ttagagaata gctcattggt ttatacaaaa
+     1081 ttaagtatcc agttctataa agattattta gggaaaaata aaaaatgtaa tgcatttgat
+     1141 tttaacaaaa aagttttttt tataaaattt tttttgaaaa tgatgcatga taaaaatggc
+     1201 atgtataaag aagatagtac gtgttataca ttatcattat gtatacagct atatttatat
+     1261 tcaaatgggt atgattcaga tttgatttat ggattgacaa aggttgatca aagaatattt
+     1321 ggtcatgcgt gggttaaact aaaaagctta aattcgaata aagaaatatt atttaatccg
+     1381 ggtagggtgg acctaaaaga aatgcaggtt attgattcaa aaaacatggc agaggattta
+     1441 ttaaaatatg tctttaaata aaaataaatc attttggatt gtgactaatc tagagcattc
+     1501 taatgctaaa aattatatcc ataatttaaa aggtttctat gataatttgt atgatagtca
+     1561 cgacttcatc agtttttcag agaaaaataa caactgtatc attatatctt caaaagttaa
+     1621 tccacctctt atttttttta aaggtcaaaa aattatttta gatggatgga taaaagaaga
+     1681 gggtttaagt tctgttatcg cgggcagaaa aaacaatgaa atatatgggg aattttctct
+     1741 ggtgtatttt aatgatgaag gtttgaattt tgttactgat ttttattcat caatacccat
+     1801 ttattatttt ttttacaaaa atagttatat cataaccaat gatataagag caattatagt
+     1861 acatactgac ttttcaatag atgtgaattt tgaatcagtg ttgtatcatt tgggaaatga
+     1921 tattgctgtt ggagaaaatg aattgccaga taatagtact ttctttatga atgtaaaaaa
+     1981 aatacctaaa ggaagtaagt taacaataaa aaatagtaag ttctcgatac aagaaattat
+     2041 tgattatcat tttgaaattg atccatcaaa aatgattaaa aaagattttg ccagtcagtt
+     2101 taaagaaaaa tttagagaat caacaagaga cagaatgaac aatggattaa cagcaattca
+     2161 ttttagtggt ggtttagatt caggtagtgt gctagcaaca gcaatggaaa ataatttaga
+     2221 ctatttttgc gttaatatta gttttaaaaa taatgactta atgtatagcc aagattcaga
+     2281 aatagtcaat aaagtatcaa aatacctgaa aaaaccatct tatattttat gggctgataa
+     2341 tacgttaagg tttcaaaacg atttaataga taatgaccct ctaatctata ttgatggccc
+     2401 ggaacctcgc tcgaacagtt tagcatgcct gcaattagat cagcttataa atgagttagg
+     2461 cgctgttcag gcaataaccg gggagtccgg tgatgtgatc ttaggtgagc agttcgatga
+     2521 agttatatta gattctttaa taaagtctgg ttatgctaga aatgcgtttg aactgttcag
+     2581 taccattaat aaaaagaaaa aaatatcacc ctataacata agttattata cggattttta
+     2641 taatttattt ttatctaaat ttaatagtcg gttggcaaag agtacatatt taaagacgca
+     2701 gtggaaagat gagataatta aaatcccaaa gtatatttat caatcaaaaa acttttcaaa
+     2761 taataaacta tatagtgata aatataaaaa aatgttggac gggcatagat ttgcattaga
+     2821 ttttttatgg ccaaaagcga gatattttga ctctttgagt ttaaatagtt ttatgacaca
+     2881 cccattctta gatttaagat tggttgattt tattttaaaa atacctcctc atgaacattt
+     2941 atatctggaa tcaataaaat atggttcata ttattcaagt aaaaaattag ccagagagtc
+     3001 atttagaaaa atattacctg aaatatttaa atttaaaaaa gaaaaaacct catatgaggg
+     3061 aatggcaaaa aaaatattac tgaattctaa attaggtttg aaagaattgt ttttttcttc
+     3121 tgctgattgc ttagtttatg cgatgggttt ggttgacaga aaaaaattta tcgaagccct
+     3181 gactatttac ctgctaaaag ctgaagatgt aaactcaacg tttgatgtaa attatcagtt
+     3241 tatacatagt gttataactc ttgaaatatg gttgaggaat attactatgg aaaaaaataa
+     3301 actcatttct cgtattaaac ccacaaagat caaaataaaa attgatgttg agaagattaa
+     3361 ttaattatga aaaaatcctt aatactcaaa aatgtttttt caattttatt gaatggaaaa
+     3421 aaaagatatt taatattaat tattcttttt caaatcacat taggggtttt acctgcaata
+     3481 gttttatatt taatgggtta tgcagttaat agtttaaata atgcaagttt atatttatta
+     3541 ataatatttt tcctctgcat tttaattgta tttactgaaa taattgaaat tattgaagct
+     3601 gttatgtcaa gcatattgag tgattttgct aaaaaaaatg taaaaagtat tttgatcgaa
+     3661 aaatcatcat cacctgatag tataaatcat cttaatgaaa ctgattttca aaataacttt
+     3721 tatttaactg aatcaaaaat agatcatata gccgatttta ttggtgattt atcgcaattt
+     3781 atgacaggat tgatcagtat aatttcaatt tccaccttac tatttagttt ggattggtgg
+     3841 atccctttta ctattatcat aggtatgttt cctattattt atgcaagatt taaagcggag
+     3901 tctaaaattt gggaaattga aactcagttt tctccagagt ttagttctat atccaaatat
+     3961 tatgagtatt taaccagagt tgaaccatcg tattccataa gagttgataa ttttagaaag
+     4021 cttttatttt caaagtggga ttatatctat aattctattc taaatagagt ttttaaagaa
+     4081 agattaaaag gaatattgtt tttaattttt tgttccattc cgggattatt tttattgatt
+     4141 ttcaccctat atcaaacaag agagagtatt aatcctacac ctggaaattt aatgattata
+     4201 tttggttcta ttatacaaat tcgtactagt ttgacgatgc ttatcgccaa cttttcacag
+     4261 cttatttatg gttttttatc aacctcatct cttagtaata tggttaattt aaattataaa
+     4321 tataataata tagagagtgt gggtgaagag aaatacatta taataatgaa agatgttggt
+     4381 ttttcgtatc acgaaagcag agggcgggtt ttaaatgaaa ttaattttat atttaaaaaa
+     4441 aataccacat atattcttga tggaaaaaat ggaagtggga aaagcacatt tgctaatata
+     4501 gttagcgggt tatatgcaaa cttttcaggt aatatttttt caagtatttc tcaccataaa
+     4561 atactttata tttcgcaaaa ccttaaacct ttgcctatta atttaagaga atttattgat
+     4621 ccttttaata aattcagtga tggtgatatt ttaaaatcat tacaaaagtt tgaattgggt
+     4681 tttatttctg aatcttattt taattatcat ttaattgaag gatttgaaca ctttttgaaa
+     4741 ttatctggcg ggcagtggca gaggctttta atggctaaat tacatttgaa ttatttaaat
+     4801 tatgaactaa ttatattaga tgaaataaac tcatcgttag attcaaatgg tgataattta
+     4861 ctttacatgc ttataaacta tttgaattca aaaacaactt taattattat tagccataaa
+     4921 aaaatatcag cccatttgac tggacatttc attaacattg atttattggc aaaataggaa
+     4981 aatacaatgg tattaaaagt gaaaaaattt actgaagatg aatacaataa ctatgcggaa
+     5041 tggttcaatg atgaaagtat ctcaaggttt ttaggggaaa ttgatactga gtggttggat
+     5101 tatgttttaa atgctgttga gatatctcag ttgtcatttt atgatgataa taggtttatt
+     5161 ggtgtggtcg ggatttactt acccaatcct gaacataact attacacaat acttgatttc
+     5221 gctattaatc ctattgccca aaaacagggg tatggcactg cgattattca ttatttaatg
+     5281 aactctgatg actataaaga aacgaatatt tggaaagcca tagtctctct ggataataaa
+     5341 aatgcccgtt cattttttaa aacaaatggg tggaaatatg aaggttttga agatgatgat
+     5401 tacattaaaa ttttatttaa aaaataattt ctttaatatt gttactttct tactgattat
+     5461 tttatttggc tcgtttgtaa ataatagtta tgcgtcatca aaagaaaatc atattaacac
+     5521 tcttctcatt tatatcatag gtggtgatat ggaatctgat ttccaaatgg ctaccgatga
+     5581 tattcaagaa atactttccg ctaaaaagcc ggataattta aatgtgataa ttcaaacagg
+     5641 tggtgctttg aaatggcatt tatcgcaaat taaaaaaaat aacattcaga gatggaaagt
+     5701 tactaataat cagctggtct taatagaaca gcttcctaat gcaaatatgg ataagcctga
+     5761 tgctttatct tcttttatta aatgggggat agggtactct ccatctgatt cctattatat
+     5821 gttattttgg gggcatggtt taggcgcggc aggggggtat ggtggtgatg agaattatgg
+     5881 taataaaaaa atgagtataa atgacatttt ccttgcattt aaaaatgcgg atttaaaaca
+     5941 aaataatttt gaaatcattg gcttcgataa ttgtaaaatg gcaagtcttg aaatagctta
+     6001 tattcttaaa tcttatggaa agtatttggt tagttcagta gattacaccc ataaaaatgg
+     6061 atggaattac aaagatatta ttgaatcatt tggtttatat tcttcttcag aagccattgc
+     6121 agcaaaaatt ttatcatctt acgtagaaca atctatcact caaaatgaag ctaccgatga
+     6181 tattcaaggc tctgtgataa atttgagtca aataaatgat gttgctgaat ctgttggaaa
+     6241 catatttcat aaattatctt ctcatataaa agatatagac tattttgata aaatatataa
+     6301 tgcaagaaag gcgacggaag actatgaaga tgaggcgaat atggttgatc tctatgattt
+     6361 tataaaaaat atcaaaatgg aatatcctca ttcaatttct gatgcagatt taattttatt
+     6421 agaaaatacg atcagtaaat caattttatt gaatatcaag acgcctgaac atctaaaagg
+     6481 caaaggcata tcaatatatt ttcctttcca taatgtatgt gattaccctg aatatataga
+     6541 aaagtatttt aaaaacagcc gctttttctc tatggattat agagaaagta tttatgaata
+     6601 tatttccagg agtgataaat taaaatgtaa taaagctatt tttaatgtca actagtagtt
+     6661 aatccaatct attaattcaa attcaagata tcaggtttat catggtgtta ctgattggta
+     6721 ttactgattg gtattactga ttggtattac tgattgccgg ccatttttac gccgttaatc
+     6781 agcaatggca ttgagaatgg cgataattg
+//

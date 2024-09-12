@@ -1,0 +1,561 @@
+LOCUS       Bacillus_thuring        9461 bp DNA     linear   UNA 04-JUL-2024
+DEFINITION  Bacillus thuringiensis serovar muju strain BGSC 4BL1 
+            4BL1_contig000035, whole genome shotgun sequence.
+ACCESSION   NZ_NFDF01000035
+VERSION     .
+KEYWORDS    .
+SOURCE      Bacillus thuringiensis serovar muju
+  ORGANISM  Bacillus thuringiensis serovar muju
+REFERENCE   1  (bases 1 to 9461)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Jul 4, 2024 from SnapGene 7.2.1
+            https://www.snapgene.com
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to 
+            NFDF01000035.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation 
+            Pipeline (PGAP). Information about PGAP can be found here: 
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            Annotation was added by the NCBI Prokaryotic Genome Annotation 
+            Pipeline (released 2013). Information about the Pipeline can be 
+            found here: https://www.ncbi.nlm.nih.gov/genome/annotation_prok/ 
+            ##antiSMASH-Data-START##
+            Version      :: 5.2.0-8ecc354
+            Run date     :: 2020-09-25 14:00:39
+            NOTE: This is a single cluster extracted from a larger record! Orig.
+            start  :: 0
+            Orig. end    :: 16784
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..9461
+                     /mol_type="genomic DNA"
+                     /organism="Bacillus thuringiensis serovar muju"
+     protocluster    1..9461
+                     /product="lassopeptide"
+                     /note="/aStool=rule-based-clusters"
+                     /note="/contig_edge=True"
+                     /note="/core_location=[4323:6784]"
+                     /note="/cutoff=10000"
+                     /note="/detection_rule=(PF13471 and Asn_synthase or micJ25 
+                     or
+                     mcjC)"
+                     /note="/neighbourhood=10000"
+                     /note="/protocluster_number=1"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+     cand_cluster    1..9461
+                     /product="lassopeptide"
+                     /note="/candidate_cluster_number=1"
+                     /note="/contig_edge=True"
+                     /note="/detection_rules=(PF13471 and Asn_synthase or micJ25
+                     or
+                     mcjC)"
+                     /note="/kind=single"
+                     /note="/protoclusters=1"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+     misc_feature    1..9461
+                     /product="lassopeptide"
+                     /label=nonstandard type: region
+                     /note="/candidate_cluster_numbers=1"
+                     /note="/contig_edge=True"
+                     /note="/region_number=1"
+                     /note="/rules=(PF13471 and Asn_synthase or micJ25 or mcjC)"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+     gene            63..530
+                     /locus_tag="BK731_RS17435"
+                     /old_locus_tag="BK731_17385"
+                     /label=BK731_RS17435
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             63..530
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="BK731_RS17435"
+                     /old_locus_tag="BK731_17385"
+                     /product="GNAT family N-acetyltransferase"
+                     /label=BK731_RS17435
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:RefSeq"
+                     /protein_id="WP_087953756.1"
+                     /translation="MEISIKKLDKKIDNRESIKKIIELWNLNAIETADCELEESHKNGI
+                     EEQLVELVQSRYGAVFVGTDEANNLIGYGIGSIKQDLVTDMLYGQIEEVYVKSEYRRQQ
+                     IAQNLVGNISNWLNQENVSLIHVYVDLANKLALNFWENTGFEKEFFLLSNS"
+     CDS             969..1136
+                     /codon_start=1
+                     /gene="allorf_03323_03490"
+                     /locus_tag="allorf_03323_03490"
+                     /label=allorf_03323_03490
+                     /note="/tool=antismash"
+                     /note="color: #993366"
+                     /protein_id="allorf_03323_03490"
+                     /translation="VYKLQLNSIERRGRRKMKKLEAGKVKAYGSFMAVTLAKKNKPGDG
+                     TRTKGIRKGL"
+     CDS_motif       969..1076
+                     /locus_tag="allorf_03323_03490"
+                     /note="peptide class: lassopeptide"
+                     /note="predicted sequence:
+                     VYKLQLNSIERRGRRKMKKLEAGKVKAYGSFMAVTL"
+                     /note="/aSTool=lassopeptides"
+                     /note="/prepeptide=leader"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+     CDS_motif       1077..1136
+                     /locus_tag="allorf_03323_03490"
+                     /note="/aSTool=lassopeptides"
+                     /note="/core_sequence=AKKNKPGDGTRTKGIRKGL"
+                     /note="/leader_location=[3322:3430](+)"
+                     /note="/leader_sequence=VYKLQLNSIERRGRRKMKKLEAGKVKAYGSFMAVT
+                     L"
+                     /note="/molecular_weight=2007.3"
+                     /note="/monoisotopic_mass=2006.2"
+                     /note="/peptide=lassopeptide"
+                     /note="/predicted_class=Class II"
+                     /note="/prepeptide=core"
+                     /note="/score=-6.70"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+     CDS             1173..1292
+                     /codon_start=1
+                     /gene="allorf_03527_03646"
+                     /locus_tag="allorf_03527_03646"
+                     /label=allorf_03527_03646
+                     /note="/tool=antismash"
+                     /note="color: #993366"
+                     /protein_id="allorf_03527_03646"
+                     /translation="MKKLEAGKVKAYGSFMAVTLAKKNKPGDGTRTKGIRKGL"
+     CDS_motif       1173..1232
+                     /locus_tag="allorf_03527_03646"
+                     /note="peptide class: lassopeptide"
+                     /note="predicted sequence: MKKLEAGKVKAYGSFMAVTL"
+                     /note="/aSTool=lassopeptides"
+                     /note="/prepeptide=leader"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+     CDS_motif       1233..1292
+                     /locus_tag="allorf_03527_03646"
+                     /note="/aSTool=lassopeptides"
+                     /note="/core_sequence=AKKNKPGDGTRTKGIRKGL"
+                     /note="/leader_location=[3526:3586](+)"
+                     /note="/leader_sequence=MKKLEAGKVKAYGSFMAVTL"
+                     /note="/molecular_weight=2007.3"
+                     /note="/monoisotopic_mass=2006.2"
+                     /note="/peptide=lassopeptide"
+                     /note="/predicted_class=Class II"
+                     /note="/prepeptide=core"
+                     /note="/score=-6.70"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+     CDS             1329..1448
+                     /codon_start=1
+                     /gene="allorf_03683_03802"
+                     /locus_tag="allorf_03683_03802"
+                     /label=allorf_03683_03802
+                     /note="/tool=antismash"
+                     /note="color: #993366"
+                     /protein_id="allorf_03683_03802"
+                     /translation="MKKLEAGKVKAYGSFMAVTLAKKNKPGDGTRTKGIRKGL"
+     CDS_motif       1329..1388
+                     /locus_tag="allorf_03683_03802"
+                     /note="peptide class: lassopeptide"
+                     /note="predicted sequence: MKKLEAGKVKAYGSFMAVTL"
+                     /note="/aSTool=lassopeptides"
+                     /note="/prepeptide=leader"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+     CDS_motif       1389..1448
+                     /locus_tag="allorf_03683_03802"
+                     /note="/aSTool=lassopeptides"
+                     /note="/core_sequence=AKKNKPGDGTRTKGIRKGL"
+                     /note="/leader_location=[3682:3742](+)"
+                     /note="/leader_sequence=MKKLEAGKVKAYGSFMAVTL"
+                     /note="/molecular_weight=2007.3"
+                     /note="/monoisotopic_mass=2006.2"
+                     /note="/peptide=lassopeptide"
+                     /note="/predicted_class=Class II"
+                     /note="/prepeptide=core"
+                     /note="/score=-6.70"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+     CDS             1484..1600
+                     /codon_start=1
+                     /gene="allorf_03838_03954"
+                     /locus_tag="allorf_03838_03954"
+                     /label=allorf_03838_03954
+                     /note="/tool=antismash"
+                     /note="color: #993366"
+                     /protein_id="allorf_03838_03954"
+                     /translation="MKKLEVGKVKGYGSFMAVTLAKTKKPGDGTRAKGVRRR"
+     CDS_motif       1484..1543
+                     /locus_tag="allorf_03838_03954"
+                     /note="peptide class: lassopeptide"
+                     /note="predicted sequence: MKKLEVGKVKGYGSFMAVTL"
+                     /note="/aSTool=lassopeptides"
+                     /note="/prepeptide=leader"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+     CDS_motif       1544..1600
+                     /locus_tag="allorf_03838_03954"
+                     /note="/aSTool=lassopeptides"
+                     /note="/core_sequence=AKTKKPGDGTRAKGVRRR"
+                     /note="/leader_location=[3837:3897](+)"
+                     /note="/leader_sequence=MKKLEVGKVKGYGSFMAVTL"
+                     /note="/molecular_weight=1964.3"
+                     /note="/monoisotopic_mass=1963.2"
+                     /note="/peptide=lassopeptide"
+                     /note="/predicted_class=Class II"
+                     /note="/prepeptide=core"
+                     /note="/score=-6.30"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+     gene            1699..1977
+                     /locus_tag="BK731_RS17440"
+                     /old_locus_tag="BK731_17390"
+                     /label=BK731_RS17440
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             1699..1977
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="BK731_RS17440"
+                     /old_locus_tag="BK731_17390"
+                     /product="PqqD family peptide modification chaperone"
+                     /label=BK731_RS17440
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /note="/gene_functions=biosynthetic-additional
+                     (rule-based-clusters) PF05402"
+                     /note="/gene_kind=biosynthetic-additional"
+                     /note="/sec_met_domain=PF05402 (E-value: 2.1e-10, bitscore:
+                     31.3,
+                     seeds: 461, tool: rule-based-clusters)"
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:HMM"
+                     /protein_id="WP_173601898.1"
+                     /translation="MLLKKNSNTVTSIANEEETIVLHISEGEYYGLEGAHKEIWDNFNQ
+                     KLFEKKSIVEEFLSKFDNSKEEIQKLVDESVMDLINYKLIMVVDKYE"
+     proto_core      1970..4430
+                     /product="lassopeptide"
+                     /note="/aStool=rule-based-clusters"
+                     /note="/cutoff=10000"
+                     /note="/detection_rule=(PF13471 and Asn_synthase or micJ25 
+                     or
+                     mcjC)"
+                     /note="/neighbourhood=10000"
+                     /note="/protocluster_number=1"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+     gene            1970..2446
+                     /locus_tag="BK731_RS17445"
+                     /old_locus_tag="BK731_17395"
+                     /label=BK731_RS17445
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             1970..2446
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="BK731_RS17445"
+                     /old_locus_tag="BK731_17395"
+                     /product="lasso peptide biosynthesis B2 protein"
+                     /label=BK731_RS17445
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /note="/gene_functions=biosynthetic (rule-based-clusters)
+                     lassopeptide: PF13471"
+                     /note="/gene_kind=biosynthetic"
+                     /note="/sec_met_domain=PF13471 (E-value: 1.5e-13, bitscore:
+                     41.2,
+                     seeds: 84, tool: rule-based-clusters)"
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:HMM"
+                     /protein_id="WP_016135747.1"
+                     /translation="MNNSKEYFVALHNLVRGLLIEDSFDVVFNKVSIQFFPMYESAKRR
+                     KAMPINIKELITFSKYLYEMDEQDALIASCVSISLTNQIVLYSNGIDAKLKIGFKKIDE
+                     KLHSHAWVELENGEVIDPQNHLGKLQVMHIFKMRDGVERWVTENENVDSYVGRK"
+     gene            2412..4430
+                     /locus_tag="BK731_RS17450"
+                     /old_locus_tag="BK731_17400"
+                     /label=BK731_RS17450
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             2412..4430
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="BK731_RS17450"
+                     /old_locus_tag="BK731_17400"
+                     /product="asparagine synthase"
+                     /label=BK731_RS17450
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /note="/gene_functions=biosynthetic (rule-based-clusters)
+                     lassopeptide: Asn_synthase"
+                     /note="/gene_functions=biosynthetic-additional (smcogs)
+                     SMCOG1177:asparagine synthase (glutamine-hydrolyzing) 
+                     (Score: 112.4; E-value: 3.8e-34)"
+                     /note="/gene_kind=biosynthetic"
+                     /note="/sec_met_domain=Asn_synthase (E-value: 1.2e-16, 
+                     bitscore:
+                     51.7, seeds: 78, tool: rule-based-clusters)"
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:HMM"
+                     /protein_id="WP_179192565.1"
+                     /translation="MRMWIAMWGENNTIKKQWSKNLRNWLSSMKISNQLNFDREGFFLS
+                     EVDFSYKNSHKKTNEQISFLATPLIMNGVLSDSLKHSYVESLTSKARENLYKGLTSNID
+                     YQLQNANGDFTVTYVDPNMDNLVIANDIYATRPIYYYKHPNDDFFCASNDLRTLLLNYE
+                     IPFTVNYNACLNYPTTQFAISEAEYSNETFFKGIYRLPPASILQWNKNDKLSIRSYWGL
+                     NNLLNKVKHTNITDYVDEFRQTMLDVVQLRISDKKTILDVSGGLDSGNILGAAIANGSS
+                     SSIFGVNLSFESNDMSFSHDKELVTKLLQDLNIEHAIIMGDDINKILNAEIGRDPMWYI
+                     DGPDPRGNPLYDEVVAAISIEVGANRSISGDGGDYVASGEELVIDSLLRQKKFKEAVSK
+                     LWNWSDKKVGGFLDKTFTYGIAPFIPGLNERLYYKTVWAEKVEANMPFFTPEHIERENK
+                     GNQREYEQYKKSKDFKLWGHRYHYDYLYPRARCLDTTRVATDYMYPFYDKKMIELSFCV
+                     PPEEHYDLLEGHKNGYYKGSKQLMRKAFNDVLPDYLLNRKIKTTYAHMARKCLLNEKHN
+                     ILQLFSKDKKNFVAELGIIDKEKYRDHLIAMLIRSNDPNNDLGMSFQYLRSVLELEIWL
+                     QEVEKGRDYILERSKPVDPRNIGKCIFSSELRQATFY"
+     gene            4491..6284
+                     /locus_tag="BK731_RS17455"
+                     /old_locus_tag="BK731_17405"
+                     /label=BK731_RS17455
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             4491..6284
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="BK731_RS17455"
+                     /old_locus_tag="BK731_17405"
+                     /product="ATP-binding cassette domain-containing protein"
+                     /label=BK731_RS17455
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /note="/gene_functions=transport (smcogs) SMCOG1000:ABC
+                     transporter ATP-binding protein (Score: 165.4; E-value: 
+                     3e-50)"
+                     /note="/gene_kind=transport"
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:HMM"
+                     /protein_id="WP_179192567.1"
+                     /translation="MSIAFFLGKIIWKSSPILVIVLLVLLSAEGLIVAIQLFATREILN
+                     GIKNANPGDTYVFIWGIVYCSTFVIGIFSVSITSWIQKLLGEKSMLTINTTLLEAIEKM
+                     PGMRFFEETKYRDKLETLRDSTSWLPMQIVESTGSVITGGISLISIIIVVGTLSPLLAV
+                     ILIVSAIPYVIYANKFTAMEWVYENEFASNRRKMSYYRDNLLIKNTVQEVRLFNLGEFF
+                     LKLYKETFDVVFSAYKKIQTKSLIPITLTGLLSGGVAGLGYLWITYKISNASLTIGDIA
+                     LYLTALFQLNVLLRNVSNEFVETLELWRMGGDFHDFVKLKPDVQISPNSKFVDLHEMNI
+                     EFKNVSFSYPTNNEHKILRNLSFRLNARQSTAIVGMNGEGKSTIVKLLCRFYDPNEGEI
+                     LINNINIKEIDIQHLRKHISAIFQSFGKYGLAIDENIGIGDYESIENKKQIQEIAKCVG
+                     IHEKINSYTDSYKTMVGNEWNGIEFSGGQWQKIALARAFFRNASTLIMDEPTAALDIKS
+                     EEQLYNQFYLLTRQKTVLLISHRFSTVKMVDSIIVIKDGEVIEQGSHEALMAKQGEYAK
+                     MYLMQASSFSLEGTVKNEKSQ"
+     gene            6268..8076
+                     /locus_tag="BK731_RS17460"
+                     /old_locus_tag="BK731_17410"
+                     /label=BK731_RS17460
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             6268..8076
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="BK731_RS17460"
+                     /old_locus_tag="BK731_17410"
+                     /product="ABC transporter ATP-binding protein"
+                     /label=BK731_RS17460
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /note="/gene_functions=transport (smcogs) SMCOG1000:ABC
+                     transporter ATP-binding protein (Score: 172.8; E-value: 
+                     1.6e-52)"
+                     /note="/gene_kind=transport"
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:HMM"
+                     /protein_id="WP_087953760.1"
+                     /translation="MKSLNKVYYAYKFTRETLASLKMLWKADKVGFTYIMFIKILESII
+                     QPLLIWLSTKVIDDLSKDPAALLNSNFTFWIIITFIILTITADLFNPFFEVKKRLLVAK
+                     LQMYIDVLIMKKANTLESLEFFEDKELYNKIRSFRNNEYWITMWIDLIMKSFGGTVKII
+                     ASVALLFSLLPWYPFLLLVVSIPKLIKEVNLNQATFEGRPELMELRRRAEYYTSVPLLP
+                     QLAQEVKLFHLTPFFKEKYVKTVQKLSATLSKDQRKLAVHSLLWGLIQSCVISFSIIFI
+                     IYSAINNEVSIGSVVLFLGMTIQLCEGVNEYFALIAIGAREGRHLRNLLNFIQLPNPKT
+                     VNSSLVESHEKDAGFYLSQVDFSYQNSEESSLSIKKLHIPQGKITALVGENGAGKTTLI
+                     KLLLRLYNPSQGSIYYNNKNLNDYDSTEYKKKCTAVLQDFVRYEMLLRENIGLGDVENI
+                     NNIHEIQLASDKSNVKELLPTLTDGYDTQLGKLFGGQELSGGQWQRIAIGRAFMRDKEA
+                     EILIFDEPTSALDPYAEDEILRVLSNLADNKTVIIVTHRLSTAKLANHIIYLDKGHVAE
+                     QGTHEELIIKDGKYAELYSIQAKKYS"
+     gene            8177..9400
+                     /locus_tag="BK731_RS17465"
+                     /old_locus_tag="BK731_17415"
+                     /label=BK731_RS17465
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             8177..9400
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="BK731_RS17465"
+                     /old_locus_tag="BK731_17415"
+                     /product="hypothetical protein"
+                     /label=BK731_RS17465
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:HMM"
+                     /protein_id="WP_087953761.1"
+                     /translation="MKKTYRILLIIMFLIGFSSLVEDNVVKVSADTNKLNKAKYTVMVY
+                     LDGSSLESDFELASEDLKEMLKIGSSEEVNIVMETGGAKKWHTPAINPETNQRWIIQKD
+                     SLQFIEDVGLKNMGESSTLSDFMIWGMEKYPAEKYAVILWGHGSGSVYGYGHDERFGLD
+                     PLTLPELEKTFKDTYKKTRKKLEVVAFDACLVTNLETLSYINQYANYIVGSEDMVPGHG
+                     LNYIYTFEKLLNKPNMNGAELGRIIADGFYKQAVENEEDDDIAMSVIDLSKVKPIKKAF
+                     DDVARLLKVDVLNDDKFQSILTARRNVEEYGKMDGPEDSEMVDLGDLAKQMYSQYPFYS
+                     RRIMSAVDQAVVYNVKSPWKQATGICLFFPLGDRERFDEKLNLYKNNNFSKDYYDFLET
+                     FIGNLKNN"
+ORIGIN
+        1 ttaacttgcc agatacaatt tattacacta tattagtaga aacttacaaa ggaggtttta
+       61 aaatggaaat tagtattaaa aaactagata aaaaaataga caatcgagag agtattaaaa
+      121 aaataataga attatggaat ctaaacgcaa tagaaactgc agattgtgaa ttagaggaaa
+      181 gtcataaaaa tggaattgaa gagcaattag tggaattggt tcaatcaaga tatggtgcgg
+      241 tttttgtagg aactgatgaa gctaataatc taattggtta tggaattggc tcaataaagc
+      301 aagatttggt tacagatatg ttatatggtc aaatagagga agtttatgtg aaatcagaat
+      361 atagaagaca gcaaattgcg caaaatttag ttggaaatat aagcaattgg ttgaatcaag
+      421 aaaatgtctc tttgattcat gtctatgttg acttagctaa taaattagca ttgaattttt
+      481 gggagaatac aggatttgaa aaagaatttt ttctgttatc taatagttaa tcaatataat
+      541 gaaagtataa ataaagatag gatcactata ataatagcat ttcgctacta tagtgatcct
+      601 atttttattt ataagaaaat aaaggatgaa agtcattatt tagaaatatt taacagaata
+      661 ttcaaattat agacatagga ataaatgcac ttacagctta tgatttaggg gtggaattac
+      721 ataatttact tatatttaca taaaagtata taaagttgaa aaaatagatt aaagagacct
+      781 tgtttagaaa atatttacat ttttatcaac agtaaacaaa taattcagat aagtaataaa
+      841 aatacatttt tttgtttata tgtgtttata aaatgttatt ttttggataa aaatacatcc
+      901 atttgtagaa ttttgatgtt aaatgtaaaa aaaagtagtt tattgagtag tttacattct
+      961 aatttcttgt gtataaactt caacttaatt ccatagaaag gagggggaga agaaaaatga
+     1021 aaaaactaga ggcagggaaa gtaaaggcat atggatcatt tatggcagta acattagcga
+     1081 agaaaaacaa accaggtgat ggaacaagaa caaaaggaat ccgtaaagga ctataaacgc
+     1141 tattaaatta aaaaataagg gagagaagaa aaatgaaaaa attagaagca gggaaagtaa
+     1201 aggcatatgg atcatttatg gcagtaacat tagcgaagaa aaacaaacca ggtgatggaa
+     1261 caaggacaaa aggaatccgt aaaggactat aaacgttatt aaattaaaaa ataagggaga
+     1321 gaagaaaaat gaaaaaatta gaagcaggga aagtaaaggc atatggatca tttatggcag
+     1381 taacattagc aaagaaaaac aaaccaggtg acggaacaag aacaaaagga attcgtaaag
+     1441 gactataaac cttcttaaat aaagaggata ggagggaaga aaaatgaaga aattagaagt
+     1501 agggaaagta aagggatacg gatcgtttat ggcggtaacc ttagctaaga caaagaagcc
+     1561 aggtgatggc actagagcta aaggagtccg taggcgttaa aaattgtaaa atagaaaact
+     1621 tgatttatga actatctaag aagaatagta gaaatctagt tctactattc ttcttaaaaa
+     1681 atgaaggagg agacaattat gctgttaaaa aagaattcta atactgtcac ttctattgct
+     1741 aatgaggaag agacaattgt gttacatatt agtgaaggtg aatactatgg cctagagggt
+     1801 gctcataaag aaatttggga taattttaat cagaaattat ttgaaaaaaa atcaattgta
+     1861 gaagaatttt tatctaaatt cgataattct aaagaggaga tacaaaaatt agtggatgaa
+     1921 agtgtaatgg atttaattaa ttataaatta ataatggttg ttgataaata tgaataactc
+     1981 taaagaatat tttgtcgctt tacataattt agtaagagga ttgttaattg aggattcatt
+     2041 tgatgttgtg tttaataaag tctccattca gttctttcca atgtatgaaa gtgctaaaag
+     2101 gagaaaagca atgccgataa atataaaaga actgataaca tttagtaaat atttatatga
+     2161 aatggatgaa caagacgctt taatcgcctc atgtgtatct atttctttaa caaatcaaat
+     2221 tgtcctatat tcaaatggaa ttgatgcaaa attaaaaatt ggatttaaaa aaatagatga
+     2281 aaagttacat tctcatgctt gggttgagtt ggagaatggg gaagttattg atcctcaaaa
+     2341 tcatcttggg aaattacaag taatgcatat atttaaaatg agagatggag ttgaaaggtg
+     2401 ggttacggaa aatgagaatg tggatagcta tgtggggaga aaataatact ataaaaaaac
+     2461 aatggagcaa gaatttaaga aattggttaa gttcaatgaa gataagtaac caacttaatt
+     2521 ttgatagaga gggatttttt ttaagtgaag ttgatttctc ttataaaaat tctcataaaa
+     2581 agaccaatga gcaaatttcc tttttagcta ctccattaat tatgaatggt gtactaagtg
+     2641 attccttaaa gcattcttat gttgaaagtt taacatcaaa agctagggaa aatctgtata
+     2701 agggtttaac atcaaatata gattatcaat tacaaaatgc taatggggat ttcacagtta
+     2761 catatgttga tccaaatatg gataatcttg taatagctaa tgacatttat gcgacgaggc
+     2821 caatctatta ttataaacat ccaaatgacg atttcttttg tgcatcaaat gatttaagaa
+     2881 cgttgctatt aaattatgaa attcctttta cagttaatta caacgcatgc ttaaattatc
+     2941 caactacaca atttgcaatt agtgaagcgg aatatagcaa tgaaacattt tttaaaggta
+     3001 tttatcgatt accaccagcc tcaattttac aatggaataa aaatgataaa ttaagtattc
+     3061 gttcgtattg gggactaaat aatctactta ataaagtaaa acatacgaat attacggatt
+     3121 atgtggatga gttcagacag acaatgcttg atgttgttca acttcgtata tcagataaaa
+     3181 agacaatttt agatgtaagt ggaggcttag attcaggaaa tattttagga gctgcaattg
+     3241 ccaatggctc aagctcctct atttttggag ttaatctatc ttttgaatct aacgatatgt
+     3301 catttagtca tgataaagaa cttgtaacta agttattaca agacttaaac attgaacatg
+     3361 ccattattat gggggatgat attaacaaga ttttaaatgc agaaatagga agagatccga
+     3421 tgtggtatat agatggacct gatccacgag ggaatccttt gtatgatgaa gttgtagcag
+     3481 caatctctat tgaagttggt gccaatcgtt ccatatctgg cgatggtgga gattatgtag
+     3541 cgagtggaga ggaattagtc attgattctt tactgagaca gaaaaagttt aaagaagcag
+     3601 tatcaaaatt atggaattgg tctgataaaa aggtaggagg attcttagat aaaacattta
+     3661 cttatggaat tgcaccattt attccaggct taaacgagag gttatactat aagaccgttt
+     3721 gggctgaaaa agtggaagca aatatgccat tttttacccc agaacatatt gaacgtgaaa
+     3781 ataaaggtaa tcaaagagag tatgagcagt ataaaaaaag taaggatttt aaactttggg
+     3841 gacaccgata tcactatgat tacttatatc caagggcaag atgtttagat acaactaggg
+     3901 tagcaacaga ttatatgtac ccgttttatg ataaaaaaat gattgaactt agtttttgcg
+     3961 ttccacctga agaacattat gatttactag aagggcataa aaatggatat tataaagggt
+     4021 ctaaacaatt gatgagaaaa gcgtttaacg atgttttacc agattattta ttgaatagaa
+     4081 aaataaaaac gacttatgca cacatggcta gaaaatgttt attaaatgaa aaacataata
+     4141 ttttacaatt gttctcaaaa gataaaaaga attttgtagc ggaattaggg attattgata
+     4201 aggagaaata tagagaccac ttaattgcaa tgttaataag atctaatgat ccaaataatg
+     4261 atttagggat gagttttcaa tatttacgtt ctgttttaga gttagaaatt tggttacaag
+     4321 aagttgaaaa gggaagagat tatattttag aaagaagtaa accagtggat cctcgtaata
+     4381 taggaaagtg tattttttct tcagaattaa gacaagcaac attctattga aagtagagga
+     4441 gagcaatgtt taatttttgt aaagagcgta tgctcaactt taaaaatacg atgagcatag
+     4501 cttttttttt agggaaaata atatggaaat ctagtccgat tttggtcata gttttgttag
+     4561 ttttacttag tgctgagggt ttaattgttg ctatacagtt atttgctaca agggagattc
+     4621 tgaatggaat taaaaatgca aatcctggtg atacatacgt gtttatttgg ggaattgtat
+     4681 attgttcaac ttttgttata ggaattttct ctgtatcaat taccagttgg attcaaaaat
+     4741 tattaggtga aaaatctatg ttaacaatta atacgacact tttagaagct atagaaaaaa
+     4801 tgccaggtat gcgttttttt gaagaaacga aatataggga taaacttgag actttaagag
+     4861 acagtactag ttggttacct atgcaaatag ttgaatcaac gggcagtgta ataacaggag
+     4921 gaatttcttt aattagtatc atcatagtag ttggtacgct ttctcctctt ttagcagtga
+     4981 tattaattgt aagcgctatt ccgtatgtca tatatgcaaa taaatttact gcaatggaat
+     5041 gggtatatga aaatgaattt gcatcaaatc gaagaaagat gtcatattat agggataatt
+     5101 tattaataaa aaatacggta caggaagtta gattgtttaa tttgggtgaa ttttttttga
+     5161 agctatataa agaaacattt gatgtagtat tttcagcata taaaaaaatt caaacaaaat
+     5221 ctttaattcc aattacctta actggtttat tatctggggg agtagctgga ttagggtatt
+     5281 tgtggataac ttataaaata agtaatgctt ctttgacaat aggagatatc gccttatatt
+     5341 taactgcttt atttcaatta aatgtattat taagaaatgt ttccaatgaa tttgttgaaa
+     5401 cacttgagct ttggagaatg gggggagatt ttcatgattt tgttaaatta aagccggatg
+     5461 tacaaatctc tccaaattca aaatttgtag atttgcatga aatgaatatt gaatttaaaa
+     5521 atgtaagttt tagttatcca actaataatg aacataaaat tctaagaaat cttagtttta
+     5581 gactgaatgc aaggcaaagt acagccattg taggaatgaa tggtgaaggg aaaagtacaa
+     5641 ttgtaaaatt actttgtcga ttttatgatc ccaatgaagg ggaaattcta attaataata
+     5701 taaacataaa agaaatagat attcagcatc ttcgtaaaca tatttctgcc atctttcaat
+     5761 catttggaaa atatggttta gcaatagatg agaacattgg aattggtgat tatgaaagta
+     5821 tagaaaataa gaaacaaatt caagaaatag ctaaatgtgt tggtatacac gagaaaatta
+     5881 atagttatac agattcctat aaaacaatgg taggaaatga atggaatggc atagagtttt
+     5941 caggtggaca atggcaaaaa atagcattag ctagggcgtt ttttagaaac gcttctaccc
+     6001 taataatgga tgaacctaca gccgctttag atattaaatc agaagagcaa ttgtacaatc
+     6061 aattttattt attaacgaga caaaaaacag tattattgat ctcgcatcgt tttagtactg
+     6121 taaaaatggt ggattccatt attgtaatta aggatggaga ggttattgaa caaggttcac
+     6181 atgaagcatt aatggctaag caaggagaat atgcaaaaat gtatttaatg caagcatcta
+     6241 gtttttcttt agaggggact gtgaaaaatg aaaagtctca ataaggtata ttatgcttat
+     6301 aaatttacaa gggaaacatt ggcttcttta aagatgctat ggaaggctga taaagtggga
+     6361 tttacctaca ttatgttcat taaaatactg gaatcaatta ttcagccatt gcttatttgg
+     6421 ttaagtacta aggtaattga tgatttatca aaagaccctg cagcattatt aaattcgaat
+     6481 ttcacgtttt ggataatcat tacatttatt attctcacaa tcactgcaga tttgtttaat
+     6541 cctttttttg aagtgaaaaa aaggttgtta gtagcgaaac tacagatgta tatcgatgta
+     6601 ttaattatga aaaaagctaa tacattggag agtcttgaat tttttgaaga taaggaactt
+     6661 tacaataaaa taaggtcttt tagaaataat gagtattgga ttacaatgtg gattgattta
+     6721 atcatgaaat catttggagg cactgtaaag attatagcta gtgttgcatt actattttct
+     6781 ctcttaccgt ggtacccatt tcttctttta gtagtttcta ttccaaaact tattaaggag
+     6841 gtaaatttaa atcaagcaac atttgaaggt aggccagaat taatggaatt aaggaggaga
+     6901 gctgaatatt atacgtcagt tcctttgcta ccacaattag cgcaagaggt aaaattattt
+     6961 cacttaacac ctttttttaa agagaaatat gttaagacgg tacaaaagct gtcagcaact
+     7021 ttaagtaaag atcaaagaaa attagctgtt catagtctgc tttgggggct aatacaatct
+     7081 tgtgtaattt ccttcagcat aatttttatt atttatagtg cgattaataa tgaagtatca
+     7141 attggaagtg tagttttatt tttaggtatg accatccaat tatgtgaagg cgttaatgag
+     7201 tattttgcat taattgctat aggggctagg gaaggaagac acttaaggaa cttactgaat
+     7261 tttattcaac ttcctaatcc taagacagta aattcatctt tagtagagag tcacgagaag
+     7321 gatgcgggtt tctatttatc gcaagtggat ttttcatatc aaaattcaga agaaagttct
+     7381 ctgagtataa agaaattgca catacctcaa gggaaaatta ctgcattagt tggcgaaaat
+     7441 ggagcaggaa aaacgacgct tattaaatta ttattaagac tatataatcc gagtcaaggt
+     7501 tcgatttact ataataataa aaacttaaac gattatgatt caactgaata caaaaaaaag
+     7561 tgtactgcag ttttacagga ttttgtaagg tacgaaatgt tactaaggga aaacataggc
+     7621 cttggtgatg tggaaaatat taataatatt catgagattc aactagcaag tgataaaagc
+     7681 aatgtgaagg aattgcttcc tactttgaca gatggatatg acactcaatt ggggaaatta
+     7741 tttggtggac aagaattatc aggtggacaa tggcaaagaa ttgcaattgg aagagcattt
+     7801 atgcgtgata aagaagcgga aatattaata tttgatgaac caacttcagc acttgatcca
+     7861 tatgctgaag atgaaatatt aagagtttta tcaaatctgg cagataataa gactgttatt
+     7921 attgtaacgc ataggttaag tactgcaaaa ttagcaaacc atatcattta tttggataaa
+     7981 ggacatgtag cagaacaagg aacccatgaa gaattaataa ttaaagatgg gaagtatgca
+     8041 gagctgtatt ctattcaagc taagaaatac agctaatatt ttaatgtgac cattcatttt
+     8101 gtcgcataaa actctataca ttgttttatg tgaaatctac ttataaatca atttacaagt
+     8161 aaagggggct ttaaagatga aaaaaacgta taggatacta ttaatcataa tgtttttaat
+     8221 agggttttct agtttagtag aggataatgt agttaaagtt tcagcggata caaataagtt
+     8281 aaataaagca aaatatactg tgatggttta tttggatggt tctagtttgg agagtgattt
+     8341 tgagctagct tctgaagatt taaaggagat gctgaagata ggctcttcag aagaagttaa
+     8401 tatagttatg gagacaggtg gagcaaaaaa atggcataca cctgcgatta atccagaaac
+     8461 taatcaaaga tggataattc aaaaagattc cctacaattc attgaggatg ttggacttaa
+     8521 gaatatggga gaatcatcta cacttagcga ttttatgatt tggggtatgg aaaagtatcc
+     8581 agcagaaaaa tatgctgtga ttttatgggg gcatggatcg ggatctgtat atggatatgg
+     8641 tcatgatgaa cgattcggac tggatccact tacattacca gaacttgaaa aaacgtttaa
+     8701 agatacttat aaaaaaacaa gaaaaaaatt agaggttgta gcatttgatg cttgtttagt
+     8761 tacaaatcta gaaactctta gttacataaa tcagtatgct aattatattg ttggttcaga
+     8821 agatatggtt ccaggtcatg gtttaaatta tatatataca tttgaaaaat tattaaataa
+     8881 accaaatatg aatggagcag agttgggaag aatcatagca gatggttttt ataagcaagc
+     8941 tgtagaaaat gaagaagatg atgatatagc tatgtctgtg atagatttgt ctaaggtaaa
+     9001 acctattaaa aaagcttttg atgatgtagc aagattattg aaagtagatg tattaaatga
+     9061 tgataaattt caatctatcc ttactgcaag acgtaatgta gaggagtacg gaaaaatgga
+     9121 tggaccagag gattcagaaa tggtagactt aggcgatttg gcaaaacaaa tgtattctca
+     9181 gtatccattt tattcaagaa gaattatgag tgcagttgat caggctgtag tttataatgt
+     9241 gaaaagccct tggaaacaag ctactggaat ttgtctattt tttcctttag gtgatagaga
+     9301 gagatttgat gagaaattga atctttataa aaacaataat ttttccaaag attattatga
+     9361 tttccttgaa acatttatag ggaatctaaa aaataattaa ttcatgaacg tgagcgatga
+     9421 acctttaaat acaaatacag taaaaaattt ttgatgccac a
+//

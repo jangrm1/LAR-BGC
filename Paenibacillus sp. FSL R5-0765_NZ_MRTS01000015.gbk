@@ -1,0 +1,885 @@
+LOCUS       Paenibacillus_sp        9414 bp DNA     linear   UNA 04-JUL-2024
+DEFINITION  Paenibacillus sp. FSL R5-0765 
+            NODE_15_length_136380_cov_2.03232_ID_5139, whole genome shotgun 
+            sequence.
+ACCESSION   NZ_MRTS01000015
+VERSION     .
+KEYWORDS    .
+SOURCE      Paenibacillus sp. FSL R5-0765
+  ORGANISM  Paenibacillus sp. FSL R5-0765
+REFERENCE   1  (bases 1 to 9414)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Jul 4, 2024 from SnapGene 7.2.1
+            https://www.snapgene.com
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to 
+            MRTS01000015.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation 
+            Pipeline (PGAP). Information about PGAP can be found here: 
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/ 
+            ##antiSMASH-Data-START##
+            Version      :: 7.1.0
+            Run date     :: 2024-07-03 21:36:47
+            NOTE: This is a single region extracted from a larger record!
+            Orig. start  :: 6664
+            Orig. end    :: 29398
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..9414
+                     /mol_type="genomic DNA"
+                     /organism="Paenibacillus sp. FSL R5-0765"
+     cand_cluster    1..9414
+                     /product="lassopeptide"
+                     /product="RRE-containing"
+                     /note="/candidate_cluster_number=1"
+                     /note="/contig_edge=False"
+                     /note="/detection_rules=(PF13471 and Asn_synthase or micJ25
+                     or
+                     mcjC)"
+                     /note="/detection_rules=minimum(1,
+                     [Bottromycin_Methyltransferase_RRE, Cyanobactin_D_RRE, 
+                     Cytolysin_C_RRE, Goadsporin_CD_RRE, 
+                     Heterocycloanthracin_C_RRE, Lanthipeptide_LanB_RRE, 
+                     Lasso_Fused_RRE, Mycofactocin_RRE, NHLP_CD_RRE, 
+                     Other_Sactipeptide_rSAM_RRE, Pantocin_Microcin_RRE, 
+                     Plantazolicin_C_RRE, PlpY_RRE, PqqD_RRE, 
+                     Proteusin_Epimerase_RRE, Proteusin_Methyltransferase_RRE, 
+                     Quinohemoprotein_rSAM_RRE, Ranthipeptide_rSAM_RRE, 
+                     Stand_Alone_Lasso_RRE, Streptide_RRE, Subtilosin_rSAM_RRE, 
+                     Thiaglutamate_B_RRE, Thiaglutamate_G_RRE, 
+                     Thiaglutamate_I_RRE, Thiopeptide_F_RRE, Thuricin_rSAM_RRE, 
+                     Thurincin_rSAM_RRE, Trifolitoxin_RRE])"
+                     /note="/kind=interleaved"
+                     /note="/protoclusters=1"
+                     /note="/protoclusters=2"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+     misc_feature    1..9414
+                     /product="lassopeptide"
+                     /product="RRE-containing"
+                     /label=nonstandard type: region
+                     /note="/candidate_cluster_numbers=1"
+                     /note="/contig_edge=False"
+                     /note="/region_number=1"
+                     /note="/rules=(PF13471 and Asn_synthase or micJ25 or mcjC)"
+                     /note="/rules=minimum(1, 
+                     [Bottromycin_Methyltransferase_RRE, Cyanobactin_D_RRE, 
+                     Cytolysin_C_RRE, Goadsporin_CD_RRE, 
+                     Heterocycloanthracin_C_RRE, Lanthipeptide_LanB_RRE, 
+                     Lasso_Fused_RRE, Mycofactocin_RRE, NHLP_CD_RRE, 
+                     Other_Sactipeptide_rSAM_RRE, Pantocin_Microcin_RRE, 
+                     Plantazolicin_C_RRE, PlpY_RRE, PqqD_RRE, 
+                     Proteusin_Epimerase_RRE, Proteusin_Methyltransferase_RRE, 
+                     Quinohemoprotein_rSAM_RRE, Ranthipeptide_rSAM_RRE, 
+                     Stand_Alone_Lasso_RRE, Streptide_RRE, Subtilosin_rSAM_RRE, 
+                     Thiaglutamate_B_RRE, Thiaglutamate_G_RRE, 
+                     Thiaglutamate_I_RRE, Thiopeptide_F_RRE, Thuricin_rSAM_RRE, 
+                     Thurincin_rSAM_RRE, Trifolitoxin_RRE])"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+     protocluster    1..9414
+                     /product="lassopeptide"
+                     /note="/aStool=rule-based-clusters"
+                     /note="/category=RiPP"
+                     /note="/contig_edge=False"
+                     /note="/core_location=[10000:12468]"
+                     /note="/cutoff=10000"
+                     /note="/detection_rule=(PF13471 and Asn_synthase or micJ25 
+                     or
+                     mcjC)"
+                     /note="/neighbourhood=10000"
+                     /note="/protocluster_number=1"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+     protocluster    1..9414
+                     /product="RRE-containing"
+                     /note="/aStool=rule-based-clusters"
+                     /note="/category=RiPP"
+                     /note="/contig_edge=False"
+                     /note="/core_location=[12464:12734]"
+                     /note="/cutoff=10000"
+                     /note="/detection_rule=minimum(1,
+                     [Bottromycin_Methyltransferase_RRE, Cyanobactin_D_RRE, 
+                     Cytolysin_C_RRE, Goadsporin_CD_RRE, 
+                     Heterocycloanthracin_C_RRE, Lanthipeptide_LanB_RRE, 
+                     Lasso_Fused_RRE, Mycofactocin_RRE, NHLP_CD_RRE, 
+                     Other_Sactipeptide_rSAM_RRE, Pantocin_Microcin_RRE, 
+                     Plantazolicin_C_RRE, PlpY_RRE, PqqD_RRE, 
+                     Proteusin_Epimerase_RRE, Proteusin_Methyltransferase_RRE, 
+                     Quinohemoprotein_rSAM_RRE, Ranthipeptide_rSAM_RRE, 
+                     Stand_Alone_Lasso_RRE, Streptide_RRE, Subtilosin_rSAM_RRE, 
+                     Thiaglutamate_B_RRE, Thiaglutamate_G_RRE, 
+                     Thiaglutamate_I_RRE, Thiopeptide_F_RRE, Thuricin_rSAM_RRE, 
+                     Thurincin_rSAM_RRE, Trifolitoxin_RRE])"
+                     /note="/neighbourhood=10000"
+                     /note="/protocluster_number=2"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+     gene            complement(61..687)
+                     /locus_tag="BK141_RS20680"
+                     /old_locus_tag="BK141_20685"
+                     /label=BK141_RS20680
+                     /note="color: #a6acb3; direction: LEFT"
+     CDS             complement(61..687)
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="BK141_RS20680"
+                     /old_locus_tag="BK141_20685"
+                     /product="response regulator transcription factor"
+                     /label=BK141_RS20680
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /note="/gene_functions=regulatory (smcogs) SMCOG1016:LuxR 
+                     family
+                     DNA-binding response regulator (Score: 87.7; E-value: 
+                     1e-26)"
+                     /note="/gene_kind=regulatory"
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:HMM"
+                     /protein_id="WP_076214944.1"
+                     /translation="MLNVILVDDHKAFTCGMKLILEQNNMKVTVLHSALETLDFIKEQA
+                     NAIDLYLYDLSMPDLNGIELATKTLEIIPDARIMLFYSQEDMIQLFQMSVQAGIRGFID
+                     KSFSAQQVLTSISMCMEEAVIFSLDFLKAIFTPTASFNAPETVLTEFEIKLLQQVAKGE
+                     TNKQIAESLFMSTRNVEYHLGRVYKKLRVSSRTYAVHKCKILNLI"
+                     /GO_function="GO:0003677 - DNA binding [Evidence IEA]"
+                     /GO_process="GO:0000160 - phosphorelay signal transduction
+                     system [Evidence IEA]; GO:0006355 - regulation of 
+                     DNA-templated transcription [Evidence IEA]"
+     PFAM_domain     complement(88..249)
+                     /direction=LEFT
+                     /codon_start=1
+                     /locus_tag="BK141_RS20680"
+                     /label=BK141_RS20680
+                     /note="/aSDomain=GerE"
+                     /note="/aSTool=clusterhmmer"
+                     /note="/database=35.0"
+                     /note="/description=Bacterial regulatory proteins, luxR 
+                     family"
+                     /note="/detection=hmmscan"
+                     /note="/domain_id=clusterhmmer_BK141_RS20680_0016"
+                     /note="/evalue=2.30E-16"
+                     /note="/protein_end=200"
+                     /note="/protein_start=146"
+                     /note="/score=59.2"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+                     /db_xref="PF00196.22"
+                     /translation="VLTEFEIKLLQQVAKGETNKQIAESLFMSTRNVEYHLGRVYKKLR
+                     VSSRTYAVH"
+     PFAM_domain     complement(340..678)
+                     /direction=LEFT
+                     /codon_start=1
+                     /locus_tag="BK141_RS20680"
+                     /label=BK141_RS20680
+                     /note="/aSDomain=Response_reg"
+                     /note="/aSTool=clusterhmmer"
+                     /note="/database=35.0"
+                     /note="/description=Response regulator receiver domain"
+                     /note="/detection=hmmscan"
+                     /note="/domain_id=clusterhmmer_BK141_RS20680_0015"
+                     /note="/evalue=8.60E-18"
+                     /note="/protein_end=116"
+                     /note="/protein_start=3"
+                     /note="/score=64.7"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+                     /db_xref="PF00072.27"
+                     /translation="VILVDDHKAFTCGMKLILEQNNMKVTVLHSALETLDFIKEQANAI
+                     DLYLYDLSMPDLNGIELATKTLEIIPDARIMLFYSQEDMIQLFQMSVQAGIRGFIDKSF
+                     SAQQVLTSI"
+     CDS             841..969
+                     /codon_start=1
+                     /gene="allorf_019495_019623"
+                     /locus_tag="allorf_019495_019623"
+                     /label=allorf_019495_019623
+                     /note="/gene_functions=biosynthetic-additional 
+                     (lassopeptides)
+                     predicted lassopeptide"
+                     /note="/gene_kind=biosynthetic-additional"
+                     /note="/tool=antismash"
+                     /note="color: #993366"
+                     /protein_id="allorf_019495_019623"
+                     /translation="MVKYMRKVQVAPLKSYGAFLTVTLSKKSKPGDGKNGRGVKRG"
+     CDS_motif       841..912
+                     /direction=RIGHT
+                     /locus_tag="allorf_019495_019623_lassopeptide"
+                     /note="peptide class: {self.peptide_class}"
+                     /note="predicted sequence: MVKYMRKVQVAPLKSYGAFLTVTL"
+                     /note="/aSTool=lassopeptides"
+                     /note="/prepeptide=leader"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+     CDS_motif       913..969
+                     /direction=RIGHT
+                     /locus_tag="allorf_019495_019623_lassopeptide"
+                     /note="/aSTool=lassopeptides"
+                     /note="/core_sequence=SKKSKPGDGKNGRGVKRG"
+                     /note="/leader_location=[12887:12959](-)"
+                     /note="/leader_sequence=MVKYMRKVQVAPLKSYGAFLTVTL"
+                     /note="/molecular_weight=1838.1"
+                     /note="/monoisotopic_mass=1837.0"
+                     /note="/peptide=lassopeptide"
+                     /note="/predicted_class=Class II"
+                     /note="/prepeptide=core"
+                     /note="/score=-5.30"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+     misc_feature    998..1012
+                     /note="TFBS match to OsdR, Development and stress
+                     management regulator, confidence: weak, score: 19.98"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+     misc_feature    999..1013
+                     /note="TFBS match to OsdR, Development and stress
+                     management regulator, confidence: weak, score: 20.81"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3; direction: RIGHT"
+     proto_core      1066..1335
+                     /product="RRE-containing"
+                     /note="/aStool=rule-based-clusters"
+                     /note="/cutoff=10000"
+                     /note="/detection_rule=minimum(1,
+                     [Bottromycin_Methyltransferase_RRE, Cyanobactin_D_RRE, 
+                     Cytolysin_C_RRE, Goadsporin_CD_RRE, 
+                     Heterocycloanthracin_C_RRE, Lanthipeptide_LanB_RRE, 
+                     Lasso_Fused_RRE, Mycofactocin_RRE, NHLP_CD_RRE, 
+                     Other_Sactipeptide_rSAM_RRE, Pantocin_Microcin_RRE, 
+                     Plantazolicin_C_RRE, PlpY_RRE, PqqD_RRE, 
+                     Proteusin_Epimerase_RRE, Proteusin_Methyltransferase_RRE, 
+                     Quinohemoprotein_rSAM_RRE, Ranthipeptide_rSAM_RRE, 
+                     Stand_Alone_Lasso_RRE, Streptide_RRE, Subtilosin_rSAM_RRE, 
+                     Thiaglutamate_B_RRE, Thiaglutamate_G_RRE, 
+                     Thiaglutamate_I_RRE, Thiopeptide_F_RRE, Thuricin_rSAM_RRE, 
+                     Thurincin_rSAM_RRE, Trifolitoxin_RRE])"
+                     /note="/neighbourhood=10000"
+                     /note="/protocluster_number=2"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+     gene            1066..1335
+                     /locus_tag="BK141_RS20675"
+                     /old_locus_tag="BK141_20680"
+                     /label=BK141_RS20675
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             1066..1335
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="BK141_RS20675"
+                     /old_locus_tag="BK141_20680"
+                     /product="PqqD family peptide modification chaperone"
+                     /label=BK141_RS20675
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /note="/gene_functions=biosynthetic (rule-based-clusters)
+                     RRE-containing: Stand_Alone_Lasso_RRE"
+                     /note="/gene_functions=biosynthetic-additional
+                     (rule-based-clusters) PF05402"
+                     /note="/gene_kind=biosynthetic"
+                     /note="/sec_met_domain=Stand_Alone_Lasso_RRE (E-value: 
+                     2.9e-11,
+                     bitscore: 36.2, seeds: 25, tool: rule-based-clusters)"
+                     /note="/sec_met_domain=PF05402 (E-value: 1e-09, bitscore: 
+                     31.5,
+                     seeds: 461, tool: rule-based-clusters)"
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:RefSeq"
+                     /protein_id="WP_076214942.1"
+                     /translation="MKIARSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETG
+                     TREFDQILSKWKSEFDQSEAELTDILQNAIQELWAKNLVKVDAS"
+     aSDomain        1078..1323
+                     /direction=RIGHT
+                     /codon_start=1
+                     /locus_tag="BK141_RS20675"
+                     /label=BK141_RS20675
+                     /note="/aSDomain=Stand_Alone_Lasso_RRE"
+                     /note="/aSTool=RREfinder"
+                     /note="/database=RREFam.hmm"
+                     /note="/description=Stand-alone RRE protein in a lasso 
+                     peptide
+                     cluster"
+                     /note="/detection=hmmscan"
+                     /note="/domain_id=rrefinder_BK141_RS20675_Stand_Alone_Lasso
+                     _RRE.1
+                     "
+                     /note="/evalue=6.90E-12"
+                     /note="/identifier=RREFam002.1"
+                     /note="/protein_end=86"
+                     /note="/protein_start=4"
+                     /note="/score=36.2"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+                     /translation="RSEETATTSLSEECIVLDINNGEYFGLEGALMELWLELETGTREF
+                     DQILSKWKSEFDQSEAELTDILQNAIQELWAKNLVKV"
+     PFAM_domain     1114..1317
+                     /direction=RIGHT
+                     /codon_start=1
+                     /locus_tag="BK141_RS20675"
+                     /label=BK141_RS20675
+                     /note="/aSDomain=PqqD"
+                     /note="/aSTool=clusterhmmer"
+                     /note="/database=35.0"
+                     /note="/description=Coenzyme PQQ synthesis protein D 
+                     (PqqD)"
+                     /note="/detection=hmmscan"
+                     /note="/domain_id=clusterhmmer_BK141_RS20675_0014"
+                     /note="/evalue=4.70E-05"
+                     /note="/protein_end=84"
+                     /note="/protein_start=16"
+                     /note="/score=23.8"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+                     /db_xref="PF05402.15"
+                     /translation="ECIVLDINNGEYFGLEGALMELWLELETGTREFDQILSKWKSEFD
+                     QSEAELTDILQNAIQELWAKNLV"
+     proto_core      1332..3799
+                     /product="lassopeptide"
+                     /note="/aStool=rule-based-clusters"
+                     /note="/cutoff=10000"
+                     /note="/detection_rule=(PF13471 and Asn_synthase or micJ25 
+                     or
+                     mcjC)"
+                     /note="/neighbourhood=10000"
+                     /note="/protocluster_number=1"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+     gene            1332..1796
+                     /locus_tag="BK141_RS20670"
+                     /old_locus_tag="BK141_20675"
+                     /label=BK141_RS20670
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             1332..1796
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="BK141_RS20670"
+                     /old_locus_tag="BK141_20675"
+                     /product="lasso peptide biosynthesis B2 protein"
+                     /label=BK141_RS20670
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /note="/gene_functions=biosynthetic (rule-based-clusters)
+                     lassopeptide: PF13471"
+                     /note="/gene_kind=biosynthetic"
+                     /note="/sec_met_domain=PF13471 (E-value: 3.7e-15, bitscore:
+                     48.9,
+                     seeds: 84, tool: rule-based-clusters)"
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:RefSeq"
+                     /protein_id="WP_076214939.1"
+                     /translation="MSKSIPVHNKVYFTTVHAFVRLLLLETDFVDAYEKIAIHMYPLHV
+                     SAGRREANRIETAELCRLGQMMYEMDENDHLITSCVSIAMTVQAILFSAGYESDLLIGV
+                     KKIDEKLFSHAWVRLEDGRTIDPNHKGNDLKVLKTYNMSEYAERWVLSLG"
+     PFAM_domain     1401..1709
+                     /direction=RIGHT
+                     /codon_start=1
+                     /locus_tag="BK141_RS20670"
+                     /label=BK141_RS20670
+                     /note="/aSDomain=Transglut_core3"
+                     /note="/aSTool=clusterhmmer"
+                     /note="/database=35.0"
+                     /note="/description=Transglutaminase-like superfamily"
+                     /note="/detection=hmmscan"
+                     /note="/domain_id=clusterhmmer_BK141_RS20670_0013"
+                     /note="/evalue=1.10E-13"
+                     /note="/protein_end=126"
+                     /note="/protein_start=23"
+                     /note="/score=51.2"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+                     /db_xref="PF13471.9"
+                     /translation="LLETDFVDAYEKIAIHMYPLHVSAGRREANRIETAELCRLGQMMY
+                     EMDENDHLITSCVSIAMTVQAILFSAGYESDLLIGVKKIDEKLFSHAWVRLEDGRTID"
+     gene            1793..3799
+                     /locus_tag="BK141_RS20665"
+                     /old_locus_tag="BK141_20670"
+                     /label=BK141_RS20665
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             1793..3799
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="BK141_RS20665"
+                     /old_locus_tag="BK141_20670"
+                     /product="asparagine synthetase B family protein"
+                     /label=BK141_RS20665
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /note="/gene_functions=biosynthetic (rule-based-clusters)
+                     lassopeptide: Asn_synthase"
+                     /note="/gene_functions=biosynthetic-additional
+                     (rule-based-clusters) GATase_7"
+                     /note="/gene_functions=biosynthetic-additional (smcogs)
+                     SMCOG1177:asparagine synthase (glutamine-hydrolyzing) 
+                     (Score: 150.5; E-value: 1.1e-45)"
+                     /note="/gene_kind=biosynthetic"
+                     /note="/sec_met_domain=GATase_7 (E-value: 7.9e-08, 
+                     bitscore:
+                     25.2, seeds: 307, tool: rule-based-clusters)"
+                     /note="/sec_met_domain=Asn_synthase (E-value: 7.2e-23, 
+                     bitscore:
+                     74.6, seeds: 78, tool: rule-based-clusters)"
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:RefSeq"
+                     /protein_id="WP_076214937.1"
+                     /translation="MKIWIAMQGQNRNIWLEWMDSIKRWARVTGVDVYTDDTFHLATLS
+                     YGYGPQVSSSFTDVRLDFPIILDGWASGELQAHADDFPSLSFHQQEQAYRLLQEKPEYQ
+                     LCKSQGEFTLVYWDQKRSSLIVATDSYATRPVYYWISPRNEWFVANDLRVLLLLQDIPF
+                     EVDEDVCRMYPTSGFAVGENGLEERTFFKGIRKLPTASIAWWNNHQVKVQSYWGMRELT
+                     SRPQLTEDAAPQFRQLLKQVTSERFNGSKRIVELSGGLDSAAVVAAAIASGNREQVLAV
+                     NISFAEPDMMPSHDKDLVKKMMKDLRIPGLIIHADATARIPNAEIGRDPLWFVDGPDPR
+                     ANSLVNETFTVLARQFGTAAVLTGEGGDFIYSGEAAVIDSYFRQKRYREGIRQLRKWTG
+                     NRAGPMLKRGFQYGLAPFIPYIGEKLYYKLLWSDTEYDLPEFFTNEHLLRERQMNAGEV
+                     HRYRKSRPLNYWGKRYHYDFLWPRARYMDSVSVTLPAYHPFLDRRMIEFSFSVPPEQHY
+                     DLLKGEQDSYAGSKLLLRKAFTDILPSYVYNRSSKTTYAHMARKSFLNDRKHILQLFAS
+                     GQRVLVTELGIIDQKTWWKHLVAMAIRSEDPNNDLGMGYQYMRSVIDLEIWLQEMSRGK
+                     EHVLNRSRPAPARLLGDIEEVNLNEKKPMYFHA"
+     PFAM_domain     2075..2257
+                     /direction=RIGHT
+                     /codon_start=1
+                     /locus_tag="BK141_RS20665"
+                     /label=BK141_RS20665
+                     /note="/aSDomain=GATase_7"
+                     /note="/aSTool=clusterhmmer"
+                     /note="/database=35.0"
+                     /note="/description=Glutamine amidotransferase domain"
+                     /note="/detection=hmmscan"
+                     /note="/domain_id=clusterhmmer_BK141_RS20665_0011"
+                     /note="/evalue=1.40E-05"
+                     /note="/protein_end=155"
+                     /note="/protein_start=94"
+                     /note="/score=25.1"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+                     /db_xref="PF13537.9"
+                     /translation="RLLQEKPEYQLCKSQGEFTLVYWDQKRSSLIVATDSYATRPVYYW
+                     ISPRNEWFVANDLRVL"
+     PFAM_domain     2498..3565
+                     /direction=RIGHT
+                     /codon_start=1
+                     /locus_tag="BK141_RS20665"
+                     /label=BK141_RS20665
+                     /note="/aSDomain=Asn_synthase"
+                     /note="/aSTool=clusterhmmer"
+                     /note="/database=35.0"
+                     /note="/description=Asparagine synthase"
+                     /note="/detection=hmmscan"
+                     /note="/domain_id=clusterhmmer_BK141_RS20665_0012"
+                     /note="/evalue=1.20E-20"
+                     /note="/protein_end=591"
+                     /note="/protein_start=235"
+                     /note="/score=74.6"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+                     /db_xref="PF00733.24"
+                     /translation="RQLLKQVTSERFNGSKRIVELSGGLDSAAVVAAAIASGNREQVLA
+                     VNISFAEPDMMPSHDKDLVKKMMKDLRIPGLIIHADATARIPNAEIGRDPLWFVDGPDP
+                     RANSLVNETFTVLARQFGTAAVLTGEGGDFIYSGEAAVIDSYFRQKRYREGIRQLRKWT
+                     GNRAGPMLKRGFQYGLAPFIPYIGEKLYYKLLWSDTEYDLPEFFTNEHLLRERQMNAGE
+                     VHRYRKSRPLNYWGKRYHYDFLWPRARYMDSVSVTLPAYHPFLDRRMIEFSFSVPPEQH
+                     YDLLKGEQDSYAGSKLLLRKAFTDILPSYVYNRSSKTTYAHMARKSFLNDRKHILQLFA
+                     SGQRVLVTELGIIDQK"
+     gene            3846..5795
+                     /locus_tag="BK141_RS20660"
+                     /old_locus_tag="BK141_20665"
+                     /label=BK141_RS20660
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             3846..5795
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="BK141_RS20660"
+                     /old_locus_tag="BK141_20665"
+                     /product="ABC transporter ATP-binding protein"
+                     /label=BK141_RS20660
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /note="/gene_functions=transport (smcogs) SMCOG1000:ABC
+                     transporter ATP-binding protein (Score: 187; E-value: 
+                     6.9e-57)"
+                     /note="/gene_kind=transport"
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:RefSeq"
+                     /protein_id="WP_076214934.1"
+                     /translation="MADYEGRCSRAERTWQTTHLLVRMLWKSGPVLTVLIVLFIFIEGA
+                     VPALQLYASKQIIDGIAPNASESYAAQWAIVYACSLVLLSLVNAAQTWLKMLLSERSII
+                     TVNSVLLDAFERIPGMRFFEEEEHRNRLEALRDRSNWLPAQLLNFSANLCTSIFSTIGI
+                     IMLIAVLSPMLSIILVLSTAPFAFMQNRYNEMEWQYAKEYAVTRRRLDYTRSLMISRRA
+                     AKEIRLFGLGSHFHNIYQHTFARLYEQFRMIQAKSAKGTVFTGLFSGMVAGGAYFWVVS
+                     QSGSGSISLGDIALYLGAVFQLSVSLREIAKEGADTIDIWRMGNDFVLFMNAEEDIRMP
+                     SHPVPVNAGPLSIEFKGVSFKYPYQDQESAASEEAADDFDLDLDSEEIDDENEDEVHDY
+                     AEDVNESEDKRSPWVLDHISFSISPGERIAIVGANGSGKTTLVKLLCRFYEFCEGEIKI
+                     NGVDIRSFDVRELREHISVVFQEFGKYELSLRENIMIGSMNAKLSDREMNQVLQDSRLD
+                     QIVSALPHGIETLLGPEWGGTDFSGGQWQRVALARAMVRQAGLVILDEPAASLDIRAEY
+                     EIFNQFQKMTKGKTVIMISHRFSTVKLADRILVLKNGCIVEEGSHEALMCKNGEYATMF
+                     RLQGKSFQGEEHIQ"
+                     /GO_function="GO:0005524 - ATP binding [Evidence IEA];
+                     GO:0042626 - ATPase-coupled transmembrane transporter 
+                     activity [Evidence IEA]"
+     PFAM_domain     3945..4751
+                     /direction=RIGHT
+                     /codon_start=1
+                     /locus_tag="BK141_RS20660"
+                     /label=BK141_RS20660
+                     /note="/aSDomain=ABC_membrane"
+                     /note="/aSTool=clusterhmmer"
+                     /note="/database=35.0"
+                     /note="/description=ABC transporter transmembrane region"
+                     /note="/detection=hmmscan"
+                     /note="/domain_id=clusterhmmer_BK141_RS20660_0009"
+                     /note="/evalue=1.40E-09"
+                     /note="/protein_end=302"
+                     /note="/protein_start=33"
+                     /note="/score=38.2"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+                     /db_xref="PF00664.26"
+                     /translation="VLIVLFIFIEGAVPALQLYASKQIIDGIAPNASESYAAQWAIVYA
+                     CSLVLLSLVNAAQTWLKMLLSERSIITVNSVLLDAFERIPGMRFFEEEEHRNRLEALRD
+                     RSNWLPAQLLNFSANLCTSIFSTIGIIMLIAVLSPMLSIILVLSTAPFAFMQNRYNEME
+                     WQYAKEYAVTRRRLDYTRSLMISRRAAKEIRLFGLGSHFHNIYQHTFARLYEQFRMIQA
+                     KSAKGTVFTGLFSGMVAGGAYFWVVSQSGSGSISLGDIALYLGAVFQ"
+     PFAM_domain     5088..5546
+                     /direction=RIGHT
+                     /codon_start=1
+                     /locus_tag="BK141_RS20660"
+                     /label=BK141_RS20660
+                     /note="/aSDomain=ABC_tran"
+                     /note="/aSTool=clusterhmmer"
+                     /note="/database=35.0"
+                     /note="/description=ABC transporter"
+                     /note="/detection=hmmscan"
+                     /note="/domain_id=clusterhmmer_BK141_RS20660_0010"
+                     /note="/evalue=6.10E-32"
+                     /note="/protein_end=567"
+                     /note="/protein_start=414"
+                     /note="/score=111.1"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+                     /db_xref="PF00005.30"
+                     /translation="LDHISFSISPGERIAIVGANGSGKTTLVKLLCRFYEFCEGEIKIN
+                     GVDIRSFDVRELREHISVVFQEFGKYELSLRENIMIGSMNAKLSDREMNQVLQDSRLDQ
+                     IVSALPHGIETLLGPEWGGTDFSGGQWQRVALARAMVRQAGLVILDEPA"
+     gene            5792..7597
+                     /locus_tag="BK141_RS20655"
+                     /old_locus_tag="BK141_20660"
+                     /label=BK141_RS20655
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             5792..7597
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="BK141_RS20655"
+                     /old_locus_tag="BK141_20660"
+                     /product="ABC transporter ATP-binding protein"
+                     /label=BK141_RS20655
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /note="/gene_functions=transport (smcogs) SMCOG1288:ABC
+                     transporter related protein (Score: 192.5; E-value: 
+                     2.1e-58)"
+                     /note="/gene_kind=transport"
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:RefSeq"
+                     /protein_id="WP_256704311.1"
+                     /translation="MIALQRITARRRQMASSVLFGLSLLWTCSPVKVCTVFAIKMLEAL
+                     LGPLLVWLSAQIIDRLAEHPFVLASWDALAWMVLLYIGLTLAVDALQPVSEMHKRLLTA
+                     KLQAHIDELLISKAMSIPDIAPFEKAGFHTKTRVIQYNEYFVTMWLTIISQTIGGVVVI
+                     AAGSIMIGTIAPWAPIVLLALVVPKLYWEAKLNNVTFEGREEVQELRRRAEYYAGTPLR
+                     PETAGELKVFGLVPFFKERYLNTSRELLLTLSADQRKLALHQLLWSVLQSLAAGLIIIY
+                     LVGHALSGHFTAGDIFLFIGATIQLNEGMNELFAAFAIGPREARHLEKIRSFLYSENEM
+                     KSGPCPPAVSVKEGFRLEGVHFRYDETKVVLDIPELIIPAGKVTVLVGENGSGKSTLVK
+                     LLLRFFDPNEGVVFYNGIPLGEYDIAAYRTQATAVFQDFVRYEMNLRDNIGLGNLAAVN
+                     EQRIIERAAKLGGVDEYLHKLGQKYDTQLGRLFGGRSLSGGEWQRIALSRAFMRKDIAG
+                     LLIMDEPSSALDVFMEEDVFQRMRDLMKNKTVVIVSHRLSTARHADYVVYMEQGRIMET
+                     GTHDQLLENGAGYAELYNMQAQKYR"
+                     /GO_function="GO:0005524 - ATP binding [Evidence IEA];
+                     GO:0042626 - ATPase-coupled transmembrane transporter 
+                     activity [Evidence IEA]"
+     PFAM_domain     6917..7366
+                     /direction=RIGHT
+                     /codon_start=1
+                     /locus_tag="BK141_RS20655"
+                     /label=BK141_RS20655
+                     /note="/aSDomain=ABC_tran"
+                     /note="/aSTool=clusterhmmer"
+                     /note="/database=35.0"
+                     /note="/description=ABC transporter"
+                     /note="/detection=hmmscan"
+                     /note="/domain_id=clusterhmmer_BK141_RS20655_0008"
+                     /note="/evalue=4.60E-24"
+                     /note="/protein_end=525"
+                     /note="/protein_start=375"
+                     /note="/score=85.6"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+                     /db_xref="PF00005.30"
+                     /translation="LIIPAGKVTVLVGENGSGKSTLVKLLLRFFDPNEGVVFYNGIPLG
+                     EYDIAAYRTQATAVFQDFVRYEMNLRDNIGLGNLAAVNEQRIIERAAKLGGVDEYLHKL
+                     GQKYDTQLGRLFGGRSLSGGEWQRIALSRAFMRKDIAGLLIMDEPS"
+     gene            7612..8073
+                     /locus_tag="BK141_RS20650"
+                     /old_locus_tag="BK141_20655"
+                     /label=BK141_RS20650
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             7612..8073
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="BK141_RS20650"
+                     /old_locus_tag="BK141_20655"
+                     /product="GNAT family N-acetyltransferase"
+                     /EC_number="2.3.1.-"
+                     /label=BK141_RS20650
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:RefSeq"
+                     /protein_id="WP_076214931.1"
+                     /translation="MSVIDNMRPFMVRDLAMLEEWFKDAEVHRRLEGMLPLDEWHQHVQ
+                     QHPGYDVWVAFSQGKAVGVSMIEQEEQNTGSIAIVVDPSVRGRGCGRAVIGKAMQLPKL
+                     ETIHKWYAGIEADNAACLKCFQSTGFVLENEAPDEDGYFSLWHIANIKV"
+                     /GO_function="GO:0008080 - N-acetyltransferase activity
+                     [Evidence IEA]"
+     PFAM_domain     7663..8001
+                     /direction=RIGHT
+                     /codon_start=1
+                     /locus_tag="BK141_RS20650"
+                     /label=BK141_RS20650
+                     /note="/aSDomain=Acetyltransf_1"
+                     /note="/aSTool=clusterhmmer"
+                     /note="/database=35.0"
+                     /note="/description=Acetyltransferase (GNAT) family"
+                     /note="/detection=hmmscan"
+                     /note="/domain_id=clusterhmmer_BK141_RS20650_0007"
+                     /note="/evalue=2.00E-09"
+                     /note="/protein_end=130"
+                     /note="/protein_start=17"
+                     /note="/score=37.8"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+                     /db_xref="PF00583.28"
+                     /translation="LEEWFKDAEVHRRLEGMLPLDEWHQHVQQHPGYDVWVAFSQGKAV
+                     GVSMIEQEEQNTGSIAIVVDPSVRGRGCGRAVIGKAMQLPKLETIHKWYAGIEADNAAC
+                     LKCFQSTGF"
+     gene            8097..9305
+                     /locus_tag="BK141_RS20645"
+                     /old_locus_tag="BK141_20650"
+                     /label=BK141_RS20645
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             8097..9305
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="BK141_RS20645"
+                     /old_locus_tag="BK141_20650"
+                     /product="clostripain-related cysteine peptidase"
+                     /label=BK141_RS20645
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:RefSeq"
+                     /protein_id="WP_256704310.1"
+                     /translation="MKRIIRLLVFILLVSFLPISELKASDRQADYTFLIYMIGSDMESD
+                     FHMASDDLKEMMSVGSSGNVNVVVQTGGARSWEHSSIESGLNQRWRVEKGRLALLDNAG
+                     SQNMDTSDSLTDFIRWGTREYPARKHVLMFWGHGLGPIDGYGGDEHYGNKKMSLTELQK
+                     GIGRAYNETGIKFELIGFDNCKMASVEVAYALRNYGEYMLASVDYTNQNGWDYTKMLKA
+                     VQDKPGISTLELGRTIAQGYLEQSKENGEEEDLQQSIIRLDRMEEVMKAVESFGKRLLK
+                     PQAMTKGISHLRQARDQAEDYADEADLVDLADLFTLIGKRMKAETEADRVKKTIQKAVV
+                     FNMRSPEHPKGEGISVYFPDKDVSRFIEKASAYQKLDFDPHYKAFIAEYSALLSRLPQN
+                     TRD"
+     PFAM_domain     8199..9119
+                     /direction=RIGHT
+                     /codon_start=1
+                     /locus_tag="BK141_RS20645"
+                     /label=BK141_RS20645
+                     /note="/aSDomain=Peptidase_C11"
+                     /note="/aSTool=clusterhmmer"
+                     /note="/database=35.0"
+                     /note="/description=Clostripain family"
+                     /note="/detection=hmmscan"
+                     /note="/domain_id=clusterhmmer_BK141_RS20645_0006"
+                     /note="/evalue=1.30E-37"
+                     /note="/protein_end=341"
+                     /note="/protein_start=34"
+                     /note="/score=130.2"
+                     /note="/tool=antismash"
+                     /note="color: #a6acb3"
+                     /db_xref="PF03415.17"
+                     /translation="IYMIGSDMESDFHMASDDLKEMMSVGSSGNVNVVVQTGGARSWEH
+                     SSIESGLNQRWRVEKGRLALLDNAGSQNMDTSDSLTDFIRWGTREYPARKHVLMFWGHG
+                     LGPIDGYGGDEHYGNKKMSLTELQKGIGRAYNETGIKFELIGFDNCKMASVEVAYALRN
+                     YGEYMLASVDYTNQNGWDYTKMLKAVQDKPGISTLELGRTIAQGYLEQSKENGEEEDLQ
+                     QSIIRLDRMEEVMKAVESFGKRLLKPQAMTKGISHLRQARDQAEDYADEADLVDLADLF
+                     TLIGKRMKAETEADRVKKTIQKAVVF"
+     gene            complement(9394..9414)
+                     /locus_tag="BK141_RS20640"
+                     /old_locus_tag="BK141_20645"
+                     /label=BK141_RS20640
+                     /note="color: #a6acb3; direction: LEFT"
+     CDS             complement(9394..9414)
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="BK141_RS20640"
+                     /old_locus_tag="BK141_20645"
+                     /product="GNAT family N-acetyltransferase"
+                     /label=BK141_RS20640
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:RefSeq"
+                     /protein_id="WP_076214929.1"
+                     /translation="KESSES"
+                     /GO_function="GO:0008080 - N-acetyltransferase activity
+                     [Evidence IEA]"
+ORIGIN
+        1 gaacgtatcg gtgttattac tcttcaccga tatgcttatg agacaccttc acttttgcat
+       61 ttatatcaag ttaagaatct tgcatttgtg cacagcatat gttctggagc taaccctcag
+      121 ttttttataa acacgtccca agtgatattc gacatttcga gtagacatga aaagagactc
+      181 cgcgatttgt ttattggttt caccttttgc cacctgttgt agcaatttta tttcgaactc
+      241 tgtcagcaca gtttcaggag cattaaagga agctgtcgga gtgaaaatcg ctttaaggaa
+      301 atccagggaa aagataaccg cctcttccat gcacatggaa atgcttgtga gcacctgctg
+      361 agctgaaaaa gacttgtcga taaatccgcg aatgcctgcc tgtaccgaca tttgaaacag
+      421 ctgaatcata tcctcctggg aatagaaaag catgattctt gcatcaggaa tgatctccag
+      481 tgttttggtt gccagttcaa ttccgttaag gtccggcata gacaagtcat acaggtaaag
+      541 gtctatcgca ttggcctgtt cttttatgaa gtctagcgtt tcaagggctg aatgaagtac
+      601 ggttaccttc atgttgtttt gttccaaaat gagcttcatt ccacaggtga atgctttatg
+      661 atcgtctacc agaattacgt tcagcatgat atacacctcg tatgtattat tttctttcgg
+      721 accacaaaat aaccgtaaca agcggatttg tggaatcttg gcgggttttg gggattgatt
+      781 gcggttaaaa cccattattt ctatgatata ttaaaaatgt aatatatttc aagttgagag
+      841 gtggtgaaat atatgcgtaa agttcaagtg gctcctttga agagttatgg tgcattcctg
+      901 acagtaactc tctccaagaa aagtaagccg ggagatggta aaaacggccg tggagtaaaa
+      961 cgtggttaat ttcaaaggca ttatatgttc accagagagg gcctttcggc tctctctact
+     1021 catttccata tactatatat taccttgcag agaggggtag caggcatgaa aattgcccga
+     1081 agcgaggaaa ccgccacgac gtcattaagc gaggaatgta tcgtgctgga tatcaataac
+     1141 ggcgaatatt ttggacttga aggcgcgttg atggagctgt ggctggaact ggagactggg
+     1201 acaagggaat tcgaccaaat tctgagtaaa tggaaaagtg aatttgatca atccgaggct
+     1261 gaattaaccg atattctgca aaacgctatt caggaacttt gggctaaaaa tctggtcaag
+     1321 gtcgatgcct catgagcaag tcgatccctg tccataacaa ggtttatttt accacggtcc
+     1381 atgcttttgt ccgcctgtta ctgctggaga cggattttgt agatgcttat gaaaaaattg
+     1441 caatacatat gtatccgctt catgtaagcg caggacgaag ggaagcgaat cggatcgaga
+     1501 cggccgaatt gtgcagactt ggtcagatga tgtatgaaat ggatgaaaat gatcatctca
+     1561 tcacctcgtg tgtttccata gctatgacag ttcaggccat tttgtttagt gccggctatg
+     1621 agagtgactt gttgatcggt gtgaaaaaga tagatgaaaa attgttttct catgcatggg
+     1681 tgcgtttgga agacggtcgg actattgacc ccaatcataa aggaaatgat ttgaaggtgt
+     1741 tgaaaacata taatatgagc gaatatgccg agaggtgggt gctatctctg ggatgaagat
+     1801 atggattgct atgcagggcc aaaatcgaaa tatttggtta gagtggatgg attcaattaa
+     1861 aaggtgggca agggttaccg gtgtggatgt atatacggac gacacgttcc atttagcaac
+     1921 gctctcctat ggttacggac cgcaggtttc cagttccttc acggatgtcc gtcttgattt
+     1981 tcccatcatt ctggatggct gggcaagcgg tgagttgcaa gcccatgccg acgatttccc
+     2041 gtccctttca tttcatcagc aggagcaagc ttaccgtttg cttcaagaga aacctgaata
+     2101 tcaactatgc aagtctcaag gggaatttac actggtgtac tgggaccaga aacgaagcag
+     2161 cttgattgtt gctacggaca gctatgcaac ccgacctgtt tattattgga taagtccaag
+     2221 aaatgaatgg tttgttgcca acgacctacg tgtgcttttg ctgcttcagg atattccttt
+     2281 tgaggttgat gaagacgtgt gccgaatgta tccgacttca ggctttgcgg tgggggagaa
+     2341 cggactggag gagcgcactt tttttaaagg cattcgcaag ctgcccacgg cctccattgc
+     2401 ctggtggaac aatcatcagg tgaaagtgca aagctactgg ggaatgcggg aactgacaag
+     2461 caggccacag ctcacggagg atgctgcccc tcaatttcgt caattgctga agcaggtgac
+     2521 ctcggaacgt tttaatggta gcaaacgaat tgttgaactg agcggaggac tcgactcggc
+     2581 tgcggttgta gcagccgcca ttgccagcgg gaaccgagag caggttctgg ctgtcaacat
+     2641 ctcttttgcc gagccggata tgatgccaag ccatgataag gatctcgtca aaaaaatgat
+     2701 gaaggatctg cgcattcccg gcctgatcat tcatgcagac gccacggcga gaataccaaa
+     2761 tgccgaaatt ggcagggacc cgctatggtt cgtggatggt ccagatcccc gagccaattc
+     2821 acttgtgaac gaaacattta cagtgcttgc tcggcaattt ggaactgctg ccgttttgac
+     2881 gggtgaaggc ggagacttca tatatagcgg tgaggctgct gtcattgatt cctattttcg
+     2941 gcaaaagcgc tatcgggaag gcattcgtca gctccgaaaa tggactggca atcgagcggg
+     3001 ccccatgctg aaaaggggtt tccaatatgg tttggcgcca ttcattcctt atattggaga
+     3061 aaaattgtac tataagctgt tatggtcgga tacggagtac gacttgccag aattttttac
+     3121 aaacgaacat ctcttgagag aacggcagat gaatgcgggg gaggttcatc gataccgaaa
+     3181 aagcaggcca ctaaattact ggggaaagcg ttatcattat gactttctgt ggccacgtgc
+     3241 aagatacatg gactctgtaa gtgttacctt gcctgcatat catccgtttc tggaccgtcg
+     3301 catgatcgaa ttttcattct cggttccgcc ggagcaacat tatgatctct tgaaggggga
+     3361 gcaagacagc tatgctggtt ccaagctgct gcttcgaaaa gcattcacag atatcttgcc
+     3421 ttcgtatgtc tataacaggt cgtccaaaac aacctatgcc catatggcca gaaaaagctt
+     3481 tttgaacgat cgcaagcata ttttgcaatt gttcgcgagc ggacagcgtg tgcttgttac
+     3541 ggaactgggg attattgacc agaaaacgtg gtggaaacac ttggtcgcca tggcaatccg
+     3601 ttcggaggac ccgaataatg atctgggcat gggttaccaa tatatgcgct ctgttatcga
+     3661 cttggagatt tggctacagg agatgagccg gggcaaagaa catgtgctca accgctccag
+     3721 gccggctccg gcaaggctgc tcggagatat cgaggaggtt aatctgaatg agaagaaacc
+     3781 tatgtatttt catgcctgat tcagggccat ttcaatcata aaggtgcaga cgaatggaga
+     3841 aacacatggc tgattatgaa ggacggtgca gcagagcaga acgaacatgg caaacaaccc
+     3901 atttactcgt gcgaatgttg tggaaatccg gtccggtatt aaccgtgctt atcgtattgt
+     3961 tcatattcat tgagggggct gttccagcac ttcagctcta tgcttctaaa caaattatcg
+     4021 atggaattgc gccaaacgct tcagaatcat acgcggcgca gtgggctatt gtctatgctt
+     4081 gtagcctggt tttgctcagc ctcgtgaacg ccgcgcaaac ctggcttaaa atgctgctat
+     4141 cggagcgatc tatcattact gtgaatagcg ttttgctgga tgcttttgaa cgtattcccg
+     4201 gcatgcgctt ttttgaagag gaggaacacc gaaaccggct ggaagccttg cgggatcgct
+     4261 ccaattggct accagcacag ctcctgaatt tcagcgcgaa tttgtgcaca tctatttttt
+     4321 cgacgattgg tattattatg ctgattgccg tgctctctcc gatgctgtcc attattctgg
+     4381 tgctgtcaac agctcctttt gcatttatgc agaaccgtta caacgagatg gaatggcagt
+     4441 atgccaaaga atatgcagtt acaagaagaa gattggatta tactcgaagc ctaatgatta
+     4501 gtcgacgtgc cgccaaggaa attcgcctgt ttggtttggg cagccatttc cataacatct
+     4561 atcaacacac gtttgctcgg ctgtatgaac agtttcgaat gatccaggcc aaaagcgcca
+     4621 aaggaacggt tttcaccggt cttttttcgg gtatggtggc aggaggagca tacttttggg
+     4681 tagtaagtca atctggatcg ggctcgattt cgctggggga tattgctctg tatttagggg
+     4741 ctgtgtttca attgtctgtt tccttaagag agattgccaa ggaaggggca gacacgattg
+     4801 atatctggag aatgggaaat gatttcgtct tatttatgaa tgcagaggaa gatatccgga
+     4861 tgccttcaca tcccgttcca gtgaatgctg gccccctatc tatagaattc aagggagtaa
+     4921 gcttcaagta tccatatcag gatcaggaga gtgctgcttc cgaggaagca gctgatgatt
+     4981 tcgacctgga cctggacagt gaggaaattg atgacgaaaa cgaggacgaa gtccacgact
+     5041 atgctgagga tgttaatgag agtgaagata aacgttcccc ctgggttctt gaccatatca
+     5101 gtttcagcat atcgcccggg gagcgcatcg cgattgttgg cgccaatggg tcgggtaaaa
+     5161 caacacttgt caagctgttg tgccgcttct atgagttttg cgaaggcgag attaaaatca
+     5221 acggtgtgga tattcgctcg tttgatgtca gggagctgag agagcatatc tcggttgttt
+     5281 ttcaggaatt cggaaaatac gagttatccc tgcgcgagaa cattatgata ggcagcatga
+     5341 acgctaaact gagcgacagg gagatgaatc aagtacttca agattcaagg ctggaccaga
+     5401 tcgtttcggc gctgcctcat ggaatcgaaa ccctcttggg ccccgaatgg ggaggtactg
+     5461 atttctcggg tggacaatgg caacgcgtgg cgttagccag agcgatggtt cgtcaagcag
+     5521 gtctggtcat tctggatgaa ccggctgcgt ctcttgacat ccgggctgaa tatgagattt
+     5581 tcaatcagtt tcaaaaaatg acaaaaggta aaacggtgat catgatctct catcggttca
+     5641 gcacggttaa actagcagat cgaatacttg tcctgaaaaa tggttgtatc gtggaagaag
+     5701 gtagccatga ggccttaatg tgcaaaaatg gggagtatgc aaccatgttc cgtttgcagg
+     5761 gaaaatcttt tcaaggggag gagcatatcc agtgatagca ttgcaacgaa tcacagccag
+     5821 gcgacgacag atggcctcct ccgttttgtt tggactgtcc ttgctatgga catgctcacc
+     5881 agtaaaagtg tgtaccgttt ttgccattaa aatgcttgag gcattgcttg gtccgctgct
+     5941 tgtgtggctg agtgcccaga tcattgacag attggctgag catccgtttg tccttgcatc
+     6001 atgggatgcg ctagcttgga tggtgctgtt gtatattggg ctaacattag ctgtggatgc
+     6061 cctccaaccc gtatcagaga tgcacaaacg cctgttgact gccaaacttc aagcacatat
+     6121 tgatgagttg ttgatcagca aagcaatgtc gattccggat attgctcctt ttgaaaaggc
+     6181 aggtttccat acaaaaactc gggttattca atataacgaa tacttcgtta caatgtggtt
+     6241 aacgattatt tctcagacca tcggaggagt ggtcgtgatt gcagccggga gtataatgat
+     6301 tggaacgatc gctccctggg ccccgattgt cttgctggca ttggtcgttc ccaagctgta
+     6361 ctgggaagcg aagctcaaca acgttacctt tgaaggacgc gaggaggtcc aggaattaag
+     6421 gcggcgtgct gagtattacg ctggtacgcc gctcaggcct gaaacagccg gagagctgaa
+     6481 ggtatttggt cttgttcctt tttttaaaga gagatatctg aacacatcac gagagcttct
+     6541 gcttacactt tcagccgacc aacggaaact ggctctccat caattattgt ggtctgtgct
+     6601 ccagtcgctg gccgccggtc tcatcattat ttatctagtt ggacatgcgc tttccggtca
+     6661 cttcacagca ggggacatct ttttatttat tggtgccact atacagttga atgagggaat
+     6721 gaatgaattg tttgcagctt ttgcgatcgg tcccagggaa gccagacatc tggagaagat
+     6781 tcgttctttt ctctatagcg agaatgaaat gaagtcaggc ccatgccctc cggcggtgtc
+     6841 cgtcaaagag ggcttccggc tggaaggggt ccatttccgg tatgatgaaa ccaaagttgt
+     6901 gctggatatc ccagagctta tcatccctgc tggaaaagtg accgtgttgg tcggtgaaaa
+     6961 cgggtcaggc aaaagcacgc ttgtcaaact gctcctgcgc ttctttgatc ctaatgaagg
+     7021 agtggtgttt tacaacggta ttccgctggg cgagtatgat atcgctgcct atcggacaca
+     7081 ggctacagcc gtattccagg attttgtgcg ctatgaaatg aatcttcggg acaatattgg
+     7141 actaggtaat cttgcggctg ttaacgagca aaggataatc gaaagagctg ccaagctggg
+     7201 cggagtagac gaatatctcc acaagctggg gcaaaaatat gatacacagc taggcaggct
+     7261 attcggaggc agaagccttt caggaggaga atggcagcgg attgcattat cccgtgcttt
+     7321 tatgagaaag gatattgccg gattactgat tatggacgaa ccttcctctg cgcttgatgt
+     7381 gttcatggag gaagacgtgt tccagcgaat gcgggattta atgaaaaaca agacggtggt
+     7441 catcgtctcg catcggttaa gcactgcacg acacgcagat tatgtagtct atatggaaca
+     7501 gggcagaatc atggagacgg gaacccacga ccaattattg gaaaatgggg cagggtatgc
+     7561 cgaactgtac aatatgcagg ctcaaaaata tagataaaga ggtgagatga aatgagcgtg
+     7621 attgacaata tgcgaccgtt tatggtaaga gatctggcga tgctggagga gtggtttaag
+     7681 gatgcagagg ttcatcggcg cttggaggga atgcttcctt tagacgagtg gcatcagcac
+     7741 gtgcagcagc atcctggtta tgacgtgtgg gtagcgttct cgcagggtaa agccgtaggt
+     7801 gtaagtatga ttgagcagga ggagcagaat acgggaagta ttgccatcgt tgtcgatccg
+     7861 tcggttcgag gcaggggctg cggcagagca gtgattggaa aagctatgca gcttcccaaa
+     7921 ctggaaacga tccataaatg gtacgctgga attgaagccg acaacgctgc ttgtttgaag
+     7981 tgtttccagt ctactggttt tgtactggag aacgaagctc ccgatgaaga cggttatttt
+     8041 tctttatggc atatcgctaa tattaaagtg tagagcggaa acaaggaggg atggcaatga
+     8101 aaagaataat acggctgctt gtgttcattc tgcttgtctc gtttcttcct atatctgaac
+     8161 taaaagcatc cgatcggcag gccgattaca cctttctcat ctatatgatt ggttctgata
+     8221 tggaaagtga ttttcatatg gcaagcgatg acttgaagga aatgatgagt gtcggctctt
+     8281 ccggcaatgt aaatgttgtt gttcagacag gaggggcccg aagctgggag cattcgtcca
+     8341 ttgagtccgg tctgaatcaa cgatggcgtg tggaaaaggg gaggttggcc cttctggata
+     8401 acgcaggctc gcaaaatatg gatacatccg attcccttac agatttcatt cgctggggga
+     8461 cccgtgaata tccagctcgg aagcatgtgc ttatgttctg ggggcacggt cttggaccga
+     8521 tcgatggata cggcggcgac gagcactatg gaaataaaaa aatgagcttg accgagcttc
+     8581 aaaaaggaat tggacgcgcc tataacgaaa cgggaattaa atttgaactc attggcttcg
+     8641 ataattgcaa aatggcaagt gtggaggtgg cctatgcact taggaactat ggggaatata
+     8701 tgcttgcctc tgtcgattac acgaatcaga atgggtggga ttatacaaaa atgctgaagg
+     8761 cagttcaaga caagcccggg atttccaccc ttgagttggg cagaacgatt gctcaaggat
+     8821 atctggaaca gtcgaaggaa aacggcgaag aggaggacct tcagcaatcg atcattcgac
+     8881 tggatcggat ggaagaggtt atgaaggcag tcgagtcatt tggcaaaaga ttgttaaagc
+     8941 cccaagctat gacaaaggga ataagtcatt tgagacaagc acgggatcaa gccgaggatt
+     9001 atgcggacga agccgatttg gtggatcttg ctgatttgtt taccttgatc gggaaaagaa
+     9061 tgaaagctga gaccgaggcg gaccgcgtca aaaaaacaat tcaaaaagcg gttgttttta
+     9121 acatgagatc accggagcat cctaagggag aagggataag cgtttatttt ccagataagg
+     9181 atgtcagccg ttttattgaa aaggccagtg cttatcagaa gctggacttt gacccgcact
+     9241 ataaggcttt tattgctgaa tactcagcat tgctgtcacg gctgcctcag aacactcgcg
+     9301 actaacatag ggttacacac cttacttgtt ggcagggtca gcacccttcc agaataccaa
+     9361 acaagtgagg tgttttattg tttaggaagc agatcaggac tcactcgatt cttt
+//

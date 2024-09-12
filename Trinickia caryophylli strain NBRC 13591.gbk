@@ -1,0 +1,276 @@
+LOCUS       Trinickia_caryop        5061 bp DNA     linear   CON 06-MAR-2024
+DEFINITION  Trinickia caryophylli strain NBRC 13591 sequence01, whole genome 
+            shotgun sequence.
+ACCESSION   NZ_BSQD01000001
+VERSION     .
+KEYWORDS    .
+SOURCE      Trinickia caryophylli
+  ORGANISM  Trinickia caryophylli
+REFERENCE   1  (bases 1 to 5061)
+  AUTHORS   Ichikawa N, Sato H, Tonouchi N.
+  TITLE     Burkholderia caryophylli NBRC 13591
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 5061)
+  AUTHORS   Ichikawa N, Sato H, Uohara A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-FEB-2023) Contact:Director-General Biological Resource
+            Center National Institute of Technology and Evaluation; 2-49-10 
+            Nishihara, Shibuya-ku 151-0066, Japan
+REFERENCE   3  (bases 1 to 5061)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Jul 3, 2024 from SnapGene 7.2.1
+            https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; journalName: 
+            "Unpublished"
+COMMENT     SGRef: number: 2; type: "Journal Article"; journalName: "Submitted 
+            (07-FEB-2023) Contact:Director-General Biological Resource Center 
+            National Institute of Technology and Evaluation; 2-49-10 Nishihara, 
+            Shibuya-ku 151-0066, Japan"
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to 
+            BSQD01000001.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation 
+            Pipeline (PGAP). Information about PGAP can be found here: 
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/##Genome-Assembl
+            y-Data-START##
+            Assembly Method       :: Spades v. 3.13.2
+            Genome Coverage       :: 127x
+            Sequencing Technology :: DNBSEQ-G400
+            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 06/14/2023 07:06:23
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP) 
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 6.5
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA 
+            Genes (total)                     :: 5,883
+            CDSs (total)                      :: 5,822
+            Genes (coding)                    :: 5,717
+            CDSs (with protein)               :: 5,717
+            Genes (RNA)                       :: 61
+            rRNAs                             :: 1, 1, 4 (5S, 16S, 23S) complete
+            rRNAs                    :: 1, 1 (5S, 16S)
+            partial rRNAs                     :: 4 (23S)
+            tRNAs                             :: 51
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 105
+            CDSs (without protein)            :: 105
+            Pseudo Genes (ambiguous residues) :: 0 of 105
+            Pseudo Genes (frameshifted)       :: 28 of 105
+            Pseudo Genes (incomplete)         :: 96 of 105
+            Pseudo Genes (internal stop)      :: 8 of 105
+            Pseudo Genes (multiple problems)  :: 23 of 105
+            CRISPR Arrays                     :: 1 
+            ##Genome-Annotation-Data-END##
+COMMENT     Sequence Label: WGS; RefSeq; STANDARD_DRAFT.
+FEATURES             Location/Qualifiers
+     source          1..5061
+                     /host="Dianthus caryophyllus"
+                     /strain="NBRC 13591"
+                     /mol_type="genomic DNA"
+                     /country="Japan:Hyogo, Tsuna, Kariya"
+                     /isolation_source="Carnation"
+                     /note="/submitter_seqid=sequence01"
+                     /note="color: #ffffff"
+                     /db_xref="taxon:28094"
+                     /organism="Trinickia caryophylli"
+     gene            382..504
+                     /locus_tag="QSJ90_RS01980"
+                     /label=QSJ90_RS01980
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             382..504
+                     /codon_start=1
+                     /locus_tag="QSJ90_RS01980"
+                     /product="hypothetical protein"
+                     /label=QSJ90_RS01980
+                     /note="Derived by automated computational analysis 
+                     usinggene prediction method: GeneMarkS-2+."
+                     /note="color: #000000"
+                     /inference="COORDINATES:same species:GeneMarkS-2+"
+                     /protein_id="WP_254902538.1"
+                     /translation="MIKSFIPPTTVKAYGAFLSVVLSKKSRPGDGIHGRGVKGL"
+     gene            591..899
+                     /locus_tag="QSJ90_RS01985"
+                     /old_locus_tag="Busp01_03880"
+                     /label=QSJ90_RS01985
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             591..899
+                     /codon_start=1
+                     /locus_tag="QSJ90_RS01985"
+                     /old_locus_tag="Busp01_03880"
+                     /product="hypothetical protein"
+                     /label=QSJ90_RS01985
+                     /note="Derived by automated computational analysis 
+                     usinggene prediction method: GeneMarkS-2+."
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:GeneMarkS-2+"
+                     /protein_id="WP_085223660.1"
+                     /translation="MNGASIEYTEYSDGALSINTEDYFVLDEELIVFSPSKQAYFGIGG
+                     AARLVFDAMAEAQSPLTERDIRLNLGASRALTPTDIELIRDAIRVLLELGVLHEHAR"
+     gene            883..1389
+                     /locus_tag="QSJ90_RS01990"
+                     /old_locus_tag="Busp01_03890"
+                     /label=QSJ90_RS01990
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             883..1389
+                     /codon_start=1
+                     /locus_tag="QSJ90_RS01990"
+                     /old_locus_tag="Busp01_03890"
+                     /product="lasso peptide biosynthesis protein"
+                     /label=QSJ90_RS01990
+                     /note="Derived by automated computational analysis 
+                     usinggene prediction method: Protein Homology."
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:HMM"
+                     /protein_id="WP_158243535.1"
+                     /translation="MSTRDEERLIFLLHALIRTLLVERPVDEAYLGICKSVLPGLVLGE
+                     FGAPRSHPAVCDRASLRYLTDICDYIYALDDKEWSYASCYSASIAVQLVALARGVPARI
+                     AIGVKRQDAKMVGHAWVELGDAPQASVINPGRVCIDDFKVVKRLDAETALQSWMRKTCD
+                     SGRCL"
+     gene            1350..3311
+                     /locus_tag="QSJ90_RS01995"
+                     /old_locus_tag="Busp01_03900"
+                     /label=QSJ90_RS01995
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             1350..3311
+                     /codon_start=1
+                     /locus_tag="QSJ90_RS01995"
+                     /old_locus_tag="Busp01_03900"
+                     /product="asparagine synthetase B family protein"
+                     /label=QSJ90_RS01995
+                     /note="Derived by automated computational analysis 
+                     usinggene prediction method: Protein Homology."
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:HMM"
+                     /protein_id="WP_139831097.1"
+                     /translation="MDEENVRFWTLLVNYEAAEAQGYIDKVVSLLREVDVRRVRRKDLD
+                     WARLLEIDLELAPRRCPPAAPEPLSGNAVYSGWLRDPCLDRIHSALRDDALVVDPLAAA
+                     AVGEFSYAAIGAQGATAATDHYATHPVYYRQGEQGRWIVANDLRLVLAAPDMAVAIDRR
+                     ACREFLTHTVMVNENELGNGATFFSSVRKLEPGAALEIARDGRSHEIVRRPPGAALPHA
+                     VRVASTRQDYVEAFKEVFGQCVRDRMAASPTGLLLSGGIDSSAVLGAALSAGASPPFCV
+                     SVAFDDPHLVMSQDDKLVTSLFEACDLPHRIVYADGILRLPTIDDASAYVDGPDSAANP
+                     LVKEACAAALRQRGISLVMTGEGGDVVLGEAMHEFIVDGIRESDGMAGVHRYLSRHLGL
+                     RPGSRAYCRKLLEAALPYFGHRALRAEARSDARASLPGYLMPALREAESQFRSERGHGR
+                     TDRPPSFAPRRFRYVAHRYMHGMLFPRASYFDTLNVQCLNSHPFLDPRMMAFALSCPPH
+                     MHHDYFELDRANPYASAKMLARLAYRHELPPAVCAKTHKTSYAGMARRMFHNSGRALYA
+                     LAAQPMLLEQWGLVDQKTFRRHLCAYIAATEDPNANLGINYHYIRGVCDLEVWLRRFCG
+                     TRAEIDAQLAFRPLRALA"
+     gene            3271..5061
+                     /locus_tag="QSJ90_RS02000"
+                     /old_locus_tag="Busp01_03910"
+                     /label=QSJ90_RS02000
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             3271..5061
+                     /codon_start=1
+                     /locus_tag="QSJ90_RS02000"
+                     /old_locus_tag="Busp01_03910"
+                     /product="ABC transporter ATP-binding protein"
+                     /label=QSJ90_RS02000
+                     /note="Derived by automated computational analysis 
+                     usinggene prediction method: Protein Homology."
+                     /note="/GO_function=GO:0005524 - ATP binding [Evidence 
+                     IEA];GO:0042626 - ATPase-coupled transmembrane transporter 
+                     activity [Evidence IEA]"
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:HMM"
+                     /protein_id="WP_085223654.1"
+                     /translation="MPNSLFVRYALSPDPMPATVFLARLGDALRLLRRASPSAFHGAVA
+                     ANLLGGLVPAALVYAGARLVEQLAAGRPLAAVAALLALYVLLNGFQECLTSVTGFVLDT
+                     LRDRVRMTMKADVSRAVATFPTLVVHEDAALRETAVLAAKAGDDLGDLVDHLHAVFLGV
+                     VTIVPVVALTGAIAWWMPAVMLAGTIPAMILRARAERASWDVQAHHASTFNALRIFERV
+                     LMQPEFAKDLRIYRMHDRLLERWRARYETYLSQATHVRARNAWRLAAAAVVTSACLALP
+                     LFAIARGFASGRHGVADLVVFFGALTQLRDGLAAVVYNLGDLLGVSYAIEPYRTLLARR
+                     AEAGSRISGTSDIPHAPAAADRATLPDNAELVLRDVTFRYGNASEPALEHIDLDLRRGE
+                     TVAIVGENGAGKTSLMKLVCGLYAPSSGAMTWRARHEAGDNARRKAPRVVAVFQDFARF
+                     PLTPVDNLALPAGAGAHDERVAAPLRAVGLDSLVSKTDMPLTSEIEGGADLSGGQWQRL
+                     AIARALAHAAEANLFVFDEPTSALDPESEAQIMHRILETVRGKTALIVSHRLALTRFVD
+                     RIVVLEHGRIVEQGSHDALMA"
+ORIGIN
+        1 agatacggcg ataacgccgc tgcaggggcg agaccgtggg gcaccagcga ggcgcattgc
+       61 cgtgcggaca cgcaccaaat cgaggcacac ggcgagacgc gcgcgcttcg gccggtcgcc
+      121 cgcgctcgat caggctgccg acgccttttc cgatcgcctc gatcgatcag ggtaatcacc
+      181 tagcgtttcg gacttgtccg gcccttgagg ccatcgccca gactgcttcc gaacgcgatc
+      241 gatacgagaa acggttcccc tttgcgctag tggagcatct ctatccggtt acgttcactt
+      301 tcatttttat tacaagcata ctgcgccggc cgcttcgatt tagtcggcta tttaatctga
+      361 attaccgtta aggagatgaa tatgattaag tcatttattc cccccaccac tgtaaaagct
+      421 tacggcgcct ttctttccgt agtgctttcc aagaagtcgc gccccggcga cggcatccac
+      481 gggcgcgggg tcaagggcct ctgacgcttt gacccggtag cggcacggga gggcgatatt
+      541 cgcccttttc gtatcgccct ctcgatcgcc tctcaccgtg gagatgaatt atgaatggcg
+      601 catctatcga atacaccgaa tatagcgacg gcgcactgtc gatcaatacg gaggattact
+      661 tcgtgctcga cgaagagttg atcgtattca gtccgtccaa gcaggcctac tttggcatcg
+      721 gcggcgcggc acgcctcgtc ttcgatgcaa tggccgaggc tcaaagcccg ctgaccgagc
+      781 gcgacattcg tctcaacctc ggcgcgagcc gcgcgctgac cccaaccgac atcgaactga
+      841 tccgcgatgc catccgtgtg ctgctcgaat tgggagtact gcatgagcac gcgcgatgaa
+      901 gagcggctga tcttcctgct gcacgcactc attcgcacgc tgctcgtcga gcgtcccgtc
+      961 gacgaagcgt atctcggcat ctgcaagtcg gtattgcccg ggctcgtgct gggcgagttc
+     1021 ggcgcgcccc gcagtcaccc cgcggtgtgc gacagggcca gcctgcgcta tctgaccgac
+     1081 atctgcgact acatctacgc gctcgacgac aaggaatgga gctacgcgtc gtgctactcg
+     1141 gccagcatcg ccgtgcaact cgtcgcgctt gcgcgcggcg tgccagcgcg tatcgccatc
+     1201 ggcgtcaagc ggcaggatgc caagatggtc ggccacgcgt gggtcgagct cggcgatgcc
+     1261 ccgcaggctt ctgtcatcaa tccgggccgc gtatgcatcg acgatttcaa agtcgtcaaa
+     1321 cgactcgatg ctgaaacggc tcttcaatcg tggatgagga aaacgtgcga ttctggacgc
+     1381 tgcttgtgaa ctacgaggcg gccgaagcac aaggctacat cgacaaagtc gtgtcgctgc
+     1441 tgcgcgaggt cgacgtgcgg cgcgtccgcc gcaaggatct ggactgggca cgcctgctcg
+     1501 aaatcgatct cgagctggca ccccgccgct gccctccggc cgcgcccgaa ccgctgagcg
+     1561 gcaacgcggt ctacagcgga tggctgcggg acccctgcct cgatcgcatc cactcggcgc
+     1621 tgcgcgacga tgcactcgtc gtcgatccgc tggccgccgc cgccgtgggc gaattcagct
+     1681 acgccgccat cggcgcgcaa ggcgccacgg cggcgacgga ccactatgcc acgcaccctg
+     1741 tctactatcg gcaaggcgag cagggccgct ggatcgtcgc caacgatctg cgccttgtgc
+     1801 tggccgcccc ggatatggcc gttgcgatcg accgccgcgc ctgccgcgag tttctcacac
+     1861 acacggtgat ggtcaacgaa aacgagctcg gcaacggcgc gactttcttc tcctcggtac
+     1921 gcaagctcga gcccggggcg gcactcgaaa tcgcccggga cggacgctcg catgaaatcg
+     1981 tccggcgccc gcccggggcc gcgctgccgc acgccgtacg cgtggcttcc acgcgccagg
+     2041 attacgtcga ggcattcaag gaagtcttcg gacaatgcgt acgcgaccgc atggcggcga
+     2101 gcccgaccgg cctcctgctg agcggcggca tcgattcgag tgcggtgctt ggtgccgcgc
+     2161 tatcggccgg cgccagtccg ccgttttgcg tcagcgtggc attcgacgat ccgcatctcg
+     2221 tcatgagcca ggacgacaaa cttgtcacct cgctcttcga ggcatgcgac cttccgcacc
+     2281 ggatcgtcta cgcggacggc attttgcgcc tgccgacgat cgacgacgcg agcgcctatg
+     2341 tcgatggccc cgattcggcg gcgaacccgc tcgtcaagga agcctgtgcg gccgcccttc
+     2401 gacaacgcgg catctcgctc gtcatgacgg gcgaaggcgg agacgtcgtg ctcggcgaag
+     2461 cgatgcacga gttcatcgtc gacggcatac gcgaaagcga cggcatggcc ggcgtgcatc
+     2521 gctatttgtc ccggcaccta ggcctgcgtc ccggctcgcg cgcgtattgc cgcaagctgc
+     2581 tcgaggccgc cctcccgtac ttcggccatc gcgcgctgcg cgccgaggcg cgcagcgatg
+     2641 cgcgcgcgtc gctgcccggc tatctgatgc ccgcactgcg tgaagccgag tctcagttca
+     2701 ggtccgagcg cgggcacggg cgaacggacc ggccgccgtc gttcgcgccc cggcgcttcc
+     2761 gctatgtcgc ccaccgctac atgcacggga tgctgttccc acgcgcatcg tatttcgata
+     2821 cccttaacgt gcagtgcctg aactcgcatc cgttcctcga tccgcgcatg atggcgtttg
+     2881 cactcagttg cccgccgcat atgcatcacg actacttcga actcgaccgc gcgaatcctt
+     2941 atgccagcgc aaagatgctc gcccggcttg cctaccggca cgagctgccg cccgctgtct
+     3001 gcgcgaagac gcacaagacg agctatgccg gcatggcgcg ccgcatgttt cacaacagcg
+     3061 gccgtgcgct ttacgcactg gccgcgcagc cgatgctgct cgagcagtgg ggcctcgtcg
+     3121 atcagaagac attccgccgg catctgtgcg cctacatcgc ggccactgag gatccgaacg
+     3181 cgaacctcgg gatcaactat cactacatcc gcggcgtctg cgatctcgag gtgtggctgc
+     3241 gcaggttttg cggcacccgc gccgagatcg atgcccaact cgcttttcgt ccgttacgcg
+     3301 ctctcgcctg atccaatgcc tgccaccgtc tttctcgctc gcctcggcga cgcgctgcgc
+     3361 ctgctgcggc gcgcctcccc aagcgccttc catggcgccg ttgccgccaa tctattgggc
+     3421 ggcctcgtgc cggccgccct cgtgtatgcg ggcgccaggc tcgtcgagca actcgcggcc
+     3481 ggccgacctc tcgcggccgt tgccgcgctg ctcgccctct acgtgctgct caacggcttt
+     3541 caggaatgcc ttacttcggt cacgggcttc gtgctcgata cgctgcgcga tcgcgttcgc
+     3601 atgaccatga aagccgacgt gagccgtgcg gtcgccacgt tccccacgct cgtcgttcac
+     3661 gaagacgccg cgctgcgcga aacggccgtc ctggccgcga aagccggcga cgacctcggc
+     3721 gacctggtag accatctgca tgccgtgttt ctcggtgtcg tcacgatcgt gcccgtcgtc
+     3781 gcgctcacgg gcgctattgc ctggtggatg ccggccgtca tgctcgccgg caccataccc
+     3841 gcgatgatcc tgcgcgcgcg tgccgagcga gccagttggg acgttcaggc acatcatgct
+     3901 tcgacgttca acgcactgcg cattttcgag cgcgtgctga tgcaacccga gttcgccaag
+     3961 gatctgcgca tctatcggat gcacgatcgc ttgctcgagc gatggcgcgc gcgctatgaa
+     4021 acctacctgt cgcaagccac gcacgtgcgc gcgcgcaatg catggcgtct cgccgcggcg
+     4081 gctgtcgtca cgagcgcatg ccttgctttg ccgctcttcg caatcgcgcg cggattcgcc
+     4141 tccgggcggc acggcgtggc cgatctcgtc gtcttcttcg gcgcgctcac gcaactgcgc
+     4201 gacgggctcg cggccgttgt ctacaacctc ggcgatctgc tcggcgtctc gtatgcgatc
+     4261 gagccgtatc gcaccttgct cgcgcgccgc gccgaagcgg gttcccgcat atcgggcacg
+     4321 tcggacatcc cgcacgcccc ggccgccgcc gatcgggcca ccctaccgga caacgcggaa
+     4381 ctcgtactac gagacgtgac gttccgctac ggcaacgcat cggagcccgc gctcgaacac
+     4441 atcgacctcg atctgcgccg cggcgaaacg gtcgccatcg tcggcgaaaa cggcgccgga
+     4501 aaaacgagcc tcatgaagct cgtctgcggg ctctacgcac catcgtcggg tgcgatgaca
+     4561 tggcgtgccc ggcacgaagc gggagacaat gcacgacgca aagcgccacg cgtcgtcgcc
+     4621 gtgttccagg atttcgcccg ttttccgctt acgccggtgg acaacctcgc gctgcccgcc
+     4681 ggcgcaggcg cgcacgacga acgcgtggct gcgccgctgc gcgccgtggg cctcgactcg
+     4741 ctcgtctcga agaccgacat gccgctcacc tcggaaatag agggcggcgc cgatctctcg
+     4801 ggtggccaat ggcagcggct cgccatcgca cgcgcgctcg cgcatgcggc cgaagcgaat
+     4861 ctcttcgtgt tcgacgagcc cacctccgcg ctcgatcccg aatcggaagc gcaaatcatg
+     4921 catcggattc tcgaaaccgt tcgcggcaag acggcgctca tcgtcagcca tcggctcgca
+     4981 ctcacccgat tcgtcgaccg gatcgtcgtg ctcgagcatg gccgcatcgt cgagcaaggc
+     5041 tcgcacgacg cactcatggc c
+//

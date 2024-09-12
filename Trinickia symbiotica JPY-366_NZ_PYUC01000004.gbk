@@ -1,0 +1,244 @@
+LOCUS       Trinickia_symbio        4768 bp DNA     linear   UNA 04-JUL-2024
+DEFINITION  Trinickia symbiotica strain JPY-366 
+            NODE_4_length_517680_cov_26.6619, whole genome shotgun sequence.
+ACCESSION   NZ_PYUC01000004
+VERSION     .
+KEYWORDS    .
+SOURCE      Trinickia symbiotica
+  ORGANISM  Trinickia symbiotica
+REFERENCE   1  (bases 1 to 4768)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Jul 4, 2024 from SnapGene 7.2.1
+            https://www.snapgene.com
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to 
+            PYUC01000004.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation 
+            Pipeline (PGAP). Information about PGAP can be found here: 
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/ 
+            ##antiSMASH-Data-START##
+            Version      :: 7.0.1
+            Run date     :: 2023-11-05 16:34:43
+            NOTE: This is a single region extracted from a larger record!
+            Orig. start  :: 389700
+            Orig. end    :: 412089
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..4768
+                     /mol_type="genomic DNA"
+                     /organism="Trinickia symbiotica"
+     CDS             49..172
+                     /codon_start=1
+                     /transl_table=11
+                     /label=Precursor A
+                     /note="color: #993366"
+                     /translation="MVNAFIQPSKIVSYGKFLAVILSKKSVPGDGWLGRGAKGM"
+     gene            254..532
+                     /locus_tag="C9I57_RS10235"
+                     /old_locus_tag="C9I57_10245"
+                     /label=C9I57_RS10235
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             254..532
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="C9I57_RS10235"
+                     /old_locus_tag="C9I57_10245"
+                     /product="hypothetical protein"
+                     /label=C9I57_RS10235
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:GeneMarkS-2+"
+                     /protein_id="WP_107150496.1"
+                     /translation="METADTTLSIDTTDYFVLDDELIVFSATKQEYFGIHGAARLVFDT
+                     LAEINGSATAKEVEQLIRNSREIMPTDSALIHEAVKALLELGVLREL"
+     gene            522..1010
+                     /locus_tag="C9I57_RS10230"
+                     /old_locus_tag="C9I57_10240"
+                     /label=C9I57_RS10230
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             522..1010
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="C9I57_RS10230"
+                     /old_locus_tag="C9I57_10240"
+                     /product="lasso peptide biosynthesis protein"
+                     /label=C9I57_RS10230
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /note="/gene_functions=biosynthetic (rule-based-clusters)
+                     lassopeptide: PF13471"
+                     /note="/gene_kind=biosynthetic"
+                     /note="/sec_met_domain=PF13471 (E-value: 6.3e-14, bitscore:
+                     46.8,
+                     seeds: 84, tool: rule-based-clusters)"
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:HMM"
+                     /protein_id="WP_181321788.1"
+                     /translation="MNSEQRHILLLHGLVRALLLERAIDDAYLTICKNVFPGAVLGNFP
+                     ASPKTIDHHYLTRICDFIYELDGKEWSYASCYSASIVVQLISLVFGVDSEIIIGVKKQD
+                     QKMIGHAWVELSGVNRKQIITPGRIGINEFKVIKRLRPENAIQSWMEKRATLDAAVKS"
+     gene            979..2910
+                     /locus_tag="C9I57_RS10225"
+                     /old_locus_tag="C9I57_10235"
+                     /label=C9I57_RS10225
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             979..2910
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="C9I57_RS10225"
+                     /old_locus_tag="C9I57_10235"
+                     /product="asparagine synthase-related protein"
+                     /label=C9I57_RS10225
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /note="/gene_functions=biosynthetic (rule-based-clusters)
+                     lassopeptide: Asn_synthase"
+                     /note="/gene_functions=biosynthetic-additional (smcogs)
+                     SMCOG1177:asparagine synthase (glutamine-hydrolyzing) 
+                     (Score: 117.2; E-value: 1.3e-35)"
+                     /note="/gene_kind=biosynthetic"
+                     /note="/sec_met_domain=Asn_synthase (E-value: 4.9e-17, 
+                     bitscore:
+                     57.4, seeds: 78, tool: rule-based-clusters)"
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:HMM"
+                     /protein_id="WP_146166195.1"
+                     /translation="MRLWTLLLNHEPDQATRYVERLLAAVEDIDVLRFRRKDLPHALLL
+                     QLDVRLVPGSGANGLHPETFGSNTVYSGWLRDTRHDRLCSWLHDDELTIDPLAASVIGE
+                     FSYATIGTTVASIVSDHYATHPIYYHRAPDGQWTVSNDLRLVLLSPDVALRIERSACSY
+                     FLTSAVMVDENEFPRGKTFFADIRKVEPDSVLTIALDGLTHKIVPRERFPWPRLASIAP
+                     KRDECVEAFKDVFERSVRDRISAGAGGLLLSGGIDSSTVLGACLSSGINAPFSVSMAFR
+                     DPDLVMSHDEKLLASLFGTHSLPHTIIHADGALRLPALDDPSPFVDGPNSSANPLVAEA
+                     FAAEFERRHVSLVMTGEGGDIVLGEGMHDWIFDGVRQSEGIAGLHRYLTNRLGMRFGST
+                     AYLRGVLGSFLPSLGRCALVCETRQQRVARLPGYLKRPIAQANTEASAPAPGQGRGRAM
+                     RFAYAAHHYMHSMLFPRASYFDAINVQCIHSHPFLDPRVIQFALTCPPHVHHDYFNLDR
+                     RNPYASAKMLARLAYRRELPEAITQKTHKTSYASMARRMFHNSAGSLYSLASRPMLLNE
+                     WGLVDQSEFRRQLMAYIAAMEDPNANPGIRYHYMRGVYELETWLRRFSGPRAQLEQHLK
+                     FRPVRRFL"
+                     /GO_function="GO:0004066 - asparagine synthase
+                     (glutamine-hydrolyzing) activity [Evidence IEA]"
+                     /GO_process="GO:0006529 - asparagine biosynthetic process
+                     [Evidence IEA]"
+     gene            2985..4739
+                     /locus_tag="C9I57_RS10220"
+                     /old_locus_tag="C9I57_10230"
+                     /label=C9I57_RS10220
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             2985..4739
+                     /codon_start=1
+                     /transl_table=11
+                     /locus_tag="C9I57_RS10220"
+                     /old_locus_tag="C9I57_10230"
+                     /product="ABC transporter ATP-binding protein"
+                     /label=C9I57_RS10220
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /note="/gene_functions=transport (smcogs) SMCOG1288:ABC
+                     transporter related protein (Score: 177.7; E-value: 
+                     6.5e-54)"
+                     /note="/gene_kind=transport"
+                     /note="color: #993366"
+                     /inference="COORDINATES:same species:HMM"
+                     /protein_id="WP_107150493.1"
+                     /translation="MTQTASFVRNLAFAISLLRRSSPHAFHFAIGANVATGLIPVAVVY
+                     FGARLIEQLTQGHTLAAVAALIVGYVVLCAFQDSLDAISSFVLDTLSDAVRITVKGEVN
+                     RAVSTFPDLSIHEDADLRETAVLSASAGERIAELVMRLYAVSVGIVIVIPVTILTARIA
+                     WWVPVLMLLAMAPATLLRAKAERASWDVCEHHASTFNELRLLERVLTQPDYAKDLRTYA
+                     MQDWLLHRWHWRYRGYFSAAKMVRVRNAGKLAAASLFASACLGVSLAVIADGFSASRFN
+                     VGDLAIFLGALVQLRDGLRAIVYNFGDTLAVTYAVHPYRRLLEAHAAHRRERRCEAPKQ
+                     PDATQPPTAQLSLDSVTLEYRGAATPALIGIDLTVRAGETIAVVGDNGAGKSSLMKLLC
+                     GLYEPSSGSLTWEGASHRVPRIVAVFQDFARFPLTPRENLVLPDRDDSRAAASLQAVGL
+                     NALLSGLDKPLTTEMEDGSDLSGGQWQRLAIARAVAHAHDADLLVFDEPTSALDPESEA
+                     RIMSLLLETAAGKTAFIVSHRLALTRFVDRIIVLDRGRIVEDGSHHTLMQANGKYARMF
+                     RAQAAFYH"
+                     /GO_function="GO:0005524 - ATP binding [Evidence IEA];
+                     GO:0042626 - ATPase-coupled transmembrane transporter 
+                     activity [Evidence IEA]"
+     gene            complement(4747..4768)
+                     /locus_tag="C9I57_RS10210"
+                     /old_locus_tag="C9I57_10220"
+                     /label=C9I57_RS10210
+                     /note="color: #a6acb3; direction: LEFT"
+ORIGIN
+        1 attgattcga aaagcacggc acaacccatt catttttgag gagcaaaaat ggtcaacgca
+       61 ttcattcaac catccaagat cgtctcatat ggaaagtttc tcgccgtgat tttgtcaaag
+      121 aagtcagtcc cgggtgatgg ttggttgggc cgcggcgcaa agggtatgta aggtgatata
+      181 acggagcacg cagggcgagc gatgagcttt ccctgcggca gttacaaggt cgcaatcaca
+      241 aaagaggaaa aatatggaaa ccgcggatac cacattatca atcgatacaa cggactactt
+      301 tgtgctcgat gacgaactga tagttttcag cgcaacgaag caagagtatt tcggaattca
+      361 cggtgctgcg agactcgtct tcgacacgct ggccgaaatc aacggcagcg caacggcaaa
+      421 agaagtcgag caactcatcc gcaattcccg cgagataatg cccactgata gcgcactgat
+      481 ccatgaagcg gtcaaggcgt tgcttgaact cggggtgctg cgtgaactct gagcaacggc
+      541 acattcttct gttacacggt ttggtccgcg ccctcctact cgagcgagca atcgacgatg
+      601 cctatctcac catctgcaag aacgtcttcc caggggcggt tctaggaaat tttccagctt
+      661 cgccaaaaac aatcgatcat cattacttga ccaggatctg cgatttcatt tacgaactcg
+      721 acgggaaaga atggagttac gcctcatgtt attcagcgag catagtcgtt caacttatat
+      781 ctcttgtctt cggagtcgac tcagaaatca tcataggagt taagaaacaa gaccaaaaga
+      841 tgatcggcca tgcatgggta gagcttagcg gagtgaaccg caaacaaatc attacgccgg
+      901 ggcgaattgg tatcaacgaa ttcaaagtaa tcaagcggct tcgccccgaa aacgcaattc
+      961 aatcatggat ggaaaaacgt gcgactttgg acgctgctgt taaatcatga acccgatcag
+     1021 gctactcgtt atgtggagcg cctgctcgcg gctgtcgagg acatcgacgt gctccgattc
+     1081 cgacgcaaag atcttcctca cgcgctactg ctgcaacttg acgtcagact ggtcccagga
+     1141 agtggcgcaa acggactgca cccggagaca tttggtagca acaccgtcta cagtggctgg
+     1201 ttacgagata cgcgacacga tcgcctatgc tcctggctgc acgatgatga gctcaccatc
+     1261 gatccgctcg cggcatcagt catcggcgaa ttcagctatg ccaccattgg cacgacggtc
+     1321 gccagcatcg tctcagatca ttacgcaacg catccgatct attaccatcg tgcacccgac
+     1381 gggcaatgga ctgtcagcaa tgaccttcgg ctagtccttc tgtcacctga tgttgctttg
+     1441 cggattgaac gctcggcatg cagctacttt ctcacgtctg cggtgatggt agacgagaac
+     1501 gaattcccgc gcgggaagac attctttgcc gatattcgaa aagttgaacc cgacagcgtc
+     1561 ctcaccatcg cacttgatgg gctgacgcac aagatagttc ctcgtgaacg gttcccttgg
+     1621 ccccgactag caagcatcgc cccaaaacgc gacgaatgtg tcgaagcgtt caaggatgta
+     1681 tttgaacggt cggtgcgtga tcgcatttca gccggcgccg gcgggctttt actgagcggc
+     1741 ggtatcgatt cgagtaccgt actcggcgct tgcctttctt cgggtatcaa tgctcctttt
+     1801 agtgtcagta tggcattcag agaccccgac ctcgtgatga gccatgacga aaaactgctc
+     1861 gcctcactct tcggcaccca cagccttcca cacacgataa tccacgccga tggagctttg
+     1921 cgtcttcccg cgctggacga cccgtctcca ttcgtcgatg gccccaattc atcagcgaac
+     1981 ccactggtcg cagaagcctt tgccgccgaa ttcgagcggc gccacgtctc acttgtcatg
+     2041 acgggagaag gcggagacat cgtgcttggc gaaggaatgc atgactggat ttttgatggc
+     2101 gttcgtcaaa gcgagggaat cgcaggcctt catcgctacc tgacaaatcg actaggcatg
+     2161 cggttcggat cgaccgcgta cttgcgcggc gtgctcggct cgtttttgcc atcgcttggc
+     2221 cgctgcgcat tggtttgcga gacgcgacaa cagcgtgtag cgcggttgcc cggctatctc
+     2281 aagcggccca tcgcccaggc aaacaccgag gcctcggcgc cggcacccgg tcaaggtcga
+     2341 ggtcgagcga tgcgattcgc ctatgctgcc caccactaca tgcatagcat gttgtttccg
+     2401 cgcgcatcgt actttgacgc aataaacgtc cagtgcatcc actcgcatcc attcctcgat
+     2461 ccgagggtga tccaattcgc gctaacctgt ccaccgcatg tccatcacga ctacttcaac
+     2521 ctggaccggc gcaaccccta cgcgagcgcc aaaatgcttg cccgtctcgc ttatcgccga
+     2581 gagctgcccg aggcgatcac ccaaaagacg cacaagacca gctatgcgtc aatggcgcgc
+     2641 cgcatgttcc acaatagtgc cggttcgctt tattcccttg cttcacgccc aatgttgcta
+     2701 aacgaatggg gactcgtcga tcaatcggag tttcgtcgcc aactgatggc gtacatcgcc
+     2761 gcgatggaag acccaaacgc aaatccgggt atccgctacc actacatgcg gggcgtatac
+     2821 gagctcgaaa cctggctgcg gcgcttttca ggtccgcgcg cgcagcttga acagcatttg
+     2881 aaatttcgcc ccgttcgccg ctttctgtga atcgccggac caccactggc gggaacgctg
+     2941 taagccgcgc cgccatagca tgtccatctg accatctcgt tcttatgacg caaaccgcct
+     3001 cattcgtccg caacctggct tttgcaatat cgctgctaag gaggtcatct ccacacgcct
+     3061 ttcatttcgc gataggcgcg aacgtcgcga cagggctcat accggtcgca gtcgtctatt
+     3121 tcggcgcgcg tctgatcgag caacttaccc aaggccacac actagcggcg gtcgcggcgc
+     3181 tgatcgttgg ttacgtcgtt ctatgcgcct tccaggacag tcttgacgcc atctccagct
+     3241 tcgttctcga tacgctcagc gatgctgtcc gaataacggt gaagggagaa gtcaatcgcg
+     3301 ccgtatcgac gtttcccgac cttagcattc atgaggatgc cgatctacgt gaaactgccg
+     3361 tgctcagcgc aagcgctggc gaacgaattg ccgaactcgt gatgcgtctc tatgcggtct
+     3421 ccgtcggcat agtcatcgtc attccggtga ctattcttac agccagaatt gcatggtggg
+     3481 tccccgttct catgttgctt gcaatggccc ccgcgacgtt acttcgtgcg aaagcggaac
+     3541 gtgcaagttg ggacgtttgc gaacaccacg cgtccacgtt caacgagctt cgccttctgg
+     3601 aacgcgtcct cacgcagcca gactatgcca aggacttacg cacctatgcg atgcaggact
+     3661 ggctacttca tcgctggcat tggcgctatc gaggatattt ctcagcggcg aaaatggttc
+     3721 gggtgcggaa tgccggaaag ctggcagcag cgtctctctt cgcgagtgcg tgtcttggcg
+     3781 tgtcgctcgc cgtgatcgcc gatggcttct cggcgagccg attcaacgtc ggcgacctcg
+     3841 cgatttttct cggtgcactg gtgcaattga gggacggtct cagggccatc gtctataact
+     3901 tcggcgacac gctcgcggta acgtatgcgg tgcatcccta tcggagacta ttggaggcgc
+     3961 acgccgcgca tcggcgcgaa agacggtgcg aagcgccaaa gcaaccggat gcgactcagc
+     4021 cacccacggc acagctgtct cttgatagcg tgacgctgga gtaccgcggt gcggccacgc
+     4081 cggcgcttat cggcatcgac ctaactgttc gagccggtga gactatcgct gtggtgggcg
+     4141 ataacggcgc tggaaagtcc agcttgatga agcttctctg cgggctttat gagccatcgt
+     4201 caggctcgct gacgtgggag ggagcgagcc atcgcgtacc acgcatcgtc gccgtgtttc
+     4261 aggactttgc acgcttcccg ctgacgcccc gagagaatct ggttctgccg gaccgcgatg
+     4321 actcgcgcgc cgcagcatca ctccaggcag tcgggctgaa cgctctgtta agcgggctcg
+     4381 acaagccgct aacgactgaa atggaagacg gctccgatct ttcaggaggc caatggcagc
+     4441 gcctcgcgat cgcccgcgcc gtcgcgcatg cgcacgacgc cgacctgctc gtcttcgacg
+     4501 agccgacctc cgcgctcgat cccgaatccg aagcccggat catgtcgctg cttctcgaaa
+     4561 cggccgcggg caagaccgcc ttcatcgtca gtcatcgact cgcgctgacg cgcttcgtcg
+     4621 atcggatcat cgtgctcgat cgcggacgta tcgtcgaaga cggctcccac cacacgctga
+     4681 tgcaagcgaa cggcaaatac gcgcgaatgt tccgcgccca agcggctttt taccactaac
+     4741 gactgatgct ctaaccgctg tgcattcg
+//

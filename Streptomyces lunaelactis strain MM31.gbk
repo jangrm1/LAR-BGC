@@ -1,0 +1,235 @@
+LOCUS       Streptomyces_lun        3481 bp DNA     linear   UNA 04-JUL-2024
+DEFINITION  Streptomyces lunaelactis strain MM31 
+            NODE_35_length_47086_cov_12.134, whole genome shotgun sequence.
+ACCESSION   NZ_JABSUH010000035
+VERSION     .
+KEYWORDS    .
+SOURCE      Streptomyces lunaelactis
+  ORGANISM  Streptomyces lunaelactis
+REFERENCE   1  (bases 1 to 3481)
+  AUTHORS   Martinet L, Naome A, Baiwir D, Mazzucchelli G, Depauw E, Rigali S.
+  TITLE     On the Risks of Phylogeny-based Strain Prioritization for Drug 
+            Discovery: Streptomyces lunaelactis as a Case Study
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 3481)
+  AUTHORS   Naome A, Maciejewska M, Martinet L, Adam D, Coppieters W, Karim L, 
+            Calusinska M, Delfosse P, Rigali S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAY-2020) InBioS (Integrative Biological Sciences), 
+            Center for Protein Engineering, Allee de la Chimie, 3, Liege 4000, 
+            Belgium
+REFERENCE   3  (bases 1 to 3481)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Jul 4, 2024 from SnapGene 7.2.1
+            https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; journalName: 
+            "Unpublished"
+COMMENT     SGRef: number: 2; type: "Journal Article"; journalName: "Submitted
+            (28-MAY-2020) InBioS (Integrative Biological Sciences), Center for
+            Protein Engineering, Allee de la Chimie, 3, Liege 4000, Belgium"
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to 
+            JABSUH010000035.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation 
+            Pipeline (PGAP). Information about PGAP can be found here: 
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/##Genome-Assembl
+             y-Data-START##
+            Assembly Method        :: SPAdes v. v3.10.1
+            Genome Representation  :: Full
+            Expected Final Version :: No
+            Genome Coverage        :: 29x
+            Sequencing Technology  :: Illumina MiSeq 
+            ##Genome-Assembly-Data-END####Genome-Annotation-Data-START## 
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 09/09/2023 11:53:20
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP) 
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 6.6
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA 
+            Genes (total)                     :: 7,684
+            CDSs (total)                      :: 7,603
+            Genes (coding)                    :: 7,197
+            CDSs (with protein)               :: 7,197
+            Genes (RNA)                       :: 81
+            rRNAs                             :: 6, 1, 3 (5S, 16S, 23S) complete
+            rRNAs                    :: 6, 1, 1 (5S, 16S, 23S)
+            partial rRNAs                     :: 2 (23S)
+            tRNAs                             :: 68
+            ncRNAs                            :: 3
+            Pseudo Genes (total)              :: 406
+            CDSs (without protein)            :: 406
+            Pseudo Genes (ambiguous residues) :: 0 of 406
+            Pseudo Genes (frameshifted)       :: 98 of 406
+            Pseudo Genes (incomplete)         :: 367 of 406
+            Pseudo Genes (internal stop)      :: 15 of 406
+            Pseudo Genes (multiple problems)  :: 68 of 406 
+            ##Genome-Annotation-Data-END##
+COMMENT     Sequence Label: WGS; RefSeq.
+FEATURES             Location/Qualifiers
+     source          1..3481
+                     /strain="MM31"
+                     /mol_type="genomic DNA"
+                     /country="Belgium: Comblain-au-Pont"
+                     /isolation_source="cave"
+                     /label=/submitter_seqid=NODE_35_length_47086_cov_12.134
+                     /note="/submitter_seqid=NODE_35_length_47086_cov_12.134"
+                     /note="color: #ffffff"
+                     /db_xref="taxon:1535768"
+                     /organism="Streptomyces lunaelactis"
+     gene            191..604
+                     /locus_tag="HRW13_RS39705"
+                     /label=HRW13_RS39705
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             191..604
+                     /codon_start=1
+                     /locus_tag="HRW13_RS39705"
+                     /product="helix-turn-helix transcriptional regulator"
+                     /label=HRW13_RS39705
+                     /note="Derived by automated computational analysis
+                     usinggene prediction method: Protein Homology."
+                     /note="/GO_function=GO:0003677 - DNA binding [Evidence
+                     IEA]"
+                     /note="color: #800000"
+                     /inference="COORDINATES:same species:HMM"
+                     /protein_id="WP_309228943.1"
+                     /translation="MRTEGYDRARAVIERYRRCSRCGCRLSRYNRGARCGGCHRAPAGL
+                     ASPGSRVPPEVWSATDVQAALAARDFGKLCTLLRERSDLRQEDVAALTGLSQPFLSMLE
+                     AGVRRLTNIDKIVRLLEGLEVPDDLTGPMLRNP"
+     gene            1000..1137
+                     /locus_tag="HRW13_RS09950"
+                     /old_locus_tag="HRW13_09950"
+                     /label=HRW13_RS09950
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             1000..1137
+                     /codon_start=1
+                     /locus_tag="HRW13_RS09950"
+                     /old_locus_tag="HRW13_09950"
+                     /product="hypothetical protein"
+                     /label=HRW13_RS09950
+                     /note="Derived by automated computational analysis
+                     usinggene prediction method: GeneMarkS-2+."
+                     /note="color: #000000"
+                     /inference="COORDINATES:same species:GeneMarkS-2+"
+                     /protein_id="WP_175299903.1"
+                     /translation="MSTKSVPGDGQHGKGSKGLPVGEPHRGFVGFARDLGQGLWALRRR
+                     "
+     gene            1212..2447
+                     /locus_tag="HRW13_RS09945"
+                     /old_locus_tag="HRW13_09945"
+                     /label=HRW13_RS09945
+                     /note="color: #a6acb3; direction: RIGHT"
+     CDS             1212..2447
+                     /codon_start=1
+                     /locus_tag="HRW13_RS09945"
+                     /old_locus_tag="HRW13_09945"
+                     /product="asparagine synthase-related protein"
+                     /label=HRW13_RS09945
+                     /note="Derived by automated computational analysis
+                     usinggene prediction method: Protein Homology."
+                     /note="/GO_function=GO:0004066 - asparagine 
+                     synthase(glutamine-hydrolyzing) activity [Evidence IEA]"
+                     /note="/GO_process=GO:0006529 - asparagine biosynthetic 
+                     process[Evidence IEA]"
+                     /note="color: #99cc00"
+                     /inference="COORDINATES:same species:HMM"
+                     /protein_id="WP_217506814.1"
+                     /translation="MVDLEALGLLLAPPAMLGEFVPKSPWSGTRRIQPELPKPASGLLP
+                     VAFSAAVADLAVGAEAIGVLLSGGLDSLAVLVHALRVAEGRRVVAFTTDLTDDAGGSSA
+                     DVVRRLFDDLELPVELVVLDPLRDRGEPPWSAAGPRLDALPEVNAAVAERATELGVGVL
+                     LSGDGADELLGVPRFATGAVVRRHGIRGGLQYGADVAKSGPGLPGEVAGFIGQVLPASV
+                     RARAYWAANWPAWCNPKAPAVLASPYREAATWWAQQWVDTQVAGHAAVGRSWAEADAHD
+                     ALFPREVIPPAGPVPEASPFLHDGFLAAALALPLGDRYHPGLPSAYLRCKAQVVRLLPM
+                     SVLGALPRRKQYFSLALAHQAAAGRRAPRCVEAGLLDADALAAEHDAAVLLVIAAVERW
+                     LAGAEKAGAAIG"
+     gene            complement(2510..3406)
+                     /locus_tag="HRW13_RS09940"
+                     /old_locus_tag="HRW13_09940"
+                     /label=HRW13_RS09940
+                     /note="color: #a6acb3; direction: LEFT"
+     CDS             complement(2510..3406)
+                     /codon_start=1
+                     /locus_tag="HRW13_RS09940"
+                     /old_locus_tag="HRW13_09940"
+                     /product="GNAT family N-acetyltransferase"
+                     /label=HRW13_RS09940
+                     /note="Derived by automated computational analysis
+                     usinggene prediction method: Protein Homology."
+                     /note="/GO_function=GO:0008080 - N-acetyltransferase 
+                     activity[Evidence IEA]"
+                     /note="color: #ff9900"
+                     /inference="COORDINATES:same species:RefSeq"
+                     /protein_id="WP_175299904.1"
+                     /translation="MATKTLGSATHLSARPYEVADETAVLDLVNADRLRGQPLTTAIML
+                     SDALATRSPVDSGWWAELEPSHTDVVHDSAGKVLGVVSYSTRREDGAGLILWLHCREDE
+                     TVAEALVEHALASLNSPRTVHGFEFASALTLGLEGLPVRARPATRKTLEAAGFSGRDVW
+                     RYIHRELAKVSDIVGSSSYPLAEVTECADPPGWQLLLRDTDGTQAAEATVGRPVDGIGV
+                     LWWISTDPAYRGRGLGHSLLEQCFDQLASNGAREVIAYVDDDAPPGDPKRDRTAANRLY
+                     DSMGFIEIDRLWSFTRR"
+     gene            complement(3422..3481)
+                     /locus_tag="HRW13_RS09935"
+                     /old_locus_tag="HRW13_09935"
+                     /label=HRW13_RS09935
+                     /note="color: #a6acb3; direction: LEFT"
+ORIGIN
+        1 ggggcacttg aagtgacccc catgtccgcc ctttcgacgg taaccgtccg catgcacagt
+       61 gtcgatcgcg tggtggtgtc tggccgtgcg acgcccatac gcccgagacg gccaggacgg
+      121 agggtgagcg ccaccgcggc atcgacgatg caaacaggcc agcaggactg acaggagcga
+      181 ggggacaacg gtgcggacag agggctacga cagggcgagg gcggtcatcg aacgctaccg
+      241 gcggtgttct cggtgcggct gccgcctcag ccgctacaac aggggggcac gctgcggagg
+      301 atgtcatcgg gcccctgctg gcttagcctc gcccggttct cgagtcccac cagaggtgtg
+      361 gtcagcaacg gacgtccagg cggctctcgc cgcaagagac ttcgggaaac tgtgcactct
+      421 cttacgggaa cgaagcgacc tccgccagga ggacgttgcc gcgttaaccg gactgagcca
+      481 gcccttcctc tcgatgctgg aagccggtgt gcgccgcctg accaacatcg acaagatcgt
+      541 ccgattgctc gaaggcctcg aagtgccaga cgacctcacc ggcccaatgc tccggaatcc
+      601 atgacgcagt agtcactcca ccgcgaggag ctcggttcgt ccgctcccct ctcgatgagc
+      661 gaggcacgac gtggcttgcc tccccccggc caccatcgcc ctggcagacg atgtcgcgtt
+      721 gatgcgtcat caacgagcgt gcccaaacag atggctctgt ccgcatatct cggacgtgat
+      781 atcaccgggg tgatttcaca accaggcggc gattctgaac tcttgttagc ggataacccg
+      841 ggacgccagg gtcacctgac gccgcgggga ccgggagacc acgggttgga gcggtggcga
+      901 gtgcaacgtc gccagggctg gccgattgtc tctctggatc gtaaacgagc atccgttcac
+      961 gctgagaagt tcggctacgt caagcgaggg gagacagtca tgtcgacgaa gtctgtgccc
+     1021 ggggatgggc agcatggcaa gggcagcaag ggtctgccgg tcggggagcc gcaccgcggt
+     1081 ttcgtaggct tcgcacggga cttgggccag gggctgtggg cgctgcgacg ccggtgagcc
+     1141 tctccccgct gtttgaggac agggccggaa gccgctcggc ggatcctctg gccctgtccg
+     1201 gtccaacgcc cgtggtggac ctggaggcgc tggggctgct gcttgctccg ccggcgatgc
+     1261 taggcgagtt cgtacccaag tcgccgtgga gcgggacccg gcgtattcag cctgaactgc
+     1321 cgaagccggc gtctggcttg ctgcctgtgg cattcagcgc cgcggttgct gaccttgctg
+     1381 ttggtgccga ggcgatcggt gtgctgctct ctggcggact ggattccctg gctgttctcg
+     1441 tgcacgcact gcgcgtggcc gagggccgga gagtggtggc cttcaccacc gatctgaccg
+     1501 atgacgccgg agggagctct gcagacgtgg tccggcgtct gttcgatgat ctggagctgc
+     1561 cagtcgagtt ggtggtgctg gacccgctcc gggaccgcgg cgaaccgcca tggtcggcgg
+     1621 cggggccccg gctggacgcg ttgcccgagg tcaacgcggc tgtcgccgaa agggccactg
+     1681 aacttggtgt aggggtgctg ctgtccggcg acggagcgga cgagcttctg ggcgtcccgc
+     1741 gattcgcaac cggtgccgtg gtccgccgcc atggcatacg tggggggctg cagtacggag
+     1801 cggatgttgc caaatccggg cccggcctac caggtgaggt ggccggcttc atcggccagg
+     1861 tgctgccagc gtcggtccgg gcgcgtgcgt actgggcggc gaactggcct gcatggtgca
+     1921 atcccaaagc tccggctgtg ctcgcctccc cctaccggga ggcggcgacc tggtgggcgc
+     1981 agcagtgggt cgatacccag gtggcgggcc acgccgcggt gggacggtcg tgggccgaag
+     2041 ccgatgccca cgatgcgctg ttcccccggg aggtcatccc gcctgctggc ccagtgccgg
+     2101 aggcctctcc gttcctgcat gacggctttc tcgcagcggc gctcgccctg ccactcggcg
+     2161 atcgctacca tcctggcctg ccgtcagcct atctgcggtg caaagcccag gtcgtacggc
+     2221 tgctccccat gtctgtactg ggggccctac cgcgccgcaa gcagtacttc agtctggcgc
+     2281 tcgctcacca ggccgcggcc gggcggagag ccccgcggtg cgttgaagca gggctgctgg
+     2341 acgctgacgc gctggcggcc gagcatgacg cggccgtgct cttggtcatc gccgctgtcg
+     2401 aacggtggct ggctggagcc gagaaggctg gtgccgcaat cggttgagcc caacagacag
+     2461 ggaagcagcg ccgcatggtc cgccatgcgg cgctgttctc ttgcactcat tatcggcgtg
+     2521 tgaaagacca gagtcgatcg atctcgatga accccatcga gtcgtagagg cggttggccg
+     2581 cggtccggtc gcgcttcgga tcaccgggtg gggcatcgtc atcgacatac gcgatcacct
+     2641 cgcgcgcccc attcgacgcc agttggtcga aacactgctc gagcagactg tggccgagtc
+     2701 cgcggccacg gtaagcaggg tcagtgctga tccaccacag gacgccgatc ccgtcgacgg
+     2761 gacgaccgac ggtggcctcg gcagcctgcg tgccgtctgt gtcgcgcagg agaagctgcc
+     2821 agcccggcgg atcggcgcac tcggtgacct cggccagggg gtagctgcta gagccgacga
+     2881 tgtcagagac cttggcaagt tctcggtgga tgtagcgcca cacgtcgcgc ccagagaatc
+     2941 ctgccgcctc caatgtcttg cgagtcgcag ggcgagcccg tactggcagc ccttccagcc
+     3001 ccagggtgag ggcggaggca aactcgaagc cgtgcaccgt gcgcgggctg ttcagggaag
+     3061 ccagggcgtg ctccaccagt gcctcggcga ctgtttcatc ctcacgacag tgcaaccata
+     3121 ggatcagccc ggccccgtcc tcgcgccggg tcgagtagga gacgacgcca agcaccttgc
+     3181 cggctgagtc gtggacgaca tcggtgtggc ttggctccag ctcggcccac cagccgctat
+     3241 ccaccggtga gcgggtcgcc agcgcatcgg aaagcatgat ggccgtggtc aacggctgac
+     3301 cacgtagccg gtctgcgttg accagatcca gtaccgcagt ctcgtccgcg acctcgtatg
+     3361 gccgcgcaga cagatgcgtc gccgaaccga gcgtcttggt cgccacgagg tcctccgcct
+     3421 cctaagccag attccagttc ccagcctgcc ctgcaatgcg ttgcggcgcc agatcaacac
+     3481 g
+//
